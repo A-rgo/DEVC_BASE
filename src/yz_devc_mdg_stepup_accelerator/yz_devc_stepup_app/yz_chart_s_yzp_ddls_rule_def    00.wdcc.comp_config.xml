@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_VIZFRAME_UIBB" ConfId="YZ_CHART_S_YZP_DDLS_RULE_DEF" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="VIZFRAME" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>YZ_CLAS_RULE_CHART</FEEDER>
+     <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+     <Node Name="ELEMENT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A6245657BF</ELEMENT_ID>
+       <NAME>DEF_REF1_D</NAME>
+       <DATA_TYPE>01</DATA_TYPE>
+       <TEXT Transl="true"/>
+       <INDEX>1</INDEX>
+       <AXIS_INDEX>1</AXIS_INDEX>
+       <Node Name="DISPLAYED_VALUE" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A6245677BF</ELEMENT_ID>
+       <NAME>RULE_TYPE_D</NAME>
+       <DATA_TYPE>01</DATA_TYPE>
+       <TEXT Transl="true"/>
+       <INDEX>1</INDEX>
+       <AXIS_INDEX>2</AXIS_INDEX>
+       <Node Name="DISPLAYED_VALUE" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A6245697BF</ELEMENT_ID>
+       <NAME>FPM_SADL_CHART_COUNT</NAME>
+       <DATA_TYPE/>
+       <TEXT Transl="true"/>
+       <INDEX>1</INDEX>
+       <AXIS_INDEX>1</AXIS_INDEX>
+       <Node Name="DISPLAYED_VALUE" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_TYPE</NAME>
+       <VALUE>CDS</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_ID</NAME>
+       <VALUE>YZP_DDLS_RULE_VAL</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">SADL_JOIN_TREE</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;4963DAE0C22E1EEE8FB614B30219D865&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_EXECUTION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_EXE&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_E&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;4963DAE0C22E1EEE8FB6159E30041865&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_DEFINITION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_DEF&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_D&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_TYPE</NAME>
+       <VALUE>CDS</VALUE>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_ID</NAME>
+       <VALUE>YZP_DDLS_RULE_VAL</VALUE>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <NAME Final="5 ">SADL_JOIN_TREE</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_DEFINITION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_DEFINITION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_DEF&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_D&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_EXECUTION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_EXECUTION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_EXE&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_E&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_TYPE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_ID</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <NAME Final="5 ">SADL_JOIN_TREE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <NAME Final="5 ">SADL_QUERY_DATA_RETRIEVAL_MODE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <NAME Final="5 ">SADL_DEFAULT_AUTH_COND_PROV</NAME>
+       <VALUE/>
+      </Item>
+     </Node>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TYPE>003</TYPE>
+       <WIDTH/>
+       <HEIGHT>400px</HEIGHT>
+       <PERSONALIZATION_ENABLED>Y</PERSONALIZATION_ENABLED>
+       <HAS_MAX_MIN_BUTTON/>
+       <EXPORT_ENABLED>Y</EXPORT_ENABLED>
+       <Node Name="NO_DATA" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <TEXT Transl="true">1</TEXT>
+        </Item>
+       </Node>
+       <Node Name="PROPERTIES" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A62456B7BF</ELEMENT_ID>
+         <PATH>interaction.selectability.mode</PATH>
+         <VALUE>none</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A62456D7BF</ELEMENT_ID>
+         <PATH>title.visible</PATH>
+         <VALUE>false</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C533865</ELEMENT_ID>
+         <PATH>categoryAxis.title.text</PATH>
+         <VALUE/>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C535865</ELEMENT_ID>
+         <PATH>categoryAxis.title.visible</PATH>
+         <VALUE>false</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000005" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C537865</ELEMENT_ID>
+         <PATH>drawingEffect</PATH>
+         <VALUE>normal</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000006" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C539865</ELEMENT_ID>
+         <PATH>legend.title.text</PATH>
+         <VALUE/>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000007" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C53B865</ELEMENT_ID>
+         <PATH>legend.title.visible</PATH>
+         <VALUE>false</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000008" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C53D865</ELEMENT_ID>
+         <PATH>legend.visible</PATH>
+         <VALUE>true</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000009" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C53F865</ELEMENT_ID>
+         <PATH>plotArea.dataLabel.visible</PATH>
+         <VALUE>false</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000010" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C541865</ELEMENT_ID>
+         <PATH>plotArea.gridline.type</PATH>
+         <VALUE>solid</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000011" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C543865</ELEMENT_ID>
+         <PATH>plotArea.gridline.visible</PATH>
+         <VALUE>true</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000012" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C545865</ELEMENT_ID>
+         <PATH>title.alignment</PATH>
+         <VALUE>center</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000013" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C547865</ELEMENT_ID>
+         <PATH>title.text</PATH>
+         <VALUE/>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000014" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C549865</ELEMENT_ID>
+         <PATH>tooltip.visible</PATH>
+         <VALUE>true</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000015" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C54B865</ELEMENT_ID>
+         <PATH>valueAxis.title.text</PATH>
+         <VALUE/>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000016" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8FB609593C54D865</ELEMENT_ID>
+         <PATH>valueAxis.title.visible</PATH>
+         <VALUE>false</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+       </Node>
+       <Node Name="FEEDS" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_FA163E8D39F61EE885C1D2FB5AAA4187</ELEMENT_ID>
+         <NAME>color</NAME>
+         <Node Name="FEEDPROPERTIES" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">_GENP_FA163E8D39F61EE885C1DC5AAB4A418F</ELEMENT_ID>
+           <NAME>palette</NAME>
+           <VALUE>[]</VALUE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

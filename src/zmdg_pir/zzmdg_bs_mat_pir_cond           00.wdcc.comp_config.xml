@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_LIST_UIBB_ATS" ConfId="ZZMDG_BS_MAT_PIR_COND" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="LIST" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>ZZMDG_CL_FEEDER_ZPIRCOND</FEEDER>
+     <TITLE Transl="true">1</TITLE>
+     <Node Name="BUTTON_ROW" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="BUTTON_ROW_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB3E4EEB1B17B6</ELEMENT_ID>
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <INDEX>1</INDEX>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_SOURCE_CHECKED/&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;HIDE_VALUE/&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;ACTION_MENU_ID/&gt;&lt;HIDE_TEXT/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;SELECTED_ACTION_ITEM/&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;IMAGE_ONLY/&gt;&lt;BUTTON_CHOICE_DESIGN&gt;00&lt;/BUTTON_CHOICE_DESIGN&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EEDADE6DDF4CBEA1475</FPM_PRIMARY_ATTRIBUTE>
+           <EVENT_ID>FRW_INSERT</EVENT_ID>
+           <TEXT Transl="true">3</TEXT>
+           <INDEX>1</INDEX>
+           <EVENT_PARAMETERS/>
+           <ACTION_TYPE/>
+           <HAS_SEPARATOR/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB4099607FD7B6</ELEMENT_ID>
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <INDEX>2</INDEX>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_SOURCE_CHECKED/&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_RATING&gt;5&lt;/MAX_RATING&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;HIDE_VALUE/&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;ACTION_MENU_ID/&gt;&lt;HIDE_TEXT/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF/&gt;&lt;SELECTED_ACTION_ITEM/&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;SEMANTIC_OBJECT/&gt;&lt;IMAGE_IS_DECORATIVE/&gt;&lt;IMAGE_ONLY/&gt;&lt;BUTTON_CHOICE_DESIGN&gt;00&lt;/BUTTON_CHOICE_DESIGN&gt;&lt;NO_INPUT_HISTORY/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EEDAADB4208556857B9</FPM_PRIMARY_ATTRIBUTE>
+           <EVENT_ID>FRW_DELETE</EVENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>1</INDEX>
+           <EVENT_PARAMETERS>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ROW_RANGE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</EVENT_PARAMETERS>
+           <ACTION_TYPE/>
+           <HAS_SEPARATOR/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="COLUMN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB0AA00E17176E</ELEMENT_ID>
+       <NAME>LIFNR</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>1</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB0AA00E17376E</ELEMENT_ID>
+       <NAME>EKORG</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>2</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EDDAEB95F8FC2AACAFC</ELEMENT_ID>
+       <NAME>WERKS</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>3</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>60</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB0AA00E17576E</ELEMENT_ID>
+       <NAME>ESOKZ</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>4</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>60</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC79796</ELEMENT_ID>
+       <NAME>DATAB</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>5</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>100</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC7B796</ELEMENT_ID>
+       <NAME>DATBI</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>6</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>100</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EDDAEB96BA77C2E0B13</ELEMENT_ID>
+       <NAME>KBETR_C</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>7</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>120</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC7F796</ELEMENT_ID>
+       <NAME>KONWA</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>8</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EDDAEB97C9639744B27</ELEMENT_ID>
+       <NAME>KPEIN_C</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>9</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EDDAEB98BA35A12AB42</ELEMENT_ID>
+       <NAME>KMEIN_C</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>10</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>60</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC85796</ELEMENT_ID>
+       <NAME>KRECH</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>11</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>60</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC87796</ELEMENT_ID>
+       <NAME>KZBZG</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>12</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>60</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC89796</ELEMENT_ID>
+       <NAME>MWSK1_C</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>13</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB29246DC8B796</ELEMENT_ID>
+       <NAME>LOEVM_KO</NAME>
+       <DISPLAY_TYPE>CB</DISPLAY_TYPE>
+       <INDEX>14</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>40</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000015" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB2C5425A4979A</ELEMENT_ID>
+       <NAME>KZNEP_C</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>15</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000016" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB2C5425A4B79A</ELEMENT_ID>
+       <NAME>ZTERM</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>16</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000017" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB2C5425A4D79A</ELEMENT_ID>
+       <NAME>VALDT</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>17</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>80</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000018" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADB2C5425A4F79A</ELEMENT_ID>
+       <NAME>VALTG</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>18</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH>60</WIDTH>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="DRAG_DROP" SimpleFormat="true"/>
+     <Node Name="HEADER_GROUPING" SimpleFormat="true"/>
+     <Node Name="MULTI_EDITOR" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">FRW_ABBID</NAME>
+       <VALUE>MDG_MAT</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">FRW_NODE_NAME</NAME>
+       <VALUE>ZPIRCOND</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">FRW_NUMBER_OF_DEFAULT_ROWS</NAME>
+       <VALUE>5</VALUE>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME Final="5 ">FRW_DEFAULT_ROWS_IN_DISPLAY_MODE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME Final="5 ">FRW_NOT_RETR_BY_ASOOC</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <NAME Final="5 ">FRW_RETRIEVE_MODE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <NAME Final="5 ">ENTITY</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <NAME Final="5 ">INIT_ATTR_READ_ONLY</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <NAME Final="5 ">MDG_BS_MAT_NO_HIGHLIGHTING</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <NAME Final="5 ">ENTITY_TABLE</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;MDG_BS_MAT_S_ENTITY&gt;&lt;ENTITY&gt;ZPIRCOND&lt;/ENTITY&gt;&lt;/MDG_BS_MAT_S_ENTITY&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+     </Node>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+     <Node Name="ROW_ACTIONS" SimpleFormat="true"/>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <SEL_EVENT_TYPE>X</SEL_EVENT_TYPE>
+       <SELECTION_MODE_ATS>07</SELECTION_MODE_ATS>
+       <ALLOW_PERSONALIZATION/>
+       <ALLOW_SORTING>02</ALLOW_SORTING>
+       <ALLOW_FILTERING>02</ALLOW_FILTERING>
+       <ALLOW_CALCULATION>02</ALLOW_CALCULATION>
+       <ALLOW_GROUPING>02</ALLOW_GROUPING>
+       <SCROLL_MODE>S</SCROLL_MODE>
+       <FIT_TO_TABLE_WIDTH/>
+       <ARIA_LANDMARK/>
+       <SORT_BY_RELEVANCE/>
+       <EXPORT_FORMAT>XLSX</EXPORT_FORMAT>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

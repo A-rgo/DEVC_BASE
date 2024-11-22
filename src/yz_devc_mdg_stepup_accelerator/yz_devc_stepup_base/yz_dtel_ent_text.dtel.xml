@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YZ_DTEL_ENT_TEXT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>AS4TEXT</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Entity Description</DDTEXT>
+    <REPTEXT>Entity Description</REPTEXT>
+    <SCRTEXT_S>Entity Des</SCRTEXT_S>
+    <SCRTEXT_M>Entity Description</SCRTEXT_M>
+    <SCRTEXT_L>Entity Description</SCRTEXT_L>
+    <APPLCLASS>SDIC</APPLCLASS>
+    <AUTHCLASS>01</AUTHCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>资源库对象的简短描述</DDTEXT>
+     <REPTEXT>简短描述</REPTEXT>
+     <SCRTEXT_S>短文本</SCRTEXT_S>
+     <SCRTEXT_M>简短描述</SCRTEXT_M>
+     <SCRTEXT_L>简短描述</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>저장소 오브젝트에 대한 간단한 설명</DDTEXT>
+     <REPTEXT>간단한 설명</REPTEXT>
+     <SCRTEXT_S>내역</SCRTEXT_S>
+     <SCRTEXT_M>간단한 설명</SCRTEXT_M>
+     <SCRTEXT_L>간단한 설명</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Descriere scurtă pt.obiecte de repository</DDTEXT>
+     <REPTEXT>Descriere scurtă</REPTEXT>
+     <SCRTEXT_S>Text scurt</SCRTEXT_S>
+     <SCRTEXT_M>Descriere scurtă</SCRTEXT_M>
+     <SCRTEXT_L>Descriere scurtă</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Kratki tekst koji opisuje R/3 objekte repozitorija</DDTEXT>
+     <REPTEXT>Kratki tekst</REPTEXT>
+     <SCRTEXT_S>Krat.tekst</SCRTEXT_S>
+     <SCRTEXT_M>Kratki tekst</SCRTEXT_M>
+     <SCRTEXT_L>Kratki tekst</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <REPTEXT>Lühikirjeldus</REPTEXT>
+     <SCRTEXT_S>Lühitekst</SCRTEXT_S>
+     <SCRTEXT_M>Lühikirjeldus</SCRTEXT_M>
+     <SCRTEXT_L>Lühikirjeldus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>وصف قصير لكائنات المستودع</DDTEXT>
+     <REPTEXT>وصف قصير</REPTEXT>
+     <SCRTEXT_S>نص قصير</SCRTEXT_S>
+     <SCRTEXT_M>وصف قصير</SCRTEXT_M>
+     <SCRTEXT_L>وصف قصير</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>טקסט קצר המתאר אובייקטי מאגר R/3</DDTEXT>
+     <REPTEXT>טקסט קצר</REPTEXT>
+     <SCRTEXT_S>טקסט קצר</SCRTEXT_S>
+     <SCRTEXT_M>טקסט קצר</SCRTEXT_M>
+     <SCRTEXT_L>טקסט קצר</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Krátký popis objektů Repository</DDTEXT>
+     <REPTEXT>Krátký popis</REPTEXT>
+     <SCRTEXT_S>Krát.text</SCRTEXT_S>
+     <SCRTEXT_M>Krátký popis</SCRTEXT_M>
+     <SCRTEXT_L>Krátký popis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Entity Description</DDTEXT>
+     <REPTEXT>Entity Description</REPTEXT>
+     <SCRTEXT_S>Entity Des</SCRTEXT_S>
+     <SCRTEXT_M>Entity Description</SCRTEXT_M>
+     <SCRTEXT_L>Entity Description</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Description synthétique d&apos;objets du R/3 Repository</DDTEXT>
+     <REPTEXT>Description synth.</REPTEXT>
+     <SCRTEXT_S>Désignat.</SCRTEXT_S>
+     <SCRTEXT_M>Description synth.</SCRTEXT_M>
+     <SCRTEXT_L>Description synth.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Repository-objektumok rövid leírása</DDTEXT>
+     <REPTEXT>Rövid megnevezés</REPTEXT>
+     <SCRTEXT_S>Röv.szöveg</SCRTEXT_S>
+     <SCRTEXT_M>Rövid megnevezés</SCRTEXT_M>
+     <SCRTEXT_L>Rövid megnevezés</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Descrizione breve di oggetti del repository</DDTEXT>
+     <REPTEXT>Descrizione breve</REPTEXT>
+     <SCRTEXT_S>Tsto br.</SCRTEXT_S>
+     <SCRTEXT_M>Descrizione breve</SCRTEXT_M>
+     <SCRTEXT_L>Descrizione breve</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>リポジトリオブジェクトの内容説明</DDTEXT>
+     <REPTEXT>内容説明</REPTEXT>
+     <SCRTEXT_S>内容説明</SCRTEXT_S>
+     <SCRTEXT_M>内容説明</SCRTEXT_M>
+     <SCRTEXT_L>内容説明</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Krótki opis obiektów repozytorium</DDTEXT>
+     <REPTEXT>Krótki opis</REPTEXT>
+     <SCRTEXT_S>Kr. tekst</SCRTEXT_S>
+     <SCRTEXT_M>Krótki opis</SCRTEXT_M>
+     <SCRTEXT_L>Krótki opis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>說明 R/3 資源庫物件的短文</DDTEXT>
+     <REPTEXT>短文</REPTEXT>
+     <SCRTEXT_S>短文</SCRTEXT_S>
+     <SCRTEXT_M>短文</SCRTEXT_M>
+     <SCRTEXT_L>短文</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Korte omschrijving van repositoryobjecten</DDTEXT>
+     <REPTEXT>Korte omschrijving</REPTEXT>
+     <SCRTEXT_S>K. tekst</SCRTEXT_S>
+     <SCRTEXT_M>Korte omschrijving</SCRTEXT_M>
+     <SCRTEXT_L>Korte omschrijving</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Kort beskrivelse av repositoryobjekter</DDTEXT>
+     <REPTEXT>Kort beskrivelse</REPTEXT>
+     <SCRTEXT_S>Korttekst</SCRTEXT_S>
+     <SCRTEXT_M>Kort beskrivelse</SCRTEXT_M>
+     <SCRTEXT_L>Kort beskrivelse</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Descrição breve dos objetos do repositório</DDTEXT>
+     <REPTEXT>Descrição breve</REPTEXT>
+     <SCRTEXT_S>Txt.breve</SCRTEXT_S>
+     <SCRTEXT_M>Descrição breve</SCRTEXT_M>
+     <SCRTEXT_L>Descrição breve</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Krátky popis objektov Repository</DDTEXT>
+     <REPTEXT>Krátky popis</REPTEXT>
+     <SCRTEXT_S>KrátkyText</SCRTEXT_S>
+     <SCRTEXT_M>Krátky popis</SCRTEXT_M>
+     <SCRTEXT_L>Krátky popis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Краткое описание объектов репозитария</DDTEXT>
+     <REPTEXT>Краткое описание</REPTEXT>
+     <SCRTEXT_S>Крат.текст</SCRTEXT_S>
+     <SCRTEXT_M>Краткое описание</SCRTEXT_M>
+     <SCRTEXT_L>Краткое описание</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Descripción breve de objetos de Repository</DDTEXT>
+     <REPTEXT>Descripción breve</REPTEXT>
+     <SCRTEXT_S>Txt.breve</SCRTEXT_S>
+     <SCRTEXT_M>Descripción breve</SCRTEXT_M>
+     <SCRTEXT_L>Descripción breve</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Repository nesnelerinin kısa tanımı</DDTEXT>
+     <REPTEXT>Kısa tanım</REPTEXT>
+     <SCRTEXT_S>Kısa metin</SCRTEXT_S>
+     <SCRTEXT_M>Kısa tanım</SCRTEXT_M>
+     <SCRTEXT_L>Kısa tanım</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Tietohakemisto-objektien lyhyt kuvaus</DDTEXT>
+     <REPTEXT>Lyhyt kuvaus</REPTEXT>
+     <SCRTEXT_S>Lyhyt tks</SCRTEXT_S>
+     <SCRTEXT_M>Lyhyt kuvaus</SCRTEXT_M>
+     <SCRTEXT_L>Lyhyt kuvaus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Kort beskrivning av Repository-objekt</DDTEXT>
+     <REPTEXT>Kort beskrivning</REPTEXT>
+     <SCRTEXT_S>Beteckning</SCRTEXT_S>
+     <SCRTEXT_M>Kort beskrivning</SCRTEXT_M>
+     <SCRTEXT_L>Kort beskrivning</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Кратък текст, описващ обекти на R/3 Репозитар</DDTEXT>
+     <REPTEXT>Кратък текст</REPTEXT>
+     <SCRTEXT_S>Кратък ткс</SCRTEXT_S>
+     <SCRTEXT_M>Кратък текст</SCRTEXT_M>
+     <SCRTEXT_L>Кратък текст</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <REPTEXT>Trumpasis aprašas</REPTEXT>
+     <SCRTEXT_M>Trumpasis aprašas</SCRTEXT_M>
+     <SCRTEXT_L>Trumpasis aprašas</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Kratki opis objekata repozitorijuma</DDTEXT>
+     <REPTEXT>Kratki opis</REPTEXT>
+     <SCRTEXT_S>Kratki tks</SCRTEXT_S>
+     <SCRTEXT_M>Kratki opis</SCRTEXT_M>
+     <SCRTEXT_L>Kratki opis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>रिपॉज़िटरी ऑब्जेक्ट का लघु वर्णन</DDTEXT>
+     <REPTEXT>लघु वर्णन</REPTEXT>
+     <SCRTEXT_S>लघु टे.</SCRTEXT_S>
+     <SCRTEXT_M>लघु वर्णन</SCRTEXT_M>
+     <SCRTEXT_L>लघु वर्णन</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Репозитарий нысандарының қысқа сипаттамасы</DDTEXT>
+     <REPTEXT>Қысқа сипаттама</REPTEXT>
+     <SCRTEXT_S>Қысқа мәт.</SCRTEXT_S>
+     <SCRTEXT_M>Қысқа сипаттама</SCRTEXT_M>
+     <SCRTEXT_L>Қысқа сипаттама</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <SCRTEXT_S>V.b ngắn</SCRTEXT_S>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

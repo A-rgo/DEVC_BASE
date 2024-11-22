@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_REF_MASTER_FLEX</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Ref Master Flexible Class Workflow</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>START</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Start Workflow</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ACTION</CMPNAME>
+     <SCONAME>IO_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Flexible Workflow Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ACTION</CMPNAME>
+     <SCONAME>IO_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Result object for flexible workflow</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_1ST_APPROVER</CMPNAME>
+     <SCONAME>ET_USER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>User Name in User Master Record</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_1ST_APPROVER</CMPNAME>
+     <SCONAME>IV_CHANGE_REQ_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_1ST_APPROVER</CMPNAME>
+     <SCONAME>IV_OBJ_CLASS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Flexible Workflow Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>HEADER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference Master Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference Master Items</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>IV_INITIATOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Agent</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>IV_OBJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>OUTPUT_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTML Table for Output via RFC</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_WORKFLOW</CMPNAME>
+     <SCONAME>I_REQ_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field of Length 12</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

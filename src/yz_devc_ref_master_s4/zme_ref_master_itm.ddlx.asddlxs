@@ -1,0 +1,36 @@
+@Metadata.layer: #CORE
+@UI.headerInfo: {
+    typeName: 'Field',
+    typeNamePlural: 'Fields',
+    title: {
+        type: #STANDARD,
+        label: 'Fields',
+        value: 'Record_Id'
+        }
+}
+@Search.searchable: true
+annotate entity ZP_REF_MASTER_ITM with
+{
+  @UI.facet: [ { id:          'Item',
+                 purpose:       #STANDARD,
+                 type:          #IDENTIFICATION_REFERENCE,
+                 label:         'Field Data',
+                 position:      10 }]
+
+  @UI:{ lineItem: [{ position: 10 }] }
+  Record_Id;
+
+  @UI:{lineItem: [{position: 20,importance: #HIGH }],
+       identification: [{position: 20 }], selectionField: [{ position: 50 }]
+  }
+  Field_Name;
+
+  // Field_Name;
+  @UI:{lineItem: [{position: 30,importance: #HIGH }],
+      identification: [{position: 30 }], selectionField: [{ position: 60 }]
+  }
+  @Search.defaultSearchElement: true
+  Field_Value;
+
+
+}

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_TABBED_UIBB" ConfId="YZ_FPM_TAB_DATA_MODEL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="WIRE_PLUG" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <COMPONENT/>
+     <CONFIG_ID/>
+     <CONFIG_TYPE>00</CONFIG_TYPE>
+     <CONFIG_VAR/>
+     <INSTANCE_ID/>
+    </Item>
+   </Node>
+   <Node Name="VARIANT" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>VARIANT_1</ID>
+     <NAME Transl="true">1</NAME>
+     <FPM_PRIMARY_ATTRIBUTE>_GENP_0887764CDA7F0706E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+     <ACTION_TYPE>0</ACTION_TYPE>
+     <Node Name="TAB" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID>TAB_1</ID>
+       <NAME Transl="true">2</NAME>
+       <INDEX>1</INDEX>
+       <FPM_PRIMARY_ATTRIBUTE>_GENP_0987764CDA7F0706E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <COMPONENT>FPM_TABBED_UIBB</COMPONENT>
+         <INTERFACE_VIEW>TABBED_WINDOW</INTERFACE_VIEW>
+         <CONFIG_ID>YZ_FPM_TAB_DT_TABULAR</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INDEX>1</INDEX>
+         <FPM_PRIMARY_ATTRIBUTE>_GENP_6887764CDA7F0706E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <NEEDS_STRETCHING>X</NEEDS_STRETCHING>
+         <HIDDEN/>
+         <INSTANCE_ID/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="WIRE" SimpleFormat="true"/>
+    </Item>
+   </Node>
+   <Node Name="PROPERTIES" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <LEFT_RIGHT_LAYOUT/>
+     <USE_DDLB/>
+     <ONE_TAB_VISIBILITY>X</ONE_TAB_VISIBILITY>
+    </Item>
+   </Node>
+   <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+   <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+   <Node Name="MASTER_UIBB" SimpleFormat="true"/>
+  </Item>
+ </Node>
+</Component>

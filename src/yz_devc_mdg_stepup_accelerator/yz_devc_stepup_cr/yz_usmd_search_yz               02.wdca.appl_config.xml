@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="USMD_SEARCH" ConfId="YZ_USMD_SEARCH_YZ" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="USMD_ENTITY">YZ_RULE_D</Parameter>
+  <Parameter Name="USMD_MODEL">YZ</Parameter>
+  <Parameter Name="USMD_OTC">YZ_BO</Parameter>
+  <Parameter Name="USMD_SEARCH_HELP">HA</Parameter>
+  <Parameter Name="USMD_SEARCH_MODE"/>
+  <Parameter Name="WDSTYLE_LABELALIGNMENT">USEGL</Parameter>
+  <Parameter Name="WDUIGUIDELINE">GL20</Parameter>
+  <Parameter Name="WDSIDEPANELCONFIGURATIONID">/BCV/SIDEPANEL_20</Parameter>
+ </Parameters>
+ <Component Name="FPM_OVP_COMPONENT" Usage="USMD_SEARCH" ConfType="00" ConfId="YZ_USMD_SEARCH_OVP_YZ" ConfVar="" Interface="False"/>
+</Application>

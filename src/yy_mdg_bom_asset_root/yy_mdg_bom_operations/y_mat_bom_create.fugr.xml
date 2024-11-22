@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BOM BAPI Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LY_MAT_BOM_CREATETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLY_MAT_BOM_CREATE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YBAPI_MAT_BOM_GROUP_CREATE</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>BOM function module for create</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_TESTRUN</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIFLAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ALL_ERROR</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_BOMGROUP</PARAMETER>
+       <DBSTRUCT>BAPI1080_BGR_C</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_VARIANTS</PARAMETER>
+       <DBSTRUCT>BAPI1080_BOM_C</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_ITEMS</PARAMETER>
+       <DBSTRUCT>BAPI1080_ITM_C</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_SUBITEMS</PARAMETER>
+       <DBSTRUCT>BAPI1080_SUI_C</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_MATERIALRELATIONS</PARAMETER>
+       <DBSTRUCT>BAPI1080_MBM_C</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_ITEMASSIGNMENTS</PARAMETER>
+       <DBSTRUCT>BAPI1080_REL_ITM_BOM_C</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_SUBITEMASSIGNMENTS</PARAMETER>
+       <DBSTRUCT>BAPI1080_REL_SUI_ITM_C</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_TEXTS</PARAMETER>
+       <DBSTRUCT>BAPI1080_TXT_C</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_TESTRUN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Switch to Simulation Session for Write BAPIs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ALL_ERROR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Output All Errors</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BOMGROUP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BOM group CREATE-/CHANGE BAPI material BOM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_VARIANTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Alternative/Variant CREATE-/CHANGE BAPI Material BOM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_ITEMS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Components CREATE-/CHANGE BAPI Material BOM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_SUBITEMS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sub item CREATE-/CHANGE BAPI Material BOM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_MATERIALRELATIONS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material assignment CREATE-/CHANGE BAPI Material BOM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_ITEMASSIGNMENTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Assignments CREATE-/CHANGE BAPI ITM/BOM material BOMs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_SUBITEMASSIGNMENTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Assignments CREATE-/CHANGE BAPI SUI/ITM Mat.BOMs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TEXTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Long text line: CREATE-/CHANGE BAPI for material BOMs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

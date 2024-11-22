@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB" ConfId="YZ_FPM_FRM_BC_SET_DET" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_BC_SET_FEED</FEEDER>
+     <TITLE Transl="true"/>
+     <LAYOUT_TYPE/>
+     <GUIDELINE/>
+     <CHECK_MANDATORY/>
+     <Node Name="GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TITLE Transl="true"/>
+       <INDEX>1</INDEX>
+       <GROUP_TYPE>F1</GROUP_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_EF4AD84CA490111FE10000000A428751</ELEMENT_ID>
+       <LOCATION>0</LOCATION>
+       <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+       <Node Name="DROP" SimpleFormat="true"/>
+       <Node Name="ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME>ID</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">1</TEXT>
+         <ELEMENT_ID Final="5 ">_GENP_F14AD84CA490111FE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID Final="5 ">BCSET_SEL</EVENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>0</INDEX>
+           <EVENT_PARAMETERS/>
+           <ACTION_TYPE>0</ACTION_TYPE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="MELTING_GROUP" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">DATA_MODEL</NAME>
+       <VALUE/>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

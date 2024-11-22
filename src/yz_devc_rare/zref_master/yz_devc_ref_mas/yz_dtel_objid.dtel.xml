@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YZ_DTEL_OBJID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR50</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Object Value</DDTEXT>
+    <REPTEXT>Object Value</REPTEXT>
+    <SCRTEXT_S>Obj. Value</SCRTEXT_S>
+    <SCRTEXT_M>Object Value</SCRTEXT_M>
+    <SCRTEXT_L>Object Value</SCRTEXT_L>
+    <APPLCLASS>SFKT</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>对象值</DDTEXT>
+     <REPTEXT>对象值</REPTEXT>
+     <SCRTEXT_S>对象值</SCRTEXT_S>
+     <SCRTEXT_M>对象值</SCRTEXT_M>
+     <SCRTEXT_L>对象值</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ค่าออบเจค</DDTEXT>
+     <REPTEXT>ค่าออบเจค</REPTEXT>
+     <SCRTEXT_S>ค่าออบเจค</SCRTEXT_S>
+     <SCRTEXT_M>ค่าออบเจค</SCRTEXT_M>
+     <SCRTEXT_L>ค่าออบเจค</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>오브젝트 값</DDTEXT>
+     <REPTEXT>오브젝트 값</REPTEXT>
+     <SCRTEXT_S>오브젝트값</SCRTEXT_S>
+     <SCRTEXT_M>오브젝트 값</SCRTEXT_M>
+     <SCRTEXT_L>오브젝트 값</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Valoare obiect</DDTEXT>
+     <REPTEXT>Valoare obiect</REPTEXT>
+     <SCRTEXT_S>Val.obiect</SCRTEXT_S>
+     <SCRTEXT_M>Valoare obiect</SCRTEXT_M>
+     <SCRTEXT_L>Valoare obiect</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Vrednost objekta</DDTEXT>
+     <REPTEXT>Vrednost objekta</REPTEXT>
+     <SCRTEXT_S>Vredn.obj.</SCRTEXT_S>
+     <SCRTEXT_M>Vredn.obj.</SCRTEXT_M>
+     <SCRTEXT_L>Vrednost objekta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Vrijednost objekta</DDTEXT>
+     <REPTEXT>Vrijednost objekta</REPTEXT>
+     <SCRTEXT_S>Vrd obj.</SCRTEXT_S>
+     <SCRTEXT_M>Vrd objekta</SCRTEXT_M>
+     <SCRTEXT_L>Vrijednost objekta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Значення об&apos;єкта</DDTEXT>
+     <REPTEXT>Значення об&apos;єкта</REPTEXT>
+     <SCRTEXT_S>Знач.обкта</SCRTEXT_S>
+     <SCRTEXT_M>Знач.об&apos;єкта</SCRTEXT_M>
+     <SCRTEXT_L>Значення об&apos;єкта</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Objekti väärtus</DDTEXT>
+     <REPTEXT>Objekti väärtus</REPTEXT>
+     <SCRTEXT_S>Obj. vrt.</SCRTEXT_S>
+     <SCRTEXT_M>Objekti väärtus</SCRTEXT_M>
+     <SCRTEXT_L>Objekti väärtus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>قيمة الكائن</DDTEXT>
+     <REPTEXT>قيمة الكائن</REPTEXT>
+     <SCRTEXT_S>قيمة كائن</SCRTEXT_S>
+     <SCRTEXT_M>قيمة الكائن</SCRTEXT_M>
+     <SCRTEXT_L>قيمة الكائن</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>ערך אובייקט</DDTEXT>
+     <REPTEXT>ערך אובייקט</REPTEXT>
+     <SCRTEXT_S>ערך אוביקט</SCRTEXT_S>
+     <SCRTEXT_M>ערך אובייקט</SCRTEXT_M>
+     <SCRTEXT_L>ערך אובייקט</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Hodnota objektu</DDTEXT>
+     <REPTEXT>Hodnota objektu</REPTEXT>
+     <SCRTEXT_S>Hodn.obj.</SCRTEXT_S>
+     <SCRTEXT_M>Hodnota objektu</SCRTEXT_M>
+     <SCRTEXT_L>Hodnota objektu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Object ID</DDTEXT>
+     <REPTEXT>Objektwert</REPTEXT>
+     <SCRTEXT_S>Objektwert</SCRTEXT_S>
+     <SCRTEXT_M>Objektwert</SCRTEXT_M>
+     <SCRTEXT_L>Objektwert</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Valeur de l&apos;objet</DDTEXT>
+     <REPTEXT>Valeur de l&apos;objet</REPTEXT>
+     <SCRTEXT_S>Val. objet</SCRTEXT_S>
+     <SCRTEXT_M>Valeur objet</SCRTEXT_M>
+     <SCRTEXT_L>Valeur de l&apos;objet</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Αξία Αντικειμένου</DDTEXT>
+     <REPTEXT>Αξία Αντικειμένου</REPTEXT>
+     <SCRTEXT_S>Αξία Αντικ</SCRTEXT_S>
+     <SCRTEXT_M>Αξία Αντικειμ.</SCRTEXT_M>
+     <SCRTEXT_L>Αξία Αντικειμένου</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Objektumérték</DDTEXT>
+     <REPTEXT>Objektumérték</REPTEXT>
+     <SCRTEXT_S>Obj.érték</SCRTEXT_S>
+     <SCRTEXT_M>Objektumérték</SCRTEXT_M>
+     <SCRTEXT_L>Objektumérték</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Valore oggetto</DDTEXT>
+     <REPTEXT>Val. ogg.</REPTEXT>
+     <SCRTEXT_S>Val. ogg.</SCRTEXT_S>
+     <SCRTEXT_M>Valore oggetto</SCRTEXT_M>
+     <SCRTEXT_L>Valore oggetto</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>オブジェクト値</DDTEXT>
+     <REPTEXT>オブジェクト値</REPTEXT>
+     <SCRTEXT_S>Obj. 値</SCRTEXT_S>
+     <SCRTEXT_M>オブジェクト値</SCRTEXT_M>
+     <SCRTEXT_L>オブジェクト値</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Objektværdi</DDTEXT>
+     <REPTEXT>Objektværdi</REPTEXT>
+     <SCRTEXT_S>Objektvrd.</SCRTEXT_S>
+     <SCRTEXT_M>Objektværdi</SCRTEXT_M>
+     <SCRTEXT_L>Objektværdi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Wartość obiektu</DDTEXT>
+     <REPTEXT>Wartość obiektu</REPTEXT>
+     <SCRTEXT_S>Wart. ob.</SCRTEXT_S>
+     <SCRTEXT_M>Wartość obiektu</SCRTEXT_M>
+     <SCRTEXT_L>Wartość obiektu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>物件值</DDTEXT>
+     <REPTEXT>物件值</REPTEXT>
+     <SCRTEXT_S>物件值</SCRTEXT_S>
+     <SCRTEXT_M>物件值</SCRTEXT_M>
+     <SCRTEXT_L>物件值</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Objectwaarde</DDTEXT>
+     <REPTEXT>Objectwaarde</REPTEXT>
+     <SCRTEXT_S>Obj.waarde</SCRTEXT_S>
+     <SCRTEXT_M>Objectwaarde</SCRTEXT_M>
+     <SCRTEXT_L>Objectwaarde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Objektverdi</DDTEXT>
+     <REPTEXT>Objektverdi</REPTEXT>
+     <SCRTEXT_S>Obj.verdi</SCRTEXT_S>
+     <SCRTEXT_M>Objektverdi</SCRTEXT_M>
+     <SCRTEXT_L>Objektverdi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Valor do objeto</DDTEXT>
+     <REPTEXT>Val.objeto</REPTEXT>
+     <SCRTEXT_S>Val.objeto</SCRTEXT_S>
+     <SCRTEXT_M>Valor do objeto</SCRTEXT_M>
+     <SCRTEXT_L>Valor do objeto</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Hodnota objektu</DDTEXT>
+     <REPTEXT>Hodnota objektu</REPTEXT>
+     <SCRTEXT_S>HodnotaObj</SCRTEXT_S>
+     <SCRTEXT_M>Hodnota objektu</SCRTEXT_M>
+     <SCRTEXT_L>Hodnota objektu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Значение объекта</DDTEXT>
+     <REPTEXT>Значение объекта</REPTEXT>
+     <SCRTEXT_S>ЗначОбъект</SCRTEXT_S>
+     <SCRTEXT_M>ЗначениеОбъекта</SCRTEXT_M>
+     <SCRTEXT_L>Значение объекта</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Valor de objeto</DDTEXT>
+     <REPTEXT>Valor de objeto</REPTEXT>
+     <SCRTEXT_S>Valor obj.</SCRTEXT_S>
+     <SCRTEXT_M>Valor de objeto</SCRTEXT_M>
+     <SCRTEXT_L>Valor de objeto</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Nsn.değeri</DDTEXT>
+     <REPTEXT>Nsn.değeri</REPTEXT>
+     <SCRTEXT_S>Nsn.değeri</SCRTEXT_S>
+     <SCRTEXT_M>Nsn.değeri</SCRTEXT_M>
+     <SCRTEXT_L>Nsn.değeri</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Objektin arvo</DDTEXT>
+     <REPTEXT>Objektin arvo</REPTEXT>
+     <SCRTEXT_S>Obj. arvo</SCRTEXT_S>
+     <SCRTEXT_M>Objektin arvo</SCRTEXT_M>
+     <SCRTEXT_L>Objektin arvo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Objektvärde</DDTEXT>
+     <REPTEXT>Objektvärde</REPTEXT>
+     <SCRTEXT_S>Obj.värde</SCRTEXT_S>
+     <SCRTEXT_M>Objektvärde</SCRTEXT_M>
+     <SCRTEXT_L>Objektvärde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Стойност на обект</DDTEXT>
+     <REPTEXT>Стойност на обект</REPTEXT>
+     <SCRTEXT_S>СтойнОбект</SCRTEXT_S>
+     <SCRTEXT_M>Стойност обект</SCRTEXT_M>
+     <SCRTEXT_L>Стойност на обект</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Objekto reikšmė</DDTEXT>
+     <REPTEXT>Objekto reikšmė</REPTEXT>
+     <SCRTEXT_S>Obj.reikš.</SCRTEXT_S>
+     <SCRTEXT_M>Objekto reikšmė</SCRTEXT_M>
+     <SCRTEXT_L>Objekto reikšmė</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Objekta vērtība</DDTEXT>
+     <REPTEXT>Objekta vērtība</REPTEXT>
+     <SCRTEXT_S>Obj. vērt.</SCRTEXT_S>
+     <SCRTEXT_M>Objekta vērtība</SCRTEXT_M>
+     <SCRTEXT_L>Objekta vērtība</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Valor d&apos;objecte</DDTEXT>
+     <REPTEXT>Valor d&apos;objecte</REPTEXT>
+     <SCRTEXT_S>Valor obj.</SCRTEXT_S>
+     <SCRTEXT_M>Valor d&apos;objecte</SCRTEXT_M>
+     <SCRTEXT_L>Valor d&apos;objecte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Vrednost objekta</DDTEXT>
+     <REPTEXT>Vrednost objekta</REPTEXT>
+     <SCRTEXT_S>Vred.obj.</SCRTEXT_S>
+     <SCRTEXT_M>Vrednost obj.</SCRTEXT_M>
+     <SCRTEXT_L>Vrednost objekta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>ऑब्‍जेक्ट मूल्य</DDTEXT>
+     <REPTEXT>ऑब्‍जेक्ट मूल्य</REPTEXT>
+     <SCRTEXT_S>ऑब्जे. मान</SCRTEXT_S>
+     <SCRTEXT_M>ऑब्‍जेक्ट मूल्य</SCRTEXT_M>
+     <SCRTEXT_L>ऑब्‍जेक्ट मूल्य</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Нысан мәні</DDTEXT>
+     <REPTEXT>Нысан мәні</REPTEXT>
+     <SCRTEXT_S>Нысан мәні</SCRTEXT_S>
+     <SCRTEXT_M>Нысан мәні</SCRTEXT_M>
+     <SCRTEXT_L>Нысан мәні</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>G.trị đ.tượng</DDTEXT>
+     <REPTEXT>G.trị đ.tượng</REPTEXT>
+     <SCRTEXT_S>Gtrị Đ.tg</SCRTEXT_S>
+     <SCRTEXT_M>G.trị đ.tượng</SCRTEXT_M>
+     <SCRTEXT_L>G.trị đ.tượng</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,1745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="YZ_WDCC_RULE_APP_FC" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <TITLE Transl="true"/>
+     <EDIT_MODE/>
+     <SCROLLING_MODE/>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+       <MAXIMUM_MESSAGES_SIZE>0</MAXIMUM_MESSAGES_SIZE>
+       <SHOW_MESSAGE_LOG/>
+      </Item>
+     </Node>
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FPM_SADL_FILTER</ID>
+       <TYPE>INIT</TYPE>
+       <TITLE Transl="true">11</TITLE>
+       <TITLE_HIDDEN/>
+       <TITLE_INSTANCE_STYLE/>
+       <DEFAULT>X</DEFAULT>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <INSTANCE_STYLE/>
+       <DLG_NAME/>
+       <DLG_BUTTON_SET/>
+       <DLG_TEXT_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_YES_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_NO_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_YES_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_NO_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_WIDTH/>
+       <DLG_HEIGHT/>
+       <ACTION_TYPE_PERS_DIALOG/>
+       <ACTION_TYPE_DRAG_DROP_AB/>
+       <ACTION_TYPE_CLOSE/>
+       <ON_ENTER_ACTION_ID/>
+       <PERSONALIZATION_ENABLED/>
+       <UIBB_SELECTOR_ENABLED/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">FPM_SADL_FILTER</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <COLUMN_WIDTH_MODE/>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED/>
+           <ROWS/>
+           <WIDTH/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9297BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_ATTRIBUTE_FILTER_UIBB</COMPONENT>
+           <INTERFACE_VIEW>ATTR_FILTER_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_FILT_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">FPM_SADL_RESULT</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>2</INDEX>
+         <COLUMN_WIDTH_MODE/>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED>X</STACKED>
+           <ROWS/>
+           <WIDTH/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D92B7BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+           <INTERFACE_VIEW>VIZFRAME_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_CHART_F_YZP_DDLS_RULE_DEF</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>1</INDEX>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">2</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7657BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>3</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_F_YZP_DDLS_RULE_DEF</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7637BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_P13N_YZ_CHART_F_YZP_DDLS_RULE_DEF</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7617BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Download</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_F_YZP_DDLS_RULE_DEF</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D92D7BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+           <INTERFACE_VIEW>VIZFRAME_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_CHART_F_YZP_DDLS_RULE_EXE</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>2</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">3</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF76B7BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>3</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_F_YZP_DDLS_RULE_EXE</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7697BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_P13N_YZ_CHART_F_YZP_DDLS_RULE_EXE</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7677BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Download</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_F_YZP_DDLS_RULE_EXE</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D92F7BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+           <INTERFACE_VIEW>VIZFRAME_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_CHART_F_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>3</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">4</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7717BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>3</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_F_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF76F7BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_P13N_YZ_CHART_F_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF76D7BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Download</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_F_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000004" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9317BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_FRES_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>4</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">5</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7757BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_FRES_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6DDDF7737BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_LIST_P13N_YZ_FRES_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D95B7BF</ELEMENT_ID>
+           <TYPE>BU</TYPE>
+           <INDEX>1</INDEX>
+           <TEXT Transl="true">$OTR:APB_FPM_CORE/SWITCH_TO_SEARCH_PAGE</TEXT>
+           <IMAGE>~Icon/AdvancedSearch</IMAGE>
+           <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+           <TOOLTIP Transl="true"/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <SPECIAL_PROPERTIES/>
+           <ENABLED>X</ENABLED>
+           <VISIBILITY>02</VISIBILITY>
+           <ALIGNMENT>LEFT</ALIGNMENT>
+           <HAS_SEPARATOR/>
+           <INSTANCE_STYLE/>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ACTION_ID_FPM_CHANGE_CONTENT_AREA_FPM_SADL_FILTER</ACTION_ID>
+             <INDEX/>
+             <TEXT Transl="true"/>
+             <IMAGE/>
+             <HOTKEY/>
+             <ENABLED/>
+             <VISIBILITY>02</VISIBILITY>
+             <HAS_SEPARATOR/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">FPM_SADL_SEARCH</ID>
+       <TYPE>INIT</TYPE>
+       <TITLE Transl="true">12</TITLE>
+       <TITLE_HIDDEN/>
+       <TITLE_INSTANCE_STYLE/>
+       <DEFAULT/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <INSTANCE_STYLE/>
+       <DLG_NAME/>
+       <DLG_BUTTON_SET/>
+       <DLG_TEXT_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_YES_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_NO_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_YES_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_NO_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_WIDTH/>
+       <DLG_HEIGHT/>
+       <ACTION_TYPE_PERS_DIALOG/>
+       <ACTION_TYPE_DRAG_DROP_AB/>
+       <ACTION_TYPE_CLOSE/>
+       <ON_ENTER_ACTION_ID/>
+       <PERSONALIZATION_ENABLED/>
+       <UIBB_SELECTOR_ENABLED/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">FPM_SADL_SEARCH</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <COLUMN_WIDTH_MODE/>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED/>
+           <ROWS/>
+           <WIDTH/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D91D7BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_SEARCH_UIBB</COMPONENT>
+           <INTERFACE_VIEW>SEARCH_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_SRCH_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">SECTION_2</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>2</INDEX>
+         <COLUMN_WIDTH_MODE/>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED/>
+           <ROWS/>
+           <WIDTH/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D91F7BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_SRES_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <ID Final="5 ">FPM_SADL_RESULT</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>3</INDEX>
+         <COLUMN_WIDTH_MODE/>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED>X</STACKED>
+           <ROWS/>
+           <WIDTH/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9217BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_SRES_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>1</INDEX>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">7</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9457BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_SRES_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9437BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_LIST_P13N_YZ_SRES_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9237BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+           <INTERFACE_VIEW>VIZFRAME_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_CHART_S_YZP_DDLS_RULE_DEF</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>2</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">8</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D94B7BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>3</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_S_YZP_DDLS_RULE_DEF</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9497BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_P13N_YZ_CHART_S_YZP_DDLS_RULE_DEF</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9477BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Download</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_S_YZP_DDLS_RULE_DEF</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9257BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+           <INTERFACE_VIEW>VIZFRAME_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_CHART_S_YZP_DDLS_RULE_EXE</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>3</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">9</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9517BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>3</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_S_YZP_DDLS_RULE_EXE</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D94F7BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_P13N_YZ_CHART_S_YZP_DDLS_RULE_EXE</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D94D7BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Download</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_S_YZP_DDLS_RULE_EXE</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000004" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9277BF</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+           <INTERFACE_VIEW>VIZFRAME_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_CHART_S_YZP_DDLS_RULE_VAL</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW>1</ROW>
+           <INDEX>4</INDEX>
+           <DEFAULT_IN_STACK/>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <COLLAPSED/>
+           <TITLE Transl="true">10</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_EDIT_PAGE/>
+           <DEFAULT_DETAILS_PAGE/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9577BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>3</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Maximize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_S_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9557BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>1</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Personalize</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_P13N_YZ_CHART_S_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9537BF</ELEMENT_ID>
+               <TYPE>BU</TYPE>
+               <INDEX>2</INDEX>
+               <TEXT Transl="true"/>
+               <IMAGE>~Icon/Download</IMAGE>
+               <IMAGE_IS_DECORATIVE/>
+               <TOOLTIP Transl="true"/>
+               <EXPLANATION_TEXT Transl="true"/>
+               <SPECIAL_PROPERTIES/>
+               <ENABLED>X</ENABLED>
+               <VISIBILITY>02</VISIBILITY>
+               <ALIGNMENT>RIGHT</ALIGNMENT>
+               <HAS_SEPARATOR/>
+               <INSTANCE_STYLE/>
+               <Node Name="UIBB_BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_S_YZP_DDLS_RULE_VAL</ACTION_ID>
+                 <INDEX/>
+                 <TEXT Transl="true"/>
+                 <IMAGE/>
+                 <HOTKEY/>
+                 <ENABLED/>
+                 <VISIBILITY>02</VISIBILITY>
+                 <HAS_SEPARATOR/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9597BF</ELEMENT_ID>
+           <TYPE>BU</TYPE>
+           <INDEX>1</INDEX>
+           <TEXT Transl="true">$OTR:APB_FPM_CORE/SWITCH_TO_FILTER_PAGE</TEXT>
+           <IMAGE>~Icon/TbFilter</IMAGE>
+           <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+           <TOOLTIP Transl="true"/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <SPECIAL_PROPERTIES/>
+           <ENABLED>X</ENABLED>
+           <VISIBILITY>02</VISIBILITY>
+           <ALIGNMENT>LEFT</ALIGNMENT>
+           <HAS_SEPARATOR/>
+           <INSTANCE_STYLE/>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ACTION_ID_FPM_CHANGE_CONTENT_AREA_FPM_SADL_SEARCH</ACTION_ID>
+             <INDEX/>
+             <TEXT Transl="true"/>
+             <IMAGE/>
+             <HOTKEY/>
+             <ENABLED/>
+             <VISIBILITY>02</VISIBILITY>
+             <HAS_SEPARATOR/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="P_CONTENT_AREA" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="WIRE_MODEL" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSACTION/>
+       <Node Name="WIRE" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9337BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_SRES_YZP_DDLS_RULE_VAL</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_SEARCH_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_SRCH_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9357BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_CHART_S_YZP_DDLS_RULE_DEF</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_SEARCH_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_SRCH_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9377BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_CHART_S_YZP_DDLS_RULE_EXE</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_SEARCH_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_SRCH_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9397BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_CHART_S_YZP_DDLS_RULE_VAL</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_SEARCH_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_SRCH_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000005" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D93B7BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FRES_YZP_DDLS_RULE_VAL</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_ATTRIBUTE_FILTER_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FILT_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000006" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D93D7BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_CHART_F_YZP_DDLS_RULE_DEF</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_ATTRIBUTE_FILTER_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FILT_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000007" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D93F7BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_CHART_F_YZP_DDLS_RULE_EXE</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_ATTRIBUTE_FILTER_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FILT_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000008" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D9417BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_VIZFRAME_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_CHART_F_YZP_DDLS_RULE_VAL</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_ATTRIBUTE_FILTER_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FILT_YZP_DDLS_RULE_VAL</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>CO</PORT_TYPE>
+         <PORT_IDENTIFIER>ROOT</PORT_IDENTIFIER>
+         <CONNECTOR>CL_FPM_SADL_CONNECTOR</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_FPM_CHANGE_CONTENT_AREA_FPM_SADL_FILTER</ID>
+       <EVENT_ID>FPM_CHANGE_CONTENT_AREA</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA>FPM_SADL_SEARCH</TARGET_CONTENT_AREA>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_FPM_CHANGE_CONTENT_AREA_FPM_SADL_SEARCH</ID>
+       <EVENT_ID>FPM_CHANGE_CONTENT_AREA</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA>FPM_SADL_FILTER</TARGET_CONTENT_AREA>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_F_YZP_DDLS_RULE_DEF</ID>
+       <EVENT_ID>FPM_CHART_EXPORT</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_F_YZP_DDLS_RULE_EXE</ID>
+       <EVENT_ID>FPM_CHART_EXPORT</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_F_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_CHART_EXPORT</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_S_YZP_DDLS_RULE_DEF</ID>
+       <EVENT_ID>FPM_CHART_EXPORT</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_S_YZP_DDLS_RULE_EXE</ID>
+       <EVENT_ID>FPM_CHART_EXPORT</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_EXPORT_YZ_CHART_S_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_CHART_EXPORT</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_P13N_YZ_CHART_F_YZP_DDLS_RULE_DEF</ID>
+       <EVENT_ID>FPM_CHART_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_P13N_YZ_CHART_F_YZP_DDLS_RULE_EXE</ID>
+       <EVENT_ID>FPM_CHART_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_P13N_YZ_CHART_F_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_CHART_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_P13N_YZ_CHART_S_YZP_DDLS_RULE_DEF</ID>
+       <EVENT_ID>FPM_CHART_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_P13N_YZ_CHART_S_YZP_DDLS_RULE_EXE</ID>
+       <EVENT_ID>FPM_CHART_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ID Final="5 ">FPM_CHART_P13N_YZ_CHART_S_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_CHART_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000015" SimpleFormat="true">
+       <ID Final="5 ">FPM_LIST_P13N_YZ_FRES_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_LIST_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000016" SimpleFormat="true">
+       <ID Final="5 ">FPM_LIST_P13N_YZ_SRES_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_LIST_P13N</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000017" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_F_YZP_DDLS_RULE_DEF</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000018" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_F_YZP_DDLS_RULE_EXE</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000019" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_F_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000020" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_S_YZP_DDLS_RULE_DEF</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000021" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_S_YZP_DDLS_RULE_EXE</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000022" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_CHART_S_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000023" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_FRES_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000024" SimpleFormat="true">
+       <ID Final="5 ">FPM_MAXIMIZE_UIBB_YZ_SRES_YZP_DDLS_RULE_VAL</ID>
+       <EVENT_ID>FPM_MAXIMIZE_UIBB</EVENT_ID>
+       <ACTION_TYPE/>
+       <ACTION_CATEGORY/>
+       <TARGET_CONTENT_AREA/>
+       <COMPONENT/>
+       <INTERFACE_VIEW/>
+       <CONFIG_ID/>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">FPM_MAXIMIZE_STACK</NAME>
+         <VALUE>X</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="PAGE_SELECTOR" SimpleFormat="true"/>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

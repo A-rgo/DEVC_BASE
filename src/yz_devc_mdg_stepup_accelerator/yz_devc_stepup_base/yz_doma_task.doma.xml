@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>YZ_DOMA_TASK</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <ENTITYTAB>YZTABL_RULE_TAS</ENTITYTAB>
+    <DDTEXT>Rule Task</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CHECK</DOMVALUE_L>
+     <DDTEXT>Check</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EXECUTE</DOMVALUE_L>
+     <DDTEXT>Execute</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_STR_1</DOMVALUE_L>
+     <DDTEXT>Perform String Task -&gt; Result into Context String 1</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_STR_2</DOMVALUE_L>
+     <DDTEXT>Perform String Task -&gt; Result into Context String 2</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_STR_3</DOMVALUE_L>
+     <DDTEXT>Perform String Task -&gt; Result into Context String 3</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_STR_T</DOMVALUE_L>
+     <DDTEXT>Perform String Task -&gt; Result into Context String Table</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_INT_1</DOMVALUE_L>
+     <DDTEXT>Perform Integer Task-&gt;Result into Context Int 1</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_INT_2</DOMVALUE_L>
+     <DDTEXT>Perform Integer Task-&gt;Result into Context Int 2</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_INT_3</DOMVALUE_L>
+     <DDTEXT>Perform Integer Task-&gt;Result into Context Int 3</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_INT_T</DOMVALUE_L>
+     <DDTEXT>Perform Integer Task -&gt;Result into Context Integer Table</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_FLT_1</DOMVALUE_L>
+     <DDTEXT>Perform Float Task-&gt;Result into Context FLT 1</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_FLT_2</DOMVALUE_L>
+     <DDTEXT>Perform Float Task-&gt;Result into Context FLT 2</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_FLT_3</DOMVALUE_L>
+     <DDTEXT>Perform Float Task-&gt;Result into Context FLT 3</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PER_FLT_T</DOMVALUE_L>
+     <DDTEXT>Perform Float Task -&gt;Result into Context Float Table</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

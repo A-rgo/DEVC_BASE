@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDTEL_ZR_HIERARCHY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZDOM_TEXT40</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Custom Hierarchy</DDTEXT>
+    <REPTEXT>Business Partner Hierarchy</REPTEXT>
+    <SCRTEXT_S>Hierarchy</SCRTEXT_S>
+    <SCRTEXT_M>BP Hierarchy</SCRTEXT_M>
+    <SCRTEXT_L>BPartner Hierarchy</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>业务合作伙伴层次结构</DDTEXT>
+     <REPTEXT>业务合作伙伴层次结构</REPTEXT>
+     <SCRTEXT_S>层次结构</SCRTEXT_S>
+     <SCRTEXT_M>业务合作伙伴层次结构</SCRTEXT_M>
+     <SCRTEXT_L>业务合作伙伴层次结构</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ลำดับชั้นคู่ค้าทางธุรกิจ</DDTEXT>
+     <REPTEXT>ลำดับชั้นคู่ค้าทางธุรกิจ</REPTEXT>
+     <SCRTEXT_S>ลำดับชั้น</SCRTEXT_S>
+     <SCRTEXT_M>ลำดับชั้น BP</SCRTEXT_M>
+     <SCRTEXT_L>ลำดับชั้นคู่ค้าทางธุรกิจ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>비즈니스 파트너 계층구조</DDTEXT>
+     <REPTEXT>비즈니스 파트너 계층구조</REPTEXT>
+     <SCRTEXT_S>계층구조</SCRTEXT_S>
+     <SCRTEXT_M>BP 계층구조</SCRTEXT_M>
+     <SCRTEXT_L>비즈니스 파트너 계층구조</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Ierarhie parteneri de afaceri</DDTEXT>
+     <REPTEXT>Ierarhie parteneri de afaceri</REPTEXT>
+     <SCRTEXT_S>Ierarhie</SCRTEXT_S>
+     <SCRTEXT_M>Ierarhie PA</SCRTEXT_M>
+     <SCRTEXT_L>Ierarhie PA</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Hierarhija poslovnega partnerja</DDTEXT>
+     <REPTEXT>Hierarhija poslovnega partnerja</REPTEXT>
+     <SCRTEXT_S>Hierarhija</SCRTEXT_S>
+     <SCRTEXT_M>Hierarhija PP</SCRTEXT_M>
+     <SCRTEXT_L>Hierarhija PP</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Hijerarhija poslovnih partnera</DDTEXT>
+     <REPTEXT>Hijerarhija poslovnih partnera</REPTEXT>
+     <SCRTEXT_S>Hijerarh.</SCRTEXT_S>
+     <SCRTEXT_M>Hijerarhija PP</SCRTEXT_M>
+     <SCRTEXT_L>Hijerarhija posl.partnera</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Ієрархія ділових партнерів</DDTEXT>
+     <REPTEXT>Ієрархія ділових партнерів</REPTEXT>
+     <SCRTEXT_S>Ієрархія</SCRTEXT_S>
+     <SCRTEXT_M>Ієрархія ДП</SCRTEXT_M>
+     <SCRTEXT_L>Ієрархія ділових парт.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Äripartnerite hierarhia</DDTEXT>
+     <REPTEXT>Äripartnerite hierarhia</REPTEXT>
+     <SCRTEXT_S>Hierarhia</SCRTEXT_S>
+     <SCRTEXT_M>ÄP hierarhia</SCRTEXT_M>
+     <SCRTEXT_L>Äripartnerite hierarhia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>هرمية شركاء الأعمال</DDTEXT>
+     <REPTEXT>هرمية شركاء الأعمال</REPTEXT>
+     <SCRTEXT_S>الهرمية</SCRTEXT_S>
+     <SCRTEXT_M>هرمية شركاء الأعمال</SCRTEXT_M>
+     <SCRTEXT_L>هرمية شركاء الأعمال</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>היררכיית שותפים עסקיים</DDTEXT>
+     <REPTEXT>היררכיית שותפים עסקיים</REPTEXT>
+     <SCRTEXT_S>היררכיה</SCRTEXT_S>
+     <SCRTEXT_M>היררכיית שותפים עסק.</SCRTEXT_M>
+     <SCRTEXT_L>היררכיית שותפים עסקיים</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Hierarchie obchodního partnera</DDTEXT>
+     <REPTEXT>Hierarchie obchodního partnera</REPTEXT>
+     <SCRTEXT_S>Hierarchie</SCRTEXT_S>
+     <SCRTEXT_M>Hierarchie OP</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchie OP</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Geschäftspartnerhierarchie</DDTEXT>
+     <REPTEXT>Geschäftspartnerhierarchie</REPTEXT>
+     <SCRTEXT_S>Hierarchie</SCRTEXT_S>
+     <SCRTEXT_M>GP-Hierarchie</SCRTEXT_M>
+     <SCRTEXT_L>GP-Hierarchie</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Hiérarchie partenaires</DDTEXT>
+     <REPTEXT>Hiérarchie partenaires</REPTEXT>
+     <SCRTEXT_S>Hiérarchie</SCRTEXT_S>
+     <SCRTEXT_M>Hiérarchie part.</SCRTEXT_M>
+     <SCRTEXT_L>Hiérarchie partenaires</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Ιεραρχία Εταίρων</DDTEXT>
+     <REPTEXT>Ιεραρχία Εταίρων</REPTEXT>
+     <SCRTEXT_S>Ιεραρχία</SCRTEXT_S>
+     <SCRTEXT_M>Ιεραρχία BP</SCRTEXT_M>
+     <SCRTEXT_L>Ιεραρχία Εταίρων</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Üzletipartner-hierarchia</DDTEXT>
+     <REPTEXT>Üzletipartner-hierarchia</REPTEXT>
+     <SCRTEXT_S>Hierarchia</SCRTEXT_S>
+     <SCRTEXT_M>ÜP-hierarchia</SCRTEXT_M>
+     <SCRTEXT_L>ÜP-hierarchia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Gerarchia business partner</DDTEXT>
+     <REPTEXT>Gerarchia business partner</REPTEXT>
+     <SCRTEXT_S>Gerarchia</SCRTEXT_S>
+     <SCRTEXT_M>Gerarchia BP</SCRTEXT_M>
+     <SCRTEXT_L>Gerarchia BP</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>ビジネスパートナ階層</DDTEXT>
+     <REPTEXT>ビジネスパートナ階層</REPTEXT>
+     <SCRTEXT_S>階層</SCRTEXT_S>
+     <SCRTEXT_M>ビジネスパートナ階層</SCRTEXT_M>
+     <SCRTEXT_L>ビジネスパートナ階層</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Forretningspartnerhierarki</DDTEXT>
+     <REPTEXT>Forretningspartnerhierarki</REPTEXT>
+     <SCRTEXT_S>Hierarki</SCRTEXT_S>
+     <SCRTEXT_M>FP-hierarki</SCRTEXT_M>
+     <SCRTEXT_L>Forretn.partnerhierarki</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Hierarchia partnera biznesowego</DDTEXT>
+     <REPTEXT>Hierarchia partnera biznesowego</REPTEXT>
+     <SCRTEXT_S>Hierarchia</SCRTEXT_S>
+     <SCRTEXT_M>Hierarchia PB</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchia PB</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>業務夥伴階層</DDTEXT>
+     <REPTEXT>業務夥伴階層</REPTEXT>
+     <SCRTEXT_S>階層</SCRTEXT_S>
+     <SCRTEXT_M>業務夥伴階層</SCRTEXT_M>
+     <SCRTEXT_L>業務夥伴階層</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Zakenpartnerhiërarchie</DDTEXT>
+     <REPTEXT>Zakenpartnerhiërarchie</REPTEXT>
+     <SCRTEXT_S>Hiërarchie</SCRTEXT_S>
+     <SCRTEXT_M>ZP-hiërarchie</SCRTEXT_M>
+     <SCRTEXT_L>ZP-hiërarchie</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Forretningspartnerhiearki</DDTEXT>
+     <REPTEXT>Forretningspartnerhiearki</REPTEXT>
+     <SCRTEXT_S>Hierarki</SCRTEXT_S>
+     <SCRTEXT_M>FP-hierarki</SCRTEXT_M>
+     <SCRTEXT_L>FP-hierarki</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Hierarquia de parceiros de negócios</DDTEXT>
+     <REPTEXT>Hierarquia de parceiros de negócios</REPTEXT>
+     <SCRTEXT_S>Hierarquia</SCRTEXT_S>
+     <SCRTEXT_M>Hierarquia PN</SCRTEXT_M>
+     <SCRTEXT_L>Hierarquia PN</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Hierarchia obchod.partn.</DDTEXT>
+     <REPTEXT>Hierarchia obchod.partn.</REPTEXT>
+     <SCRTEXT_S>Hierarchia</SCRTEXT_S>
+     <SCRTEXT_M>Hierarchia OP</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchia OP</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Иерархия деловых партнеров</DDTEXT>
+     <REPTEXT>Иерархия деловых партнеров</REPTEXT>
+     <SCRTEXT_S>Иерархия</SCRTEXT_S>
+     <SCRTEXT_M>Иерархия ДП</SCRTEXT_M>
+     <SCRTEXT_L>Иерархия ДП</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Jerarquía de interlocutor comercial</DDTEXT>
+     <REPTEXT>Jerarquía de interlocutor comercial</REPTEXT>
+     <SCRTEXT_S>Jerarquía</SCRTEXT_S>
+     <SCRTEXT_M>Jerarquía IC</SCRTEXT_M>
+     <SCRTEXT_L>Jerarquía IC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Muhatap hiyerarşisi</DDTEXT>
+     <REPTEXT>Muhatap hiyerarşisi</REPTEXT>
+     <SCRTEXT_S>Hiyerarşi</SCRTEXT_S>
+     <SCRTEXT_M>Muhatap hiyerarşisi</SCRTEXT_M>
+     <SCRTEXT_L>Muhatap hiyerarşisi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Liikekumppanihierarkia</DDTEXT>
+     <REPTEXT>Liikekumppanihierarkia</REPTEXT>
+     <SCRTEXT_S>Hierarkia</SCRTEXT_S>
+     <SCRTEXT_M>LK-hierarkia</SCRTEXT_M>
+     <SCRTEXT_L>LK-hierarkia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Affärspartnerhierarki</DDTEXT>
+     <REPTEXT>Affärspartnerhierarki</REPTEXT>
+     <SCRTEXT_S>Hierarki</SCRTEXT_S>
+     <SCRTEXT_M>AP-hierarki</SCRTEXT_M>
+     <SCRTEXT_L>AP-hierarki</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Йерархия на бизнес партньор</DDTEXT>
+     <REPTEXT>Йерархия на бизнес партньор</REPTEXT>
+     <SCRTEXT_S>Йерархия</SCRTEXT_S>
+     <SCRTEXT_M>Йерархия на БП</SCRTEXT_M>
+     <SCRTEXT_L>Йерархия бизнес партньор</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Verslo partnerių hierarchija</DDTEXT>
+     <REPTEXT>Verslo partnerių hierarchija</REPTEXT>
+     <SCRTEXT_S>Hierarch.</SCRTEXT_S>
+     <SCRTEXT_M>VP hierarchija</SCRTEXT_M>
+     <SCRTEXT_L>Verslo partn. hierarchija</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Darījumu partnera hierarhija</DDTEXT>
+     <REPTEXT>Darījumu partnera hierarhija</REPTEXT>
+     <SCRTEXT_S>Hierarhija</SCRTEXT_S>
+     <SCRTEXT_M>DP hierarhija</SCRTEXT_M>
+     <SCRTEXT_L>DP hierarhija</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Jerarquia d&apos;interlocutors comercials</DDTEXT>
+     <REPTEXT>Jerarquia d&apos;interlocutors comercials</REPTEXT>
+     <SCRTEXT_S>Jerarquia</SCRTEXT_S>
+     <SCRTEXT_M>Jerarquia d&apos;IC</SCRTEXT_M>
+     <SCRTEXT_L>Jerarquia d&apos;IC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Hijerarhija poslovnog partnera</DDTEXT>
+     <REPTEXT>Hijerarhija poslovnog partnera</REPTEXT>
+     <SCRTEXT_S>Hijerar.</SCRTEXT_S>
+     <SCRTEXT_M>Hijerarhija PP</SCRTEXT_M>
+     <SCRTEXT_L>Hijerarhija posl.partnera</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>व्यवसाय भागीदार पदानुक्रम</DDTEXT>
+     <REPTEXT>व्यवसाय भागीदार पदानुक्रम</REPTEXT>
+     <SCRTEXT_S>पदानुक्रम</SCRTEXT_S>
+     <SCRTEXT_M>BP पदानुक्रम</SCRTEXT_M>
+     <SCRTEXT_L>व्यवसाय भागीदार पदानुक्रम</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Бизнес серіктестер иерархиясы</DDTEXT>
+     <REPTEXT>Бизнес серіктестер иерархиясы</REPTEXT>
+     <SCRTEXT_S>Иерархия</SCRTEXT_S>
+     <SCRTEXT_M>БС иерархиясы</SCRTEXT_M>
+     <SCRTEXT_L>Бизнес серіктестер иерар.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Phân cấp đối tác kinh doanh</DDTEXT>
+     <REPTEXT>Phân cấp đối tác kinh doanh</REPTEXT>
+     <SCRTEXT_S>Phân cấp</SCRTEXT_S>
+     <SCRTEXT_M>Phân cấp BP</SCRTEXT_M>
+     <SCRTEXT_L>Phân cấp đối tác KD</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

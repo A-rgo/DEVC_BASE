@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB" ConfId="YZ_FPM_FRM_DT_DM_COPY" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_DATA_MODAL_CP_FD</FEEDER>
+     <CHECK_MANDATORY>X</CHECK_MANDATORY>
+     <Node Name="GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_8E3EEA4C1150B857E10000000A428751</ELEMENT_ID>
+       <TITLE Transl="true"/>
+       <INDEX>1</INDEX>
+       <GROUP_TYPE>F1</GROUP_TYPE>
+       <LOCATION>0</LOCATION>
+       <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+       <Node Name="DROP" SimpleFormat="true"/>
+       <Node Name="ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_933EEA4C1150B857E10000000A428751</ELEMENT_ID>
+         <NAME>FROM_DM</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">1</TEXT>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_943EEA4C1150B857E10000000A428751</ELEMENT_ID>
+         <NAME>TO_DM</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>2</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">2</TEXT>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="MELTING_GROUP" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

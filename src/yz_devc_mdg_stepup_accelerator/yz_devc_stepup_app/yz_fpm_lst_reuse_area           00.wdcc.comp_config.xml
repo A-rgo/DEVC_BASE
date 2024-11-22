@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_LIST_UIBB" ConfId="YZ_FPM_LST_REUSE_AREA" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="LIST" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_REUSE_AR_LST_FEED</FEEDER>
+     <TITLE Transl="true"/>
+     <LEAD_SEL_EVENT_ID/>
+     <Node Name="BUTTON_ROW" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="BUTTON_ROW_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <INDEX>1</INDEX>
+         <TEXT Transl="true">3</TEXT>
+         <ELEMENT_ID Final="5 ">_GENP_E65FCF4CB134101FE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE&gt;~Icon/NewItem&lt;/IMAGE_SOURCE&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <TOOLTIP Transl="true">5</TOOLTIP>
+         <WIDTH/>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID>ADD_RA</EVENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>1</INDEX>
+           <EVENT_PARAMETERS/>
+           <EVENT_ID_2/>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0760CF4CB134101FE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <ACTION_TYPE>0</ACTION_TYPE>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <INDEX>2</INDEX>
+         <TEXT Transl="true">4</TEXT>
+         <ELEMENT_ID Final="5 ">_GENP_F04DD54C6FDB9243E10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE&gt;~Icon/Delete&lt;/IMAGE_SOURCE&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <TOOLTIP Transl="true">6</TOOLTIP>
+         <WIDTH/>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID>DEL_RA</EVENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>1</INDEX>
+           <EVENT_PARAMETERS/>
+           <EVENT_ID_2/>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_704ED54C6FDB9243E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <ACTION_TYPE>0</ACTION_TYPE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="COLUMN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME>REUSE_ACT_AREA</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>1</INDEX>
+       <HEADER Transl="true">1</HEADER>
+       <ELEMENT_ID Final="5 ">_GENP_7EA8D74C9B390E1FE10000000A428751</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_C38EE04FBF105C36E10000000A428CDC</ELEMENT_ID>
+       <NAME>REUSE_ACT_AREA_DESC</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>2</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME>REUSE_ACCESS_CLASS</NAME>
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <INDEX>3</INDEX>
+       <HEADER Transl="true">2</HEADER>
+       <ELEMENT_ID Final="5 ">_GENP_7FA8D74C9B390E1FE10000000A428751</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="DRAG_DROP" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+     <Node Name="ROW_ACTIONS" SimpleFormat="true"/>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <VISIBLE_COL_COUNT/>
+       <VISIBLE_ROW_COUNT/>
+       <SEL_EVENT_TYPE>X</SEL_EVENT_TYPE>
+       <SELECTION_MODE>04</SELECTION_MODE>
+       <SELECTION_CHANGE_BEHAVIOUR/>
+       <STYLE_OF_RENDERING/>
+       <ACCESS_DESCR Transl="true"/>
+       <CHECK_MANDATORY>X</CHECK_MANDATORY>
+       <EXPORT_EXCEL/>
+       <LIST_WIDTH/>
+       <INITIAL_LEAD_SELECTION/>
+       <TABLE_VISIBILITY/>
+       <DISPLAY_EMPTY_ROWS/>
+       <SCROLLABLE_COLUMN_COUNT/>
+       <ENABLE_H_SCROLLING/>
+       <GRID_MODE/>
+      </Item>
+     </Node>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

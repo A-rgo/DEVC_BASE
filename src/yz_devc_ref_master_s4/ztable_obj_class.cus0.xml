@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>ZTABLE_OBJ_CLASS</ACTIVITY>
+     <DOCU_ID>SIMG</DOCU_ID>
+     <C_ACTIVITY>ZTABLE_OBJ_CLASS</C_ACTIVITY>
+     <TCODE>Y_DIM_63000019</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>ZTABLE_OBJ_CLASS</ACTIVITY>
+      <TEXT>Maintain Business Domain Config Data</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Application Log Create Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYZ_FUGR_APP_LOGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYZ_FUGR_APP_LOG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YZ_FUNC_APP_LOG_CREATE</FUNCNAME>
+     <SHORT_TEXT>PIR Application Log</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BALHDRI</PARAMETER>
+       <DBFIELD>BALHDRI</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LOG_HANDLE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BALLOGHNDL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BAL_MSG</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAL_S_MSG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FREE_TEXT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_LOG_HANDLE</PARAMETER>
+       <TYP>BALLOGHNDL</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MESSAGES</PARAMETER>
+       <DBSTRUCT>BALMI</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BALHDRI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: APPL_LOG_WRITE_HEADER interface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOG_HANDLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Log Handle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BAL_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Message Data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FREE_TEXT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_LOG_HANDLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Log Handle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: APPL_LOG_WRITE_MESSAGES interface</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

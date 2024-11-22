@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="USMD_SEARCH" ConfId="ZR_USMD_SEARCH_TEMPLATE" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="USMD_ENTITY">ZMAIN</Parameter>
+  <Parameter Name="USMD_MODEL">ZR</Parameter>
+  <Parameter Name="USMD_OTC">ZR_BO</Parameter>
+  <Parameter Name="USMD_SEARCH_HELP">ZR_GEN_SRHLP</Parameter>
+  <Parameter Name="USMD_SEARCH_MODE"/>
+  <Parameter Name="WDSTYLE_LABELALIGNMENT">USEGL</Parameter>
+  <Parameter Name="WDUIGUIDELINE">GL20</Parameter>
+  <Parameter Name="WDSIDEPANELCONFIGURATIONID">/BCV/SIDEPANEL_20</Parameter>
+ </Parameters>
+ <Component Name="FPM_OVP_COMPONENT" Usage="USMD_SEARCH" ConfType="00" ConfId="USMD_SEARCH_OVP_TEMPLATE" ConfVar="" Interface="False"/>
+</Application>

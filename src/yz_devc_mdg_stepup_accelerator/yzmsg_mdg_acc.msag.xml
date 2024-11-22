@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YZMSG_MDG_ACC</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter a valid value for old material number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter a valid value for Old Material Number &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Validation Rule &amp;1 executed. Result - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Field Property Rule &amp;1 Executed. Result - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Hide UIBB Rule &amp;1 Executed. Result - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Derivation Rule &amp;1 Executed. Result - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Rule &amp;1 Executed.Process :&amp;2 Result - &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Account group can not be &amp;1 &apos;CASH&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Entered value &amp;1 is not valid value for user type &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Enter value for mandatory field &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Either CR or Days needs to be provided inorder to select data and Process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Issue while Processing of the CR &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>CR &amp;1 cannot be forwarded since its in Draft Version</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Successfully Forwarded CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Issue while Forwarding CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Successfully Withdraw : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Issue while Withdrawing CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Successfully Final Check Rejected CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Issue while setting Final Check Reject Status for CR :&amp;1 Instance not gen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>CR &amp;1 cannot be activated since its in Draft Version</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Issue while activating CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Successfully Activated  CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>It is not allowed to Activate CR :&amp;1 In Production System</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Successfully Restarted Work Item :&amp;1 for CR &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Issue while restarting Work Item :&amp;1 for CR &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Successfully Detleted CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Issue while Deleting CR : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Material Type value should be &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Incorrect Industry Sector</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Exception Raised for process &amp;1. Error Text : &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter Rule Definition</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>field &amp;1 is mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Enter valid value for Material Group</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Enter the valid value for Unit of Measure</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Enter valid value for Old Material no</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Records is not Unique for Rule &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Error in Rule ID &amp;1 for field &amp;2 = &amp;3 is not a valid value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Selected data model &amp;1 is not active or not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>OTC &amp;1 is not valid for selected data model.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Selected rule type &amp;1 is not valid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Selected template id &amp;1 is not valid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Entity &amp;1 is not valid for data model &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Attribute &amp;1 is not valid for entity type &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Data Model cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Data Model and OTC cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Attribute cannot be blank for Exe Id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Entity cannot be blank for Exe Id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Class cannot be blank for Exe Id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Message cannot be blank for Exe Id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Execution Type cannot be blank for Exe Id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Model,OTC and Rule type cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Sequence no. cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Rule Task cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Definition cannot be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZMSG_MDG_ACC</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Provide correct old material no</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

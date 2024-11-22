@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>ApprovalMail</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <WI_TEXT>ApprovalMail</WI_TEXT>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>98000039</OBJID>
+     <CLSNAM>YZ_CLAS_RARE_BASE</CLSNAM>
+     <CLSMET>SEND_APPROVAL_EMAIL</CLSMET>
+     <METHTYPE>CL</METHTYPE>
+     <BACKGROUND>X</BACKGROUND>
+     <SYNCHRON>X</SYNCHRON>
+    </METHOD>
+    <METHOD_BINDING>
+     <HRS1214>
+      <OTYPE>TS</OTYPE>
+      <OBJID>98000039</OBJID>
+      <SUBTY>0001</SUBTY>
+      <DATAFLOW>E</DATAFLOW>
+      <TAB_INDEX>000001</TAB_INDEX>
+      <EXPR>&amp;RARE_DATA&amp;</EXPR>
+      <TARGETEXPR>&amp;RARE_DATA&amp;</TARGETEXPR>
+      <OPERATION>ASN</OPERATION>
+      <OPCLASS>E</OPCLASS>
+     </HRS1214>
+    </METHOD_BINDING>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS98000039</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <N NAME="RARE_DATA::" TYPE="::YZTABL_RARE_INTERFACE:v:0:0" PROPS="0C001281"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

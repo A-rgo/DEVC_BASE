@@ -1,0 +1,35 @@
+@Metadata.layer: #CORE
+@Search.searchable: true
+@UI:{
+    headerInfo: { typeName: 'Rule Definition', typeNamePlural: 'Rule Definitions',
+    title: { type: #STANDARD, label: 'Rule Definition', value: 'model' } } } 
+annotate view YZP_DDLS_RULE_DEF
+    with 
+{
+    @UI.facet: [{ id: 'Header', purpose: #STANDARD, type: #IDENTIFICATION_REFERENCE, label:'Rule Definition',
+    position: 10 }]
+    @UI:{ lineItem: [{ position: 10}], identification: [{ position: 10}] }
+    @Search.defaultSearchElement: true
+    model;
+    @UI:{ lineItem: [{ position: 20}], identification: [{ position: 20, label: 'Business Object Type'}] }
+    otc;
+    @UI:{ lineItem: [{ position: 30}], identification: [{ position: 30, label: 'Business Rule Type'}] }
+    rule_type;
+    @UI:{ lineItem: [{ position: 40}], identification: [{ position: 40, label: 'Business Rule ID'}] }
+    def_id;
+    @UI:{ lineItem: [{ position: 50}], identification: [{ position: 50, label: 'Rule Definition'}] }
+    rule_def;
+    @UI:{ lineItem: [{ position: 60}], identification: [{ position: 60, label: 'Rule Template ID'}] }
+    temp_id;
+    @UI:{ lineItem: [{ position: 70}], identification: [{ position: 70, label: 'Reuse Scope'}] }
+    reuse_scp;
+    @UI:{ lineItem: [{ position: 80}], identification: [{ position: 80, label: 'Referenced Business Rule ID'}] }
+    refruleid;
+    //rule_sta;
+    
+    
+    /* Associations */
+    @Search.defaultSearchElement: true
+    _execution;
+    
+}

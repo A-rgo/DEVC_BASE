@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB" ConfId="YZ_FPM_FORM_DATA_MOD_DET" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_DATA_MODAL_FEED</FEEDER>
+     <TITLE Transl="true"/>
+     <LAYOUT_TYPE/>
+     <GUIDELINE/>
+     <CHECK_MANDATORY>X</CHECK_MANDATORY>
+     <Node Name="GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TITLE Transl="true"/>
+       <INDEX>1</INDEX>
+       <GROUP_TYPE>F2</GROUP_TYPE>
+       <ELEMENT_ID>_GENP_870D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+       <LOCATION>0</LOCATION>
+       <Node Name="ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME>MODEL_NAME</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">2</TEXT>
+         <ELEMENT_ID>_GENP_B90D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <NAME>CHANGED_ON</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>2</COLUMN>
+         <TEXT Transl="true">10</TEXT>
+         <ELEMENT_ID>_GENP_BA0D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <NAME>DESCRIPTION</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>2</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">4</TEXT>
+         <ELEMENT_ID>_GENP_BB0D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <NAME>LAST_CHANGED_AT</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>2</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>2</COLUMN>
+         <TEXT Transl="true">5</TEXT>
+         <ELEMENT_ID>_GENP_BC0D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000005" SimpleFormat="true">
+         <NAME>REUSE_ACT_AREA</NAME>
+         <DISPLAY_TYPE>DD</DISPLAY_TYPE>
+         <ROW>3</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">6</TEXT>
+         <ELEMENT_ID>_GENP_BD0D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE/&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000006" SimpleFormat="true">
+         <NAME>USER_NAME</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>3</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>2</COLUMN>
+         <TEXT Transl="true">11</TEXT>
+         <ELEMENT_ID>_GENP_BE0D7D4CABBFF45DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000007" SimpleFormat="true">
+         <NAME>MODEL_STATUS</NAME>
+         <DISPLAY_TYPE>DD</DISPLAY_TYPE>
+         <ROW>4</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">8</TEXT>
+         <ELEMENT_ID>_GENP_B17D7E4C60BCBB5DE10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+       <Node Name="DROP" SimpleFormat="true"/>
+       <Node Name="MELTING_GROUP" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

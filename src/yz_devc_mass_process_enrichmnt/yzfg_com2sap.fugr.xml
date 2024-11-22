@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funstion group for Mass Maintainance</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYZFG_COM2SAPF01</SOBJ_NAME>
+    <SOBJ_NAME>LYZFG_COM2SAPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYZFG_COM2SAP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YZ_FUNC_COM2SAP</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Function module for Mass processing Enrichment</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MODE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YZDTEL_MODE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MODEL</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YZDTEL_MODEL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SCOPE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YZDTEL_SCOPE_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TEMPID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YZDTEL_TEMPLATE_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ACTIONID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YZDTEL_ACTION_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_JSON_REQUEST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>I_INPUT_TAB</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YZM_S_INPUT_TAB</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_TEMPLATE</PARAMETER>
+       <TYP>YZM_T_TEMPLT_DET</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_ERRORS</PARAMETER>
+       <TYP>YZM_T_ERROR_DETAILS</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_CHARA_HELP</PARAMETER>
+       <TYP>YZM_T_CHARA_DETAILS</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_JSON_RESPONSE</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Model for Mass Process Enrichment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MODEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data Model value for mass process enrichment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SCOPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Scope Id for Data model</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TEMPID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Template ID for mass process enrichment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ACTIONID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data element for action id</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_JSON_REQUEST</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_TEMPLATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Template table for excel template</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ERRORS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error Details Table Type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_CHARA_HELP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type Characteristic Details</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_JSON_RESPONSE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Json Response</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_INPUT_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Input Tab</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

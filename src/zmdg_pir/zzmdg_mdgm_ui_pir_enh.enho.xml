@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYCONF</TOOL>
+   <ORIGINAL_OBJECT>
+    <CONFIG_ID>BS_MAT_OVP_LAYOUT_09</CONFIG_ID>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENT_DATA>
+    <Component Name="" ConfId="" ConfType="00" ConfVar="">
+     <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="OVP_APPLICATION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ID Final="5 ">ACTION_ID_57_977BDC9DF7F21EDEB3F92E0619E9850E</ID>
+           <EVENT_ID></EVENT_ID>
+           <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+          </Item>
+         </Node>
+         <Node Name="CONTENT_AREA" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <ID>BASIC_DATA</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID>MAT_SECTION</ID>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_977BDC9DF7F21EDEB3F740492381450E</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>TABBED_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_TABBED_UIBB</COMPONENT>
+               <INDEX>52 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <TYPE>T</TYPE>
+               <CONFIG_ID>ZZMDG_BS_MAT_TABBED_PIR</CONFIG_ID>
+               <TITLE Transl="true">1</TITLE>
+               <HIDDEN>X</HIDDEN>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ID Final="5 ">PAGE_23</ID>
+           <TITLE Transl="true">2</TITLE>
+           <TYPE>DIAL</TYPE>
+           <ON_ENTER_ACTION_ID>ACTION_ID_57_977BDC9DF7F21EDEB3F92E0619E9850E</ON_ENTER_ACTION_ID>
+           <DLG_BUTTON_SET>3 </DLG_BUTTON_SET>
+           <DLG_TEXT_FOR_OK_BUTTON Transl="true">3</DLG_TEXT_FOR_OK_BUTTON>
+           <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+           <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+           <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ID Final="5 ">SECTION_1</ID>
+             <INDEX>1 </INDEX>
+             <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <COLUMN_ID Final="5 ">COLUMN_ID_1_977BDC9DF7F21EDEB3F9209EA1DB850E</COLUMN_ID>
+              </Item>
+             </Node>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_977BDC9DF7F21EDEB3F93521809A050E</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>1 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+               <CONFIG_ID>ZZMDG_BS_MAT_PIR_ORG_POPUP</CONFIG_ID>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+         <Node Name="WIRE_MODEL" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <Node Name="WIRE" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_977BDC9DF7F21EDEB3F818C655F7250E</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>ZZMDG_BS_MAT_PIR_LIST</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+             <SRC_CONFIG_ID>MDG_BS_MAT_MAT_FORM_06</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>MARA</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+            <Item Index="000002" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_977BDC9DF7F21EDEB3F90F5C678DC50E</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>ZZMDG_BS_MAT_PIR_COND</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+             <SRC_CONFIG_ID>MDG_BS_MAT_MAT_FORM_06</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>MARA</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+            <Item Index="000003" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_977BDC9DF7F21EDEB3F8FD9D45ADC50E</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>ZZMDG_BS_MAT_PIR_ORG</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+             <SRC_CONFIG_ID>MDG_BS_MAT_MAT_FORM_06</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>MARA</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Component>
+   </ENHANCEMENT_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>977BDC9DF7F21EDEB3F73495C84B650E</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>977BDC9DF7F21EDEB3F73495C84B650E</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>MDG Material PIR UIBB Extension</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZZMDG_MDGM_UI_PIR_ENH</OBJ_NAME>
+     <CONCEPT>977BDC9DF7F21EDEB3F73495C84B650E</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

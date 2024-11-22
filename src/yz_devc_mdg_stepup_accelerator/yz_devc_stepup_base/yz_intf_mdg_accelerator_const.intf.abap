@@ -1,0 +1,79 @@
+interface YZ_INTF_MDG_ACCELERATOR_CONST
+  public .
+
+
+  constants GC_FIXED_VALUE type CHAR2 value 'FV' ##NO_TEXT.
+  constants GC_MDG_BADI_TRACE type STRING value 'YZ_MDG_BADI_TRACE' ##NO_TEXT.
+  constants GC_READMODE_ACT_INACT type USMD_READMODE value '2' ##NO_TEXT.
+  constants GC_READMODE_ACT_ONLY type USMD_READMODE value '3' ##NO_TEXT.
+  constants GC_READMODE_INACT_ONLY type USMD_READMODE value '4' ##NO_TEXT.
+  constants GC_ERROR type YZ_DTEL_STATUS value 'E' ##NO_TEXT.
+  constants GC_PASS type YZ_DTEL_STATUS value 'P' ##NO_TEXT.
+  constants GC_FAIL type YZ_DTEL_STATUS value 'F' ##NO_TEXT.
+  constants GC_EXECUTION_VD type YZ_DTEL_EXECUTE_TYPE value 'VD' ##NO_TEXT.
+  constants GC_EXECUTION_DR type YZ_DTEL_EXECUTE_TYPE value 'DR' ##NO_TEXT.
+  constants GC_EXECUTION_BR type YZ_DTEL_EXECUTE_TYPE value 'BR' ##NO_TEXT.
+  constants GC_EXECUTION_CM type YZ_DTEL_EXECUTE_TYPE value 'CM' ##NO_TEXT.
+  constants GC_EXECUTION_CD type YZ_DTEL_EXECUTE_TYPE value 'CD' ##NO_TEXT.
+  constants GC_EXECUTION_HU type YZ_DTEL_EXECUTE_TYPE value 'HU' ##NO_TEXT.
+  constants GC_EXECUTION_FP type YZ_DTEL_EXECUTE_TYPE value 'FP' ##NO_TEXT.
+  constants GC_FRAME_DERIVE type CHAR15 value 'DERIVE' ##NO_TEXT.
+  constants GC_FRAME_FLD_PROP type CHAR15 value 'FLD_PROP' ##NO_TEXT.
+  constants GC_FRAME_HIDE_UIBB type CHAR15 value 'HIDE_UIBB' ##NO_TEXT.
+  constants GC_FRAME_VALIDATE type CHAR15 value 'VALIDATE' ##NO_TEXT.
+  constants GC_MASS type STRING value 'MASS' ##NO_TEXT.
+  constants GC_MODEL type USMD_MODEL value 'BP' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_BADI_TRACE type YZ_DTEL_PROCESS value 'BT' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_DERIVE type YZ_DTEL_PROCESS value 'DR' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_FIELD_PROPRTY type YZ_DTEL_PROCESS value 'FP' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_HIDE_UIBB type YZ_DTEL_PROCESS value 'HU' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_UNIQUE type YZ_DTEL_PROCESS value 'UC' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_DYNAMIC_AGENT type YZ_DTEL_PROCESS value 'AP' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_CDB type YZ_DTEL_PROCESS value 'CD' ##NO_TEXT.
+  constants GC_PROCESS_TYPE_VALIDATE type YZ_DTEL_PROCESS value 'VD' ##NO_TEXT.
+  constants GC_RULE_CONTEXT_CR type YZ_DTEL_CONTEXT value 'CR' ##NO_TEXT.
+  constants GC_RULE_STAT_TABNAME type STRING value 'YZTABL_CUSTOM_SLG1_STR' ##NO_TEXT.
+  constants GC_MSG_CLAS_NAME type STRING value 'YZMSG_MDG_ACC' ##NO_TEXT.
+  constants GC_MSG_TYPE_I type CHAR1 value 'I' ##NO_TEXT.
+  constants GC_MSG_TYPE_E type CHAR1 value 'E' ##NO_TEXT.
+  constants GC_MSG_TYPE_W type CHAR1 value 'W' ##NO_TEXT.
+  constants GC_PASS_TEXT type STRING value 'Pass' ##NO_TEXT.
+  constants GC_ERROR_TEXT type STRING value 'Error' ##NO_TEXT.
+  constants GC_FAIL_TEXT type STRING value 'Fail' ##NO_TEXT.
+  constants GC_NA_TEXT type STRING value 'NA' ##NO_TEXT.
+  constants GC_NA type YZ_DTEL_STATUS value 'NA' ##NO_TEXT.
+  constants GC_USAGE_MDF_CHECK type MDQ_RULE_USAGE value 'MDF_CHECK' ##NO_TEXT.
+  constants GC_BOOL type IF_FDT_TYPES=>NAME value 'BOOLE' ##NO_TEXT.
+  constants GC_LEFT_OUTER type CHAR20 value 'LEFT OUTER' ##NO_TEXT.
+  constants GC_RIGHT_OUTER type CHAR20 value 'RIGHT OUTER' ##NO_TEXT.
+  constants GC_MM_MODEL type USMD_MODEL value 'MM' ##NO_TEXT.
+  constants GC_0G_MODEL type USMD_MODEL value '0G' ##NO_TEXT.
+  constants GC_SPT_APPROVER type STRING value 'ST' ##NO_TEXT.
+  constants GC_STRUCT_KEY_ATTR type USMD_STRUCT value 'KATTR' ##NO_TEXT.
+  constants GC_ENTITY_YYORGUNIT type USMD_ENTITY value 'YYORGUNIT' ##NO_TEXT.
+  constants GC_BP_HEADER type USMD_ENTITY value 'BP_HEADER' ##NO_TEXT.
+  constants GC_MAPPER_MESSAGE_ID type STRING value 'YZMSG_MDG_ACC' ##NO_TEXT.
+  constants GC_MAPPER_MESSAGE_NO type STRING value '002' ##NO_TEXT.
+  constants GC_CRTYPE_DEFAULT type CHAR1 value '$' ##NO_TEXT.
+  constants GC_CRSTEP_DEFAULT type CHAR1 value '$' ##NO_TEXT.
+  constants GC_FLD_PROP_MANDATORY type CHAR1 value 'R' ##NO_TEXT.
+  constants GC_EXECUTE_VALIDATION type CHAR3 value 'VAL' ##NO_TEXT.
+  constants GC_EXECUTE_FLDPROP type CHAR3 value 'FLP' ##NO_TEXT.
+  constants GC_EXECUTE_DERIVATION type CHAR3 value 'DER' ##NO_TEXT.
+  constants GC_EXECUTE_HIDEUIBB type CHAR3 value 'HID' ##NO_TEXT.
+  constants GC_EXECUTE_DYNAMIC_AGENT type CHAR3 value 'DYN' ##NO_TEXT.
+  constants GC_ENTITY_YYUSAGE type USMD_ENTITY value 'YYUSAGE' ##NO_TEXT.
+  constants GC_RULE_SECTION_USAGE type YZ_DTEL_RULE_SEC value '1' ##NO_TEXT.
+  constants GC_RULE_SECTION_SCOPE type YZ_DTEL_RULE_SEC value '2' ##NO_TEXT.
+  constants GC_RULE_SECTION_CONDITION type YZ_DTEL_RULE_SEC value '3' ##NO_TEXT.
+  constants GC_EXECUTE_DYN_UNIQUE type CHAR3 value 'UND' ##NO_TEXT.
+  constants GC_DATA_PROCESS_CLASS_NAME type SEOCLSNAME value 'YZ_CLAS_MDG_DATA_PROCESS' ##NO_TEXT.
+  constants GC_EXECUTE_VALIDATION_UNIQUE type CHAR3 value 'UNV' ##NO_TEXT.
+  constants GC_RULE_TASK_EXECUTE type YZ_DTEL_TASK value 'EXECUTE' ##NO_TEXT.
+  constants GC_RULE_TASK_CHECK type YZ_DTEL_TASK value 'CHECK' ##NO_TEXT.
+  constants GC_EXECUTE_LOOP_WF type CHAR3 value 'LWF' ##NO_TEXT.
+  constants GC_RULE_TASK_PER_STR_T type YZ_DTEL_TASK value 'PER_STR_T' ##NO_TEXT.
+  constants GC_RULE_TASK_PER_STR_1 type YZ_DTEL_TASK value 'PER_STR_1' ##NO_TEXT.
+  constants GC_RULE_TASK_PER_STR_2 type YZ_DTEL_TASK value 'PER_STR_2' ##NO_TEXT.
+  constants GC_RULE_TASK_PER_STR_3 type YZ_DTEL_TASK value 'PER_STR_3' ##NO_TEXT.
+endinterface.

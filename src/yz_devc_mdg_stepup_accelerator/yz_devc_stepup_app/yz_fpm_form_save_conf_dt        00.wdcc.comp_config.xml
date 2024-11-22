@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB" ConfId="YZ_FPM_FORM_SAVE_CONF_DT" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_SAVE_CONF_POPUP</FEEDER>
+     <TITLE Transl="true"/>
+     <LAYOUT_TYPE/>
+     <GUIDELINE/>
+     <CHECK_MANDATORY/>
+     <Node Name="GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TITLE Transl="true"/>
+       <INDEX>1</INDEX>
+       <GROUP_TYPE>F1</GROUP_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_BE87AE4CE0FE0B26E10000000A428751</ELEMENT_ID>
+       <LOCATION>0</LOCATION>
+       <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+       <Node Name="DROP" SimpleFormat="true"/>
+       <Node Name="ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME>MSG_TXT</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>01</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID Final="5 ">_GENP_E887AE4CE0FE0B26E10000000A428751</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="MELTING_GROUP" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

@@ -1,0 +1,55 @@
+@Metadata.layer: #CORE
+@Search.searchable: true
+annotate entity YZP_DDLS_RULE_VAL
+    with 
+{
+    @EndUserText.label: 'Data Model'
+    model;
+    @EndUserText.label: 'Business Object Type'
+    otc;
+    @EndUserText.label: 'Business Rule Type'
+    rule_type;
+    @EndUserText.label: 'Business Rule ID'
+    def_id;
+    @EndUserText.label: 'Rule Execution ID'
+    exe_id;
+    @EndUserText.label: 'Rule Section'
+    rule_sec;
+    @EndUserText.label: 'Value ID'
+    val_id;
+    @EndUserText.label: 'Sign'
+    sign;
+    @EndUserText.label: 'Option'
+    opt;
+    @EndUserText.label: 'Value Type'
+    val_type;
+    @EndUserText.label: 'Low'
+    low;
+    @EndUserText.label: 'High'
+    high;
+    @EndUserText.label: 'Reference Field 1'
+    val_ref1;
+    @EndUserText.label: 'Reference Field 2'
+    val_ref2;
+    @EndUserText.label: 'Reference Field 3'
+    val_ref3;
+    @EndUserText.label: 'Structure name of  BAPI table extension'
+    structure;
+    @EndUserText.label: 'Value Part 1'
+    valuepart1;
+    @EndUserText.label: 'Value Part 2'
+    valuepart2;
+    @EndUserText.label: 'Value Part 3'
+    valuepart3;
+    @EndUserText.label: 'Value Part 4'
+    valuepart4;
+    @EndUserText.label: 'Active'
+    active;
+    @EndUserText.label: 'Last Changed At'
+    local_last_changed_at;
+    /* Associations */
+    @Search.defaultSearchElement: true
+    _definition;
+    @Search.defaultSearchElement: true
+    _execution;
+}

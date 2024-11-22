@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_MDG_BS_MAT_FEEDER_LIST</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Feeder for lists</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>DTS</KEY>
+     <ENTRY>Details</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>RND</KEY>
+     <ENTRY>Roundtrip</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>详细信息</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>往返行程</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>2</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>รายละเอียด</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>การเดินทางไปกลับ</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>세부사항</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>라운드트립</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detajli</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Povratni let</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detalji</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Kružno putovanje</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>פרטים</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>נסיעה הלוך ושוב</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detaily</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Let tam a zpět</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Details</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Hin- und Rückflug</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Détails</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Vol aller et retour</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Részletek</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Oda- és visszaút</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Dettagli</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Volo di andata e ritorno</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>詳細</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>ラウンドトリップ</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>K</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detaljer</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Ud- og hjemrejse</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Szczegóły</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Lot tam i z powrotem</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>M</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>明細</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>來回</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Details</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Heen- en retourvlucht</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>O</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detaljer</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Frem- og tilbakereise</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detalhes</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Voo de ida e volta</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detaily</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Let tam a späť</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Подробная информация</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Рейс в оба конца</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detalles</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Vuelo de ida y vuelta</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Ayrıntılar</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Uçakla gidiş ve dönüş</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>U</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Lisätiedot</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Meno-paluulento</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detaljer</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Fram- och återresa med flyg</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>c</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DTS</KEY>
+       <ENTRY>Detalls</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RND</KEY>
+       <ENTRY>Vol d&apos;anada i tornada</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change local action usage for given node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_USAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change action usage for all lists (FRW_DELETE, ...)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_MEAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete all MEAN data contained in change log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ENABLE_TOC_NAVIGATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Enable navigation to TOC content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONTEXT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get data from context</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NODE_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get node name, entity name and entity table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NODE_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get node name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SELECTION_KEYS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine selected keys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_GENERIC_OVS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generic OVS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_INITIAL_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert initial row in context</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MARK_TRANSFERRED_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set lead selection index according to transferred data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FIELD_CATALOGUE_ORG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field catalogue without local fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DEFINITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field description with all references to local fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PARAMETER_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter Value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Current selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_SELECTION_KEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selected keys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_ENTITY_CONFIG_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Relationship between Config and Node / Entity determined</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_IS_ENABL_IN_GOV_SCOPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the entity/node enabled in govenance scope</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LEAD_SEL_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Current lead selection index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LEAD_SEL_INDEX_CORRECTED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>After copying templ. org level, lead sel. set accordingly</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Locking Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NO_HIGHLIGHTING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Suppress highlighting of fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PICK_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pick message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set entity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set index for automa lead selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SV_POPUP_OPENED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicator that popup opened in current FPM roundtrip</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_STATIC_TOC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update the table of contents (containing all UIBBs)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <SCONAME>CT_ACTION_USAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Action Usage</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <SCONAME>CV_ACTION_USAGE_CHANGED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <SCONAME>IV_DATA_INITIAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <SCONAME>IV_DELETE_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ID of the FPM Event</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <SCONAME>IV_INSERT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ID of the FPM Event</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_INS_DEL</CMPNAME>
+     <SCONAME>IV_LEAD_SEL_INDEX</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lead selection Index</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LOCAL_ACTION_USAGE</CMPNAME>
+     <SCONAME>CT_ACTION_USAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Action Usage</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_MEAN</CMPNAME>
+     <SCONAME>CT_CHANGE_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Changelog</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_MEAN</CMPNAME>
+     <SCONAME>EV_FAILED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deletion failed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ENABLE_TOC_NAVIGATION</CMPNAME>
+     <SCONAME>IO_EVENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CL_FPM_EVENT</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONTEXT_DATA</CMPNAME>
+     <SCONAME>IT_INDEX</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Standard Table of INT4</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NODE_ENTITY</CMPNAME>
+     <SCONAME>ETS_ENTITY_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Entity Types</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NODE_ENTITY</CMPNAME>
+     <SCONAME>EV_ENTITY_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Entity Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NODE_ENTITY</CMPNAME>
+     <SCONAME>EV_NODE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Node Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NODE_NAME</CMPNAME>
+     <SCONAME>RV_NODE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Node Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SELECTION_KEYS</CMPNAME>
+     <SCONAME>/PLMB/CX_SPI_METADATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SPI Metadata Exception (static)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SELECTION_KEYS</CMPNAME>
+     <SCONAME>IT_SELECTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Standard Table of INT4</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_INITIAL_ROW</CMPNAME>
+     <SCONAME>EV_FAILED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert failed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_INITIAL_ROW</CMPNAME>
+     <SCONAME>IO_EVENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CL_FPM_EVENT</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PICK_MESSAGES</CMPNAME>
+     <SCONAME>ET_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FPMGB Messages (T100 &amp; Plaintext)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PICK_MESSAGES</CMPNAME>
+     <SCONAME>IO_EVENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CL_FPM_EVENT</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PICK_MESSAGES</CMPNAME>
+     <SCONAME>IT_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selected(Used) Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ENTITY</CMPNAME>
+     <SCONAME>IT_SELECTED_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fields used on the UI</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

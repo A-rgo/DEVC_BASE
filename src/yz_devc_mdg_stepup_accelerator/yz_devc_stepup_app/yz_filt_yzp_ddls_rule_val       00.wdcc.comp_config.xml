@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_ATTRIBUTE_FILTER_UIBB" ConfId="YZ_FILT_YZP_DDLS_RULE_VAL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="ATTRIBUTE_FILTER" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_FPM_SADL_ATTRIBUTE_FILTER</FEEDER>
+     <Node Name="ATTRIBUTE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BBD7BF</ELEMENT_ID>
+       <NAME>MODEL</NAME>
+       <INDEX>1</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BBF7BF</ELEMENT_ID>
+       <NAME>OTC</NAME>
+       <INDEX>2</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BC17BF</ELEMENT_ID>
+       <NAME>RULE_TYPE</NAME>
+       <INDEX>3</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BC37BF</ELEMENT_ID>
+       <NAME>DEF_ID</NAME>
+       <INDEX>4</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BC57BF</ELEMENT_ID>
+       <NAME>EXE_ID</NAME>
+       <INDEX>5</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BC77BF</ELEMENT_ID>
+       <NAME>RULE_SEC</NAME>
+       <INDEX>6</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BC97BF</ELEMENT_ID>
+       <NAME>VAL_ID</NAME>
+       <INDEX>7</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BCB7BF</ELEMENT_ID>
+       <NAME>SIGN</NAME>
+       <INDEX>8</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BCD7BF</ELEMENT_ID>
+       <NAME>OPT</NAME>
+       <INDEX>9</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BCF7BF</ELEMENT_ID>
+       <NAME>VAL_TYPE</NAME>
+       <INDEX>10</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BD17BF</ELEMENT_ID>
+       <NAME>LOW</NAME>
+       <INDEX>11</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BD37BF</ELEMENT_ID>
+       <NAME>HIGH</NAME>
+       <INDEX>12</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BE57BF</ELEMENT_ID>
+       <NAME>ACTIVE</NAME>
+       <INDEX>13</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BF17BF</ELEMENT_ID>
+       <NAME>RULE_DEF_D</NAME>
+       <INDEX>14</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000015" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BF37BF</ELEMENT_ID>
+       <NAME>TEMP_ID_D</NAME>
+       <INDEX>15</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000016" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BF57BF</ELEMENT_ID>
+       <NAME>REUSE_SCP_D</NAME>
+       <INDEX>16</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000017" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BF77BF</ELEMENT_ID>
+       <NAME>REFRULEID_D</NAME>
+       <INDEX>17</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000018" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BFF7BF</ELEMENT_ID>
+       <NAME>DEF_REF1_D</NAME>
+       <INDEX>18</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000019" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C0F7BF</ELEMENT_ID>
+       <NAME>ACTIVE_D</NAME>
+       <INDEX>19</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000020" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C1D7BF</ELEMENT_ID>
+       <NAME>RULE_SEC_E</NAME>
+       <INDEX>20</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000021" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C1F7BF</ELEMENT_ID>
+       <NAME>SEQ_NO_E</NAME>
+       <INDEX>21</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000022" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C217BF</ELEMENT_ID>
+       <NAME>TEMP_ID_E</NAME>
+       <INDEX>22</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000023" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C237BF</ELEMENT_ID>
+       <NAME>TASK_E</NAME>
+       <INDEX>23</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000024" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C257BF</ELEMENT_ID>
+       <NAME>OPERATION_E</NAME>
+       <INDEX>24</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000025" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C277BF</ELEMENT_ID>
+       <NAME>ENTITY_E</NAME>
+       <INDEX>25</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000026" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C297BF</ELEMENT_ID>
+       <NAME>ATTRIBUTE_E</NAME>
+       <INDEX>26</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000027" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C2B7BF</ELEMENT_ID>
+       <NAME>EXE_TYPE_E</NAME>
+       <INDEX>27</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000028" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C2F7BF</ELEMENT_ID>
+       <NAME>OPERATOR_E</NAME>
+       <INDEX>28</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000029" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C317BF</ELEMENT_ID>
+       <NAME>CLASS_E</NAME>
+       <INDEX>29</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000030" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C337BF</ELEMENT_ID>
+       <NAME>METHOD_E</NAME>
+       <INDEX>30</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000031" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D8657BF</ELEMENT_ID>
+       <NAME>ACTIVE_E</NAME>
+       <INDEX>31</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000032" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BD57BF</ELEMENT_ID>
+       <NAME>VAL_REF1</NAME>
+       <INDEX>32</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000033" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BD77BF</ELEMENT_ID>
+       <NAME>VAL_REF2</NAME>
+       <INDEX>33</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000034" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BD97BF</ELEMENT_ID>
+       <NAME>VAL_REF3</NAME>
+       <INDEX>34</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000035" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BDB7BF</ELEMENT_ID>
+       <NAME>STRUCTURE</NAME>
+       <INDEX>35</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000036" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BDD7BF</ELEMENT_ID>
+       <NAME>VALUEPART1</NAME>
+       <INDEX>36</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000037" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BDF7BF</ELEMENT_ID>
+       <NAME>VALUEPART2</NAME>
+       <INDEX>37</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000038" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BE17BF</ELEMENT_ID>
+       <NAME>VALUEPART3</NAME>
+       <INDEX>38</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000039" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BE37BF</ELEMENT_ID>
+       <NAME>VALUEPART4</NAME>
+       <INDEX>39</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000040" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BE77BF</ELEMENT_ID>
+       <NAME>LOCAL_LAST_CHANGED_AT</NAME>
+       <INDEX>40</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000041" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BE97BF</ELEMENT_ID>
+       <NAME>MODEL_D</NAME>
+       <INDEX>41</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000042" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BEB7BF</ELEMENT_ID>
+       <NAME>OTC_D</NAME>
+       <INDEX>42</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000043" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BED7BF</ELEMENT_ID>
+       <NAME>RULE_TYPE_D</NAME>
+       <INDEX>43</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000044" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BEF7BF</ELEMENT_ID>
+       <NAME>DEF_ID_D</NAME>
+       <INDEX>44</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000045" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BF97BF</ELEMENT_ID>
+       <NAME>RULE_STA_D</NAME>
+       <INDEX>45</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000046" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BFB7BF</ELEMENT_ID>
+       <NAME>RULE_OWN_D</NAME>
+       <INDEX>46</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000047" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150BFD7BF</ELEMENT_ID>
+       <NAME>RULE_EXP_D</NAME>
+       <INDEX>47</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000048" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C017BF</ELEMENT_ID>
+       <NAME>DEF_REF2_D</NAME>
+       <INDEX>48</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000049" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C037BF</ELEMENT_ID>
+       <NAME>DEF_REF3_D</NAME>
+       <INDEX>49</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000050" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C057BF</ELEMENT_ID>
+       <NAME>STRUCTURE_D</NAME>
+       <INDEX>50</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000051" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C077BF</ELEMENT_ID>
+       <NAME>VALUEPART1_D</NAME>
+       <INDEX>51</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000052" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C097BF</ELEMENT_ID>
+       <NAME>VALUEPART2_D</NAME>
+       <INDEX>52</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000053" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C0B7BF</ELEMENT_ID>
+       <NAME>VALUEPART3_D</NAME>
+       <INDEX>53</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000054" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C0D7BF</ELEMENT_ID>
+       <NAME>VALUEPART4_D</NAME>
+       <INDEX>54</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000055" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C117BF</ELEMENT_ID>
+       <NAME>LOCAL_LAST_CHANGED_AT_D</NAME>
+       <INDEX>55</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000056" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C137BF</ELEMENT_ID>
+       <NAME>MODEL_E</NAME>
+       <INDEX>56</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000057" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C157BF</ELEMENT_ID>
+       <NAME>OTC_E</NAME>
+       <INDEX>57</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000058" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C177BF</ELEMENT_ID>
+       <NAME>RULE_TYPE_E</NAME>
+       <INDEX>58</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000059" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C197BF</ELEMENT_ID>
+       <NAME>DEF_ID_E</NAME>
+       <INDEX>59</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000060" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C1B7BF</ELEMENT_ID>
+       <NAME>EXE_ID_E</NAME>
+       <INDEX>60</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000061" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C2D7BF</ELEMENT_ID>
+       <NAME>VALUE_ID_E</NAME>
+       <INDEX>61</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000062" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C357BF</ELEMENT_ID>
+       <NAME>EXE_REF1_E</NAME>
+       <INDEX>62</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000063" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C377BF</ELEMENT_ID>
+       <NAME>EXE_REF2_E</NAME>
+       <INDEX>63</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000064" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C397BF</ELEMENT_ID>
+       <NAME>EXE_REF3_E</NAME>
+       <INDEX>64</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000065" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C150C3B7BF</ELEMENT_ID>
+       <NAME>STRUCTURE_E</NAME>
+       <INDEX>65</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000066" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D85D7BF</ELEMENT_ID>
+       <NAME>VALUEPART1_E</NAME>
+       <INDEX>66</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000067" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D85F7BF</ELEMENT_ID>
+       <NAME>VALUEPART2_E</NAME>
+       <INDEX>67</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000068" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D8617BF</ELEMENT_ID>
+       <NAME>VALUEPART3_E</NAME>
+       <INDEX>68</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000069" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D8637BF</ELEMENT_ID>
+       <NAME>VALUEPART4_E</NAME>
+       <INDEX>69</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+      <Item Index="000070" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6C16D8677BF</ELEMENT_ID>
+       <NAME>LOCAL_LAST_CHANGED_AT_E</NAME>
+       <INDEX>70</INDEX>
+       <TEXT Transl="true"/>
+       <INITIAL_VALUE_TEXT Transl="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_TYPE</NAME>
+       <VALUE>CDS</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_ID</NAME>
+       <VALUE>YZP_DDLS_RULE_VAL</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">SADL_JOIN_TREE</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_DEFINITION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_DEFINITION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_DEF&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_D&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_EXECUTION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_EXECUTION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_EXE&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_E&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+     </Node>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <VISIBLE_ROW_COUNT>10</VISIBLE_ROW_COUNT>
+       <PACKAGE_SIZE>9</PACKAGE_SIZE>
+       <COUNT_AS_PROGRESS_INDICATOR>X</COUNT_AS_PROGRESS_INDICATOR>
+       <VALUE_TABLE_WIDTH>300px</VALUE_TABLE_WIDTH>
+       <ARIA_LANDMARK>09</ARIA_LANDMARK>
+       <COUNT_ATTRIBUTE/>
+       <COUNT_ATTRIBUTE_TEXT Transl="true"/>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

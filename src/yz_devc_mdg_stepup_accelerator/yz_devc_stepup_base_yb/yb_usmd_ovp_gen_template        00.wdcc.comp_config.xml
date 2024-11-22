@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="MDG_BS_GOV_COMMUNICATOR" ConfId="YB_USMD_OVP_GEN_TEMPLATE" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="SETTINGS" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="CR_WIRES" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <CONTENT_AREA Final="5 ">MAIN</CONTENT_AREA>
+       <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+       <SRC_CONFIG_ID>YMD_YB_FORM_UIBB</SRC_CONFIG_ID>
+      </Item>
+     </Node>
+     <Node Name="SEARCH_UIBBS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <SEARCH_PROVIDER>HA</SEARCH_PROVIDER>
+       <SEARCH_HELP>YB_BANK_SEARCH_VIEW</SEARCH_HELP>
+       <SEARCH_UIBB_CONFIG_ID>YB_USMD_SEARCH_DQUERY</SEARCH_UIBB_CONFIG_ID>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

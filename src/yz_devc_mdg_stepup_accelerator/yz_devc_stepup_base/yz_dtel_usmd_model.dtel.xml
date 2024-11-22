@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YZ_DTEL_USMD_MODEL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>YZ_DOMA_USMD_MODEL</DOMNAME>
+    <MEMORYID>YZ_PARAM_MODEL</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Data Model</DDTEXT>
+    <REPTEXT>Model</REPTEXT>
+    <SCRTEXT_S>Model</SCRTEXT_S>
+    <SCRTEXT_M>Data Model</SCRTEXT_M>
+    <SCRTEXT_L>Data Model</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>YZ_SHLP_RULE_REF_MOD</SHLPNAME>
+    <SHLPFIELD>MODEL</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>数据模型</DDTEXT>
+     <REPTEXT>模型</REPTEXT>
+     <SCRTEXT_S>模型</SCRTEXT_S>
+     <SCRTEXT_M>数据模型</SCRTEXT_M>
+     <SCRTEXT_L>数据模型</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>โมเดลข้อมูล</DDTEXT>
+     <REPTEXT>โมเดล</REPTEXT>
+     <SCRTEXT_S>โมเดล</SCRTEXT_S>
+     <SCRTEXT_M>โมเดลข้อมูล</SCRTEXT_M>
+     <SCRTEXT_L>โมเดลข้อมูล</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>데이터 모델</DDTEXT>
+     <REPTEXT>모델</REPTEXT>
+     <SCRTEXT_S>모델</SCRTEXT_S>
+     <SCRTEXT_M>데이터 모델</SCRTEXT_M>
+     <SCRTEXT_L>데이터 모델</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Model de date</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Model de date</SCRTEXT_M>
+     <SCRTEXT_L>Model de date</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Model podatkov</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Model podatkov</SCRTEXT_M>
+     <SCRTEXT_L>Model podatkov</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Model podataka</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Model podataka</SCRTEXT_M>
+     <SCRTEXT_L>Model podataka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Модель даних</DDTEXT>
+     <REPTEXT>Модель</REPTEXT>
+     <SCRTEXT_S>Модель</SCRTEXT_S>
+     <SCRTEXT_M>Модель даних</SCRTEXT_M>
+     <SCRTEXT_L>Модель даних</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Andmemudel</DDTEXT>
+     <REPTEXT>Mudel</REPTEXT>
+     <SCRTEXT_S>Mudel</SCRTEXT_S>
+     <SCRTEXT_M>Andmemudel</SCRTEXT_M>
+     <SCRTEXT_L>Andmemudel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>نموذج البيانات</DDTEXT>
+     <REPTEXT>النموذج</REPTEXT>
+     <SCRTEXT_S>النموذج</SCRTEXT_S>
+     <SCRTEXT_M>نموذج البيانات</SCRTEXT_M>
+     <SCRTEXT_L>نموذج البيانات</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>דגם נתונים</DDTEXT>
+     <REPTEXT>דגם</REPTEXT>
+     <SCRTEXT_S>דגם</SCRTEXT_S>
+     <SCRTEXT_M>דגם נתונים</SCRTEXT_M>
+     <SCRTEXT_L>דגם נתונים</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Datový model</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Datový model</SCRTEXT_M>
+     <SCRTEXT_L>Datový model</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Datenmodell</DDTEXT>
+     <REPTEXT>Modell</REPTEXT>
+     <SCRTEXT_S>Modell</SCRTEXT_S>
+     <SCRTEXT_M>Datenmodell</SCRTEXT_M>
+     <SCRTEXT_L>Datenmodell</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Modèle de données</DDTEXT>
+     <REPTEXT>Modèle</REPTEXT>
+     <SCRTEXT_S>Modèle</SCRTEXT_S>
+     <SCRTEXT_M>Modèle données</SCRTEXT_M>
+     <SCRTEXT_L>Modèle de données</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Μοντέλο Δεδομένων</DDTEXT>
+     <REPTEXT>Μοντέλο</REPTEXT>
+     <SCRTEXT_S>Μοντέλο</SCRTEXT_S>
+     <SCRTEXT_M>Μοντέλ.Δεδομέν.</SCRTEXT_M>
+     <SCRTEXT_L>Μοντέλο Δεδομένων</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Adatmodell</DDTEXT>
+     <REPTEXT>Modell</REPTEXT>
+     <SCRTEXT_S>Modell</SCRTEXT_S>
+     <SCRTEXT_M>Adatmodell</SCRTEXT_M>
+     <SCRTEXT_L>Adatmodell</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Modello dati</DDTEXT>
+     <REPTEXT>Modello</REPTEXT>
+     <SCRTEXT_S>Modello</SCRTEXT_S>
+     <SCRTEXT_M>Modello dati</SCRTEXT_M>
+     <SCRTEXT_L>Modello dati</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>データモデル</DDTEXT>
+     <REPTEXT>モデル</REPTEXT>
+     <SCRTEXT_S>モデル</SCRTEXT_S>
+     <SCRTEXT_M>データモデル</SCRTEXT_M>
+     <SCRTEXT_L>データモデル</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Datamodel</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Datamodel</SCRTEXT_M>
+     <SCRTEXT_L>Datamodel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Model danych</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Model danych</SCRTEXT_M>
+     <SCRTEXT_L>Model danych</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>資料模型</DDTEXT>
+     <REPTEXT>模型</REPTEXT>
+     <SCRTEXT_S>模型</SCRTEXT_S>
+     <SCRTEXT_M>資料模型</SCRTEXT_M>
+     <SCRTEXT_L>資料模型</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Gegevensmodel</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Gegevensmodel</SCRTEXT_M>
+     <SCRTEXT_L>Gegevensmodel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Datamodell</DDTEXT>
+     <REPTEXT>Modell</REPTEXT>
+     <SCRTEXT_S>Modell</SCRTEXT_S>
+     <SCRTEXT_M>Datamodell</SCRTEXT_M>
+     <SCRTEXT_L>Datamodell</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Modelo de dados</DDTEXT>
+     <REPTEXT>Modelo</REPTEXT>
+     <SCRTEXT_S>Modelo</SCRTEXT_S>
+     <SCRTEXT_M>Modelo de dados</SCRTEXT_M>
+     <SCRTEXT_L>Modelo de dados</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Dátový model</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Dátový model</SCRTEXT_M>
+     <SCRTEXT_L>Dátový model</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Модель данных</DDTEXT>
+     <REPTEXT>Модель</REPTEXT>
+     <SCRTEXT_S>Модель</SCRTEXT_S>
+     <SCRTEXT_M>Модель данных</SCRTEXT_M>
+     <SCRTEXT_L>Модель данных</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Modelo de datos</DDTEXT>
+     <REPTEXT>Modelo</REPTEXT>
+     <SCRTEXT_S>Modelo</SCRTEXT_S>
+     <SCRTEXT_M>Modelo de datos</SCRTEXT_M>
+     <SCRTEXT_L>Modelo de datos</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Veri modeli</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Veri modeli</SCRTEXT_M>
+     <SCRTEXT_L>Veri modeli</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Tietomalli</DDTEXT>
+     <REPTEXT>Malli</REPTEXT>
+     <SCRTEXT_S>Malli</SCRTEXT_S>
+     <SCRTEXT_M>Tietomalli</SCRTEXT_M>
+     <SCRTEXT_L>Tietomalli</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Datamodell</DDTEXT>
+     <REPTEXT>Modell</REPTEXT>
+     <SCRTEXT_S>Modell</SCRTEXT_S>
+     <SCRTEXT_M>Datamodell</SCRTEXT_M>
+     <SCRTEXT_L>Datamodell</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Модел на данни</DDTEXT>
+     <REPTEXT>Модел</REPTEXT>
+     <SCRTEXT_S>Модел</SCRTEXT_S>
+     <SCRTEXT_M>Модел на данни</SCRTEXT_M>
+     <SCRTEXT_L>Модел на данни</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Duomenų modelis</DDTEXT>
+     <REPTEXT>Modelis</REPTEXT>
+     <SCRTEXT_S>Modelis</SCRTEXT_S>
+     <SCRTEXT_M>Duomenų modelis</SCRTEXT_M>
+     <SCRTEXT_L>Duomenų modelis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Datu modelis</DDTEXT>
+     <REPTEXT>Modelis</REPTEXT>
+     <SCRTEXT_S>Modelis</SCRTEXT_S>
+     <SCRTEXT_M>Datu modelis</SCRTEXT_M>
+     <SCRTEXT_L>Datu modelis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Model de dades</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Model de dades</SCRTEXT_M>
+     <SCRTEXT_L>Model de dades</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Model podataka</DDTEXT>
+     <REPTEXT>Model</REPTEXT>
+     <SCRTEXT_S>Model</SCRTEXT_S>
+     <SCRTEXT_M>Model podataka</SCRTEXT_M>
+     <SCRTEXT_L>Model podataka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>डेटा मॉडल</DDTEXT>
+     <REPTEXT>मॉडल</REPTEXT>
+     <SCRTEXT_S>मॉडल</SCRTEXT_S>
+     <SCRTEXT_M>डेटा मॉडल</SCRTEXT_M>
+     <SCRTEXT_L>डेटा मॉडल</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Дерек үлгісі</DDTEXT>
+     <REPTEXT>Үлгі</REPTEXT>
+     <SCRTEXT_S>Үлгі</SCRTEXT_S>
+     <SCRTEXT_M>Дерек үлгісі</SCRTEXT_M>
+     <SCRTEXT_L>Дерек үлгісі</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>MH D.liệu</DDTEXT>
+     <REPTEXT>Mô hình</REPTEXT>
+     <SCRTEXT_S>Mô hình</SCRTEXT_S>
+     <SCRTEXT_M>MH D.liệu</SCRTEXT_M>
+     <SCRTEXT_L>MH D.liệu</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

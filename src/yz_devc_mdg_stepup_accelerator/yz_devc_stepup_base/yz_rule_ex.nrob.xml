@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>YZ_RULE_EX</OBJECT>
+    <DTELSOBJ>YZ_DTEL_RULE_SEC</DTELSOBJ>
+    <DOMLEN>CHAR04</DOMLEN>
+    <PERCENTAGE>10.0</PERCENTAGE>
+    <CODE>YZ_TRAN_NR_RULE_EX</CODE>
+    <UNAME>RABHAYANI</UNAME>
+    <UDATE>2023-07-22</UDATE>
+    <UTIME>17:26:03</UTIME>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>E</LANGU>
+    <OBJECT>YZ_RULE_EX</OBJECT>
+    <TXT>ExeIDNumberRange</TXT>
+    <TXTSHORT>ExeIDNumberRange</TXTSHORT>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

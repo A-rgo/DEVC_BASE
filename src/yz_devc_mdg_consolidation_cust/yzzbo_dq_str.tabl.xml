@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>YZZBO_DQ_STR</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>YZTABL_RULE__ACT Key and Attribute Structure</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>MDC_SOURCE_KEY</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Master Data Consolidation: Key of Source Data Table</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>SOURCE_KEY</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZMDC_YZTABL_RULE__ACT_ATTRIBUT</PRECFIELD>
+     <NOTNULL>X</NOTNULL>
+     <MASK>      S</MASK>
+     <DDTEXT>Attributes Of OTC YZ_BO, Table YZTABL_RULE__ACT</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>TABLE_ATTRIBUTES</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZMDC_YZTABL_RULE__ACT_KEY</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Key Attributes Of OTC YZ_BO, Table YZTABL_RULE__ACT</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>ROOT_TABLE_ROOT_KEY</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

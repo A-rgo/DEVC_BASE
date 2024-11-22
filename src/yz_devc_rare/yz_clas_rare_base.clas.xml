@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YZ_CLAS_RARE_BASE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base Class For RARE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>sap_application</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONNECT_SNOW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Using SOAP API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONNECT_SNOW_USING_REST_API</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Using REST API</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SERVICE_REQUEST</CMPNAME>
+     <SCONAME>IV_CALLING_TCODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transaction Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_RARE</CMPNAME>
+     <SCONAME>IV_CALLING_TCODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tcode from which it is called</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <SCONAME>IV_CALLING_TCODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transaction Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_SR</CMPNAME>
+     <SCONAME>IV_CALLING_TCODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transaction Code</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

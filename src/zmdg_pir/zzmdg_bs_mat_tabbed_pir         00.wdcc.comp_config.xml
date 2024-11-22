@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_TABBED_UIBB" ConfId="ZZMDG_BS_MAT_TABBED_PIR" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+   <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+   <Node Name="MASTER_UIBB" SimpleFormat="true"/>
+   <Node Name="PROPERTIES" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <MASTER_WIDTH>100%</MASTER_WIDTH>
+    </Item>
+   </Node>
+   <Node Name="VARIANT" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE19FB6ED0AC18B</FPM_PRIMARY_ATTRIBUTE>
+     <ID>VARIANT_1</ID>
+     <NAME Transl="true">1</NAME>
+     <Node Name="TAB" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE19FB6ED0AE18B</FPM_PRIMARY_ATTRIBUTE>
+       <INDEX>1</INDEX>
+       <ID>TAB_1</ID>
+       <NAME Transl="true">2</NAME>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE19FB6ED0B018B</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <CONFIG_ID>ZZMDG_BS_MAT_PIR_LIST</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE1B30CC13C81AB</FPM_PRIMARY_ATTRIBUTE>
+       <NAME Transl="true">3</NAME>
+       <ID>TAB2</ID>
+       <INDEX>2</INDEX>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE1B30CC13CA1AB</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <CONFIG_ID>ZZMDG_BS_MAT_PIR_ORG</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE1BA8A1218C1AF</FPM_PRIMARY_ATTRIBUTE>
+       <NAME Transl="true">4</NAME>
+       <ID>TAB3</ID>
+       <INDEX>3</INDEX>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_65CA9DF1232B1EDDAAE1BA8A1218E1AF</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <CONFIG_ID>ZZMDG_BS_MAT_PIR_COND</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="WIRE" SimpleFormat="true"/>
+    </Item>
+   </Node>
+   <Node Name="WIRE_PLUG" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true"/>
+   </Node>
+  </Item>
+ </Node>
+</Component>

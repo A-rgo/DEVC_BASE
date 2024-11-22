@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>YZ_INTF_MDG_ACCELERATOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Accl Ineterface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>CP_DYN_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynamic Agent Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>CP_FLP_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Property Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>ET_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Processed Records ( Source IDs )</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>ET_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>IP_APP_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Context Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>IV_DEF_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Rule ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>IV_RULE_SEC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Rule Section</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_BUSINESS_RULES</CMPNAME>
+     <SCONAME>RV_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Result type of Technical rule evaluation in rule engine</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

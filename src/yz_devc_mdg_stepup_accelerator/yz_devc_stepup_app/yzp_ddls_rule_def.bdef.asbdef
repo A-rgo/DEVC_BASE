@@ -1,0 +1,29 @@
+projection;
+strict;
+
+define behavior for YZP_DDLS_RULE_DEF //alias <alias_name>
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _execution { create; }
+}
+
+define behavior for YZP_DDLS_RULE_EXE //alias <alias_name>
+{
+  use update;
+  use delete;
+
+  use association _definition;
+  use association _value { create; }
+}
+
+define behavior for YZP_DDLS_RULE_VAL //alias <alias_name>
+{
+  use update;
+  use delete;
+
+  use association _definition;
+  use association _execution;
+}

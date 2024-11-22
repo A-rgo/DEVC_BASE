@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_LIST_UIBB" ConfId="YZ_FPM_LIST_DT_HIER_ATTR_REF" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="LIST" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_HIER_ATTR_REF_LST</FEEDER>
+     <Node Name="BUTTON_ROW" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="BUTTON_ROW_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <ELEMENT_ID Final="5 ">_GENP_6F84224DD5413111E10000000A428752</ELEMENT_ID>
+         <INDEX>1</INDEX>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE&gt;~Icon/NewItem&lt;/IMAGE_SOURCE&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <TEXT Transl="true">1</TEXT>
+         <TOOLTIP Transl="true">2</TOOLTIP>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID>ADD_HIER_ATTR_REF</EVENT_ID>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_7084224DD5413111E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INDEX>1</INDEX>
+           <TEXT Transl="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <ELEMENT_ID Final="5 ">_GENP_C884224DD5413111E10000000A428752</ELEMENT_ID>
+         <INDEX>2</INDEX>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE&gt;~Icon/Delete&lt;/IMAGE_SOURCE&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <TEXT Transl="true">3</TEXT>
+         <TOOLTIP Transl="true">4</TOOLTIP>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID>DEL_HIER_ATTR_REF</EVENT_ID>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_C984224DD5413111E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INDEX>1</INDEX>
+           <TEXT Transl="true"/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="COLUMN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_9CA6234D4F5A0711E10000000A428752</ELEMENT_ID>
+       <HEADER Transl="true">5</HEADER>
+       <INDEX>1</INDEX>
+       <NAME>RELATION_HRY</NAME>
+       <SPECIAL_PROPERTIES/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <WIDTH/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_262F234DD113F910E10000000A428752</ELEMENT_ID>
+       <HEADER Transl="true">6</HEADER>
+       <INDEX>2</INDEX>
+       <NAME>FR_ENTITY_HRY</NAME>
+       <SPECIAL_PROPERTIES/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <WIDTH/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_9DA6234D4F5A0711E10000000A428752</ELEMENT_ID>
+       <HEADER Transl="true">7</HEADER>
+       <INDEX>3</INDEX>
+       <NAME>ROLLNAME</NAME>
+       <SPECIAL_PROPERTIES/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <WIDTH/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_9EA6234D4F5A0711E10000000A428752</ELEMENT_ID>
+       <HEADER Transl="true">8</HEADER>
+       <INDEX>4</INDEX>
+       <NAME>USMD_SEARCH_HLP</NAME>
+       <SPECIAL_PROPERTIES/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <WIDTH/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <DISPLAY_TYPE>CB</DISPLAY_TYPE>
+       <ELEMENT_ID Final="5 ">_GENP_9FA6234D4F5A0711E10000000A428752</ELEMENT_ID>
+       <HEADER Transl="true">9</HEADER>
+       <INDEX>5</INDEX>
+       <NAME>F_NO_EXIST_CHECK</NAME>
+       <SPECIAL_PROPERTIES/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+       <WIDTH/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="DRAG_DROP" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+     <Node Name="ROW_ACTIONS" SimpleFormat="true"/>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <CHECK_MANDATORY>X</CHECK_MANDATORY>
+       <SEL_EVENT_TYPE>X</SEL_EVENT_TYPE>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

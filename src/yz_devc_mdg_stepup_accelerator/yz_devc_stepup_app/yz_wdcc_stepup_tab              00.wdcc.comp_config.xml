@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_TABBED_UIBB" ConfId="YZ_WDCC_STEPUP_TAB" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+   <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+   <Node Name="MASTER_UIBB" SimpleFormat="true"/>
+   <Node Name="PROPERTIES" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true"/>
+   </Node>
+   <Node Name="VARIANT" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BD76A3B211333B4</FPM_PRIMARY_ATTRIBUTE>
+     <ID>DATAMODEL</ID>
+     <NAME Transl="true">1</NAME>
+     <Node Name="TAB" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BD76A3B211353B4</FPM_PRIMARY_ATTRIBUTE>
+       <INDEX>1</INDEX>
+       <ID>DATAMODEL</ID>
+       <NAME Transl="true">2</NAME>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BD76A3B211373B4</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <CONFIG_ID>YZ_FPM_LIST_DOM_ATS</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BF484931DA445C5</FPM_PRIMARY_ATTRIBUTE>
+       <NAME Transl="true">3</NAME>
+       <ID>TAB2</ID>
+       <INDEX>2</INDEX>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BF484931DA465C5</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <COMPONENT>FPM_SEARCH_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_USMD_SEARCH_DQUERY_YZ</CONFIG_ID>
+         <INTERFACE_VIEW>SEARCH_WINDOW</INTERFACE_VIEW>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BF49C50E470C5E8</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>2</INDEX>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <NEEDS_STRETCHING/>
+         <CONFIG_ID>YZ_USMD_SEARCH_RESULT_YZ</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="WIRE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BF4ACCEE25EC60E</FPM_PRIMARY_ATTRIBUTE>
+       <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+       <CONFIG_ID>YZ_USMD_SEARCH_RESULT_YZ</CONFIG_ID>
+       <CONFIG_TYPE/>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+       <SRC_COMPONENT>FPM_SEARCH_UIBB</SRC_COMPONENT>
+       <SRC_CONFIG_ID>YZ_USMD_SEARCH_DQUERY_YZ</SRC_CONFIG_ID>
+       <SRC_CONFIG_TYPE/>
+       <SRC_CONFIG_VAR/>
+       <SRC_INSTANCE_ID/>
+       <PORT_TYPE>CO</PORT_TYPE>
+       <PORT_IDENTIFIER>STANDARD</PORT_IDENTIFIER>
+       <CONNECTOR>CL_FPM_CONNECTOR_BOL_IDENTITY</CONNECTOR>
+       <DEPENDENCY_PARAM/>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+   <Node Name="WIRE_PLUG" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true"/>
+   </Node>
+  </Item>
+ </Node>
+</Component>

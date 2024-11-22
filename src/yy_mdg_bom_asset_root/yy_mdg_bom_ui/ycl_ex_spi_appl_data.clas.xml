@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_EX_SPI_APPL_DATA</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for BAdI Implementation YMDGM_MAT_SPI_CUSTOM_CHANGE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SP_HANDLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handler Class</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SP_HANDLER</CMPNAME>
+     <SCONAME>EO_SP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service provider for MDG material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SP_HANDLER</CMPNAME>
+     <SCONAME>IO_COLLECTOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Collector Input Interface</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SP_HANDLER</CMPNAME>
+     <SCONAME>IO_METADATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Metadata</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SP_HANDLER</CMPNAME>
+     <SCONAME>IV_NODE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Node Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SP_HANDLER</CMPNAME>
+     <SCONAME>IV_TARGET_NODE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Node Name</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="WDA_MDG_DT_CONF_WORKBENCH" ConfId="YZ_WDCC_STEPUP_APP" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="WDUIGUIDELINE">FIORI_3</Parameter>
+ </Parameters>
+ <Component Name="FPM_OVP_COMPONENT" Usage="WDA_MDG_DT_CONF_WORKBENCH" ConfType="00" ConfId="YZ_WDCC_STEPUP_APP_CC" ConfVar="" Interface="False"/>
+</Application>

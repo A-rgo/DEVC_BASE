@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZGET_RECORDS_SOAP_OUT_GET__TAB</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZGET_RECORDS_SOAP_OUT</OBJ_NAME_M>
+     <HASH_ID>815969153A99C8A4F14D96A7D5FFF6DAC74BFB74</HASH_ID>
+     <ID>TableOf&lt;type&gt; getRecordsResult &lt;element&gt; getRecordsResult &lt;type&gt; getRecordsResponse &lt;message&gt; getRecordsSoapOut http://www.service-now.com/u_inbound_sap_incident_ws http://www.service-now.com/u_inbound_sap_incident_ws</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>getRecordsResult</IFR_NAME>
+     <IFR_NSPCE>http://www.service-now.com/u_inbound_sap_incident_ws</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.service-now.com/u_inbound_sap_incident_ws</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZGET_RECORDS_SOAP_OUT_GET__TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZGET_RECORDS_SOAP_OUT_GET__TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZGET_RECORDS_SOAP_OUT_GET__TAB</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZGET_RECORDS_SOAP_OUT_GET_RECO</OBJ_NAME_R>
+     <ID>TableOf&lt;type&gt; getRecordsResult &lt;element&gt; getRecordsResult &lt;type&gt; getRecordsResponse &lt;message&gt; getRecordsSoapOut http://www.service-now.com/u_inbound_sap_incident_ws http://www.service-now.com/u_inbound_sap_incident_ws</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>getRecordsResult</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZGET_RECORDS_SOAP_OUT_GET__TAB</R3_NAME>
+     <R3_TEXT>Proxy Table Type (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

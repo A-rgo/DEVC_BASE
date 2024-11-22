@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YZ_MSAG_RARE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for RaRe Tool</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>User &amp; has not allowed to take automatic screenshot</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>We are unable to fetch details for tcode &amp; in this current session</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>User &amp; has not maintained the email ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>System language is not similar for the user (&amp;) logon language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Total &amp; dumps found, out of which &amp; were related to user &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Sap version is &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>User &amp; doesnot have authorization for this object.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>PDF downloaded successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No file path provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Validity for user &amp; will expire shortly</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Short Description is mandatory field</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Configuration details of TR not found between &amp; to &amp; date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No data in stack</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No BADI exist for &amp; transaction</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No custom objects changes in last 5 days</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Following custom object changes were made in last 5 days</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>No User Exits implemented for &amp; tcode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>&amp; BADI implementations are found for &amp; tcode.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp; User exits implemented for &amp; tcode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>No Standard objects were modified.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp; standard objects were modified using access key.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp; users are currently logged in the system &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>No users are currently logged in the system &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>No processes are stuck in the inbound queue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>&amp; number of processes are found stuck in the inbound queue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No processes are stuck in the outbound queue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>&amp; number of processes are found stuck in the outbound queue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>We found following AL11 details for directory : &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp; number of items are found stuck in RFC log on &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>No items are found stuck in RFC log on &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>We have following data in the Spool for last two days</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>No data in Spool for last two days</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>No workitem for past two days</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>No data in buffer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>GUI not supported</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>We found &amp; numbers of locked enteries</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>We found &amp; number of Error Enteries for User : &amp; session/s</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>User has allowed to take automatic print screen of error session</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Following custom tables found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>No custom tables found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Error while inserting data into table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>No such category exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Provide tcode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>No File provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>No filepath provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Action cancelled by user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Print screen skipped as the current tcode is RaRe Secure Transaction Code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>YZ_MSAG_RARE</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Email Successfully Sent to &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

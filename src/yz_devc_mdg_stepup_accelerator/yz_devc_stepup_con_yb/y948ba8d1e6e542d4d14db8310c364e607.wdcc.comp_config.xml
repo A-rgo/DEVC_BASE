@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="/UI2/PB_EDM_PAGE_LAYOUT" ConfId="Y948BA8D1E6E542D4D14DB8310C364E6" ConfType="07" ConfVar="" ChangedBy="UI2">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="PAGE" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>X-SAP-UI2-CATALOGPAGE:YB_BNKA_BC</ID>
+     <TITLE Transl="true">9</TITLE>
+     <CATALOG_ID/>
+     <LAYOUT/>
+     <ORIGINAL_LANGUAGE>en</ORIGINAL_LANGUAGE>
+     <IS_CATALOG_PAGE>X</IS_CATALOG_PAGE>
+     <IS_PERS_LOCKED/>
+     <IS_READ_ONLY/>
+     <Node Name="EDM_P_HEADER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+       <VALUE>20231117130844</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GADGET_USAGE" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFDLLQ3GTL5XY</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true">2</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://collections-insight\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#MasterData-Consolidate?otc=YB_BNKA/massUpdate=\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;Consolidate\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;otc=YB_BNKA/massUpdate=\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Custom Bank Consolidation\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231108113436</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFDSKCA5M8PQW</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true">3</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0044\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#MasterData-Export?otc=YB_BNKA&amp;/viewName=MDCExportCreate/worklist=\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;Export\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;otc=YB_BNKA&amp;/viewName=MDCExportCreate/worklist=\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Export Bank Master\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231108123037</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFDSOMSIKR1W8</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true">4</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0365\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#MasterData-MassProcess?otc=YB_BNKA&amp;/massUpdate=X\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;MassProcess\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;otc=YB_BNKA&amp;/massUpdate=X\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Mass Process\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231108123445</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFDTFRXQJD3KO</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true">5</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori5/F0248\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#MasterData-Import?otc=YB_BNKA&amp;/viewName=MDCImportCreate/UUID=\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;Import\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;otc=YB_BNKA&amp;/viewName=MDCImportCreate/UUID=\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Import\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231108124952</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFDTMOLSIKLZS</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true">6</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0016\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#MasterData-ManageSourceData?otc=YB_BNKA&amp;/viewName=MDCSourcesOverview\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;ManageSourceData\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;otc=YB_BNKA&amp;/viewName=MDCSourcesOverview\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Manage Source Data\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231108125210</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFDTPDH98K7DK</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true">7</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;display_icon_url\&quot;:\&quot;sap-icon://Fiori2/F0284\&quot;,\&quot;navigation_use_semantic_object\&quot;:true,\&quot;navigation_target_url\&quot;:\&quot;#MasterData-ManageImport?otc=YB_BNKA&amp;/viewName=MDCImportOverview\&quot;,\&quot;navigation_semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;navigation_semantic_action\&quot;:\&quot;ManageImport\&quot;,\&quot;navigation_semantic_parameters\&quot;:\&quot;otc=YB_BNKA&amp;/viewName=MDCImportOverview\&quot;,\&quot;display_search_keywords\&quot;:\&quot;Manage Import\&quot;}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231108125345</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDFZAFE6P8LVIL</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;semantic_action\&quot;:\&quot;load\&quot;,\&quot;display_title_text\&quot;:\&quot;Target Mapping for Bank\&quot;,\&quot;url\&quot;:\&quot;\&quot;,\&quot;ui5_component\&quot;:\&quot;mdm.cmd.cmpmonprocs1\&quot;,\&quot;navigation_provider\&quot;:\&quot;LPD\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;YB_BNKA_CO\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;TRANSACTIONAL\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;local system\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;\&quot;,\&quot;display_info_text\&quot;:\&quot;Target Mapping for Bank\&quot;,\&quot;mapping_signature\&quot;:\&quot;[YB_BNKA=undefined]&amp;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;YB_BNKA\&quot;:{\&quot;required\&quot;:false},\&quot;\&quot;:{\&quot;required\&quot;:false}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231117130844</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDG0TKB3K66A53</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/STATIC_APPLAUNCHER</GADGET_ID>
+       <TITLE Transl="true"/>
+       <CONFIGURATION/>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID>X-SAP-UI2-CATALOGPAGE:SAP_TC_CMD_CMP_MONPROCS_COMMON</REF_PAGE_ID>
+       <REF_USAGE_ID>6FMR9SFQJTA09GHZ1UM9C9WNC</REF_USAGE_ID>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231115074752</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <USAGE_ID Final="5 ">0WI3KVPLEBRPDG0U44OC4ZVMG</USAGE_ID>
+       <GADGET_ID>X-SAP-UI2-CHIP:/UI2/ACTION</GADGET_ID>
+       <TITLE Transl="true">10</TITLE>
+       <CONFIGURATION>{&quot;tileConfiguration&quot;:&quot;{\&quot;semantic_object\&quot;:\&quot;MasterData\&quot;,\&quot;semantic_action\&quot;:\&quot;export\&quot;,\&quot;display_title_text\&quot;:\&quot;Download active data for mass processing\&quot;,\&quot;url\&quot;:\&quot;/sap/bc/ui5_ui5/sap/md_cmpexpfiles1\&quot;,\&quot;ui5_component\&quot;:\&quot;mdm.cmd.cmpexportfiles1\&quot;,\&quot;navigation_provider\&quot;:\&quot;SAPUI5\&quot;,\&quot;navigation_provider_role\&quot;:\&quot;\&quot;,\&quot;navigation_provider_instance\&quot;:\&quot;\&quot;,\&quot;target_application_id\&quot;:\&quot;\&quot;,\&quot;target_application_alias\&quot;:\&quot;\&quot;,\&quot;transaction\&quot;:{\&quot;code\&quot;:\&quot;F3251\&quot;},\&quot;web_dynpro\&quot;:{\&quot;application\&quot;:\&quot;\&quot;,\&quot;configuration\&quot;:\&quot;\&quot;},\&quot;target_system_alias\&quot;:\&quot;\&quot;,\&quot;display_info_text\&quot;:\&quot;Target mapping for Data Export app.\&quot;,\&quot;form_factors\&quot;:{\&quot;manual\&quot;:{\&quot;desktop\&quot;:true,\&quot;tablet\&quot;:true,\&quot;phone\&quot;:false}},\&quot;mapping_signature\&quot;:\&quot;[sap-ach=CA-MDG-CMP-FIO]&amp;[sap-fiori-id=F3251]&amp;*=*\&quot;,\&quot;signature\&quot;:{\&quot;parameters\&quot;:{\&quot;sap-ach\&quot;:{\&quot;required\&quot;:false,\&quot;defaultValue\&quot;:{\&quot;value\&quot;:\&quot;CA-MDG-CMP-FIO\&quot;}},\&quot;sap-fiori-id\&quot;:{\&quot;required\&quot;:false,\&quot;defaultValue\&quot;:{\&quot;value\&quot;:\&quot;F3251\&quot;}}},\&quot;additional_parameters\&quot;:\&quot;allowed\&quot;}}&quot;}</CONFIGURATION>
+       <LAYOUT_DATA/>
+       <REMOTE_CATALOG_ID/>
+       <REF_PAGE_ID/>
+       <REF_USAGE_ID/>
+       <IS_READ_ONLY/>
+       <Node Name="EDM_GU_HEADER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">CONF_TIMESTAMP</NAME>
+         <VALUE>20231115075932</VALUE>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

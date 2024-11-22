@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>MDG: Business Partner - Field Modificati</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMDG_BS_BP_FMODTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMDG_BS_BP_FMOD</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMDGB_BUPA_EVENT_FMOD1_MDG003</FUNCNAME>
+     <SHORT_TEXT>Event FMOD1: Special Field control for MDGB</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <DBSTRUCT>BUS0FLDLST_2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CBP: Field status definition(s) for field grouping</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMDGB_BUPR_EVENT_FMOD1_MDG001</FUNCNAME>
+     <SHORT_TEXT>Event FMOD1: Special Field control of BP relationships for MDG</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <DBSTRUCT>BUS0FLDLST_2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CBP: Field status definition(s) for field grouping</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMDGC_BUPA_EVENT_FMOD1_MDG002</FUNCNAME>
+     <SHORT_TEXT>Event FMOD1: Special Field control for MDGC</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <DBSTRUCT>BUS0FLDLST_2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CBP: Field status definition(s) for field grouping</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMDGS_BUPA_EVENT_FMOD1_MDG001</FUNCNAME>
+     <SHORT_TEXT>Event FMOD1: Special Field control for MDGS</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <DBSTRUCT>BUS0FLDLST_2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_FELDSTLST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CBP: Field status definition(s) for field grouping</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

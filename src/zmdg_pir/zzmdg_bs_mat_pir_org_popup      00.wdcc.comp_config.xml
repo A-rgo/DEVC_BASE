@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_LIST_UIBB_ATS" ConfId="ZZMDG_BS_MAT_PIR_ORG_POPUP" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="LIST" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>ZZMDG_CL_FEEDER_PIR_ORG_POPUP</FEEDER>
+     <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+     <Node Name="COLUMN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADC194A31F31909</ELEMENT_ID>
+       <NAME>LIFNR</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>1</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADC194A31F33909</ELEMENT_ID>
+       <NAME>EKORG</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>2</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADC194A31F35909</ELEMENT_ID>
+       <NAME>WERKS</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>3</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADC194A31F37909</ELEMENT_ID>
+       <NAME>ESOKZ</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>4</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_65CA9DF1232B1EEDAADC194A31F39909</ELEMENT_ID>
+       <NAME>ESOKZ_TXT</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>5</INDEX>
+       <HEADER Transl="true"/>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TAG/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY/>
+       <FIXED>01</FIXED>
+       <TOOLTIP_HEADER Transl="true"/>
+       <CTXT_MENU_ID/>
+       <INSTANCE_STYLE/>
+       <HEADER_INSTANCE_STYLE/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <MULTI_EDITOR_ID/>
+       <MULTI_EDITOR_NEW_LINE/>
+       <EXPLANATION_TEXT_HEADER Transl="true"/>
+       <Node Name="COLUMN_ACTION" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="DRAG_DROP" SimpleFormat="true"/>
+     <Node Name="HEADER_GROUPING" SimpleFormat="true"/>
+     <Node Name="MULTI_EDITOR" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+     <Node Name="ROW_ACTIONS" SimpleFormat="true"/>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ALLOW_SORTING>02</ALLOW_SORTING>
+       <ALLOW_FILTERING>02</ALLOW_FILTERING>
+       <EXPORT_FORMAT>XLSX</EXPORT_FORMAT>
+       <SELECTION_MODE_ATS>04</SELECTION_MODE_ATS>
+       <SEL_EVENT_TYPE>X</SEL_EVENT_TYPE>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

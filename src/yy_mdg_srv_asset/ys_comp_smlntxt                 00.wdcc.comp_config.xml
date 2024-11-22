@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_COMPOSITE_UIBB" ConfId="YS_COMP_SMLNTXT" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="APP_SPECIFIC_CC" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true"/>
+   </Node>
+   <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+   <Node Name="PROPERTIES" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <LAYOUT_TYPE>11</LAYOUT_TYPE>
+    </Item>
+   </Node>
+   <Node Name="UIBB" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_73B6EE610BAE1EDFA9E11B6EB8F5499F</FPM_PRIMARY_ATTRIBUTE>
+     <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+     <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+     <CONFIG_ID>YS_LIST_LONGTEXTS</CONFIG_ID>
+     <CONFIG_TYPE/>
+     <CONFIG_VAR/>
+     <INDEX>1</INDEX>
+     <INSTANCE_ID/>
+     <NEEDS_STRETCHING/>
+     <ROW>1</ROW>
+     <COLUMN>1</COLUMN>
+     <WIDTH>1</WIDTH>
+     <HEIGHT>1</HEIGHT>
+    </Item>
+    <Item Index="000002" SimpleFormat="true">
+     <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_73B6EE610BAE1EDFA9E146B4DFFACAE5</FPM_PRIMARY_ATTRIBUTE>
+     <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+     <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+     <CONFIG_ID>YS_FORM_LONGTEXT</CONFIG_ID>
+     <CONFIG_TYPE/>
+     <CONFIG_VAR/>
+     <INDEX>2</INDEX>
+     <INSTANCE_ID/>
+     <NEEDS_STRETCHING/>
+     <ROW>1</ROW>
+     <COLUMN>2</COLUMN>
+     <WIDTH>1</WIDTH>
+     <HEIGHT>1</HEIGHT>
+    </Item>
+   </Node>
+   <Node Name="WIRE_PLUG" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="WIRE" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

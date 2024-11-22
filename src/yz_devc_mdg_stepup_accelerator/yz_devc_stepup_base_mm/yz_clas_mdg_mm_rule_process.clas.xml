@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YZ_CLAS_MDG_MM_RULE_PROCESS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Material Master Rule Processor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_RULE_PROCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Rule Process Instance</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_RULE_VALIDATION1</CMPNAME>
+     <SCONAME>ET_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_RULE_VALIDATION1</CMPNAME>
+     <SCONAME>IS_RULE_EXE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Rule Implementation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_RULE_VALIDATION1</CMPNAME>
+     <SCONAME>RV_BOOLEAN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X = True, - = False, Space = Unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RULE_PROCESS</CMPNAME>
+     <SCONAME>RO_RULE_PROCESS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MDG Rule Process Interface</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

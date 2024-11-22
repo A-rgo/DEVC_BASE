@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YZ_DTEL_ROW_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>YZ_DOMA_ROW_ID</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Decision table row ID</DDTEXT>
+    <REPTEXT>Decision table row ID</REPTEXT>
+    <SCRTEXT_S>Row ID</SCRTEXT_S>
+    <SCRTEXT_M>Row ID</SCRTEXT_M>
+    <SCRTEXT_L>Decision table row ID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>决策表行标识</DDTEXT>
+     <REPTEXT>决策表行标识</REPTEXT>
+     <SCRTEXT_S>行标识</SCRTEXT_S>
+     <SCRTEXT_M>行标识</SCRTEXT_M>
+     <SCRTEXT_L>决策表行标识</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ID แถวของตารางการตัดสินใจ</DDTEXT>
+     <REPTEXT>ID แถวของตารางการตัดสินใจ</REPTEXT>
+     <SCRTEXT_S>ID แถว</SCRTEXT_S>
+     <SCRTEXT_M>ID แถว</SCRTEXT_M>
+     <SCRTEXT_L>ID แถวของตารางการตัดสินใจ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>결정 테이블 행 ID</DDTEXT>
+     <REPTEXT>결정 테이블 행 ID</REPTEXT>
+     <SCRTEXT_S>행 ID</SCRTEXT_S>
+     <SCRTEXT_M>행 ID</SCRTEXT_M>
+     <SCRTEXT_L>결정 테이블 행 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>ID linie tabel de decizii</DDTEXT>
+     <REPTEXT>ID linie tabel de decizii</REPTEXT>
+     <SCRTEXT_S>ID linie</SCRTEXT_S>
+     <SCRTEXT_M>ID linie</SCRTEXT_M>
+     <SCRTEXT_L>ID linie tabel de decizii</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>ID vrstice odločitvene tabele</DDTEXT>
+     <REPTEXT>ID vrstice odločitvene tabele</REPTEXT>
+     <SCRTEXT_S>ID vrstice</SCRTEXT_S>
+     <SCRTEXT_M>ID vrstice</SCRTEXT_M>
+     <SCRTEXT_L>ID vrstice odločitvene tabele</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>ID reda tabele odluka</DDTEXT>
+     <REPTEXT>ID reda tabele odluka</REPTEXT>
+     <SCRTEXT_S>ID reda</SCRTEXT_S>
+     <SCRTEXT_M>ID reda</SCRTEXT_M>
+     <SCRTEXT_L>ID reda tabele odluka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>ІД рядка таблиці рішень</DDTEXT>
+     <REPTEXT>ІД рядка таблиці рішень</REPTEXT>
+     <SCRTEXT_S>ІД рядка</SCRTEXT_S>
+     <SCRTEXT_M>ІД рядка</SCRTEXT_M>
+     <SCRTEXT_L>ІД рядка таблиці рішень</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Otsusetabeli rea ID</DDTEXT>
+     <REPTEXT>Otsusetabeli rea ID</REPTEXT>
+     <SCRTEXT_S>Rea ID</SCRTEXT_S>
+     <SCRTEXT_M>Rea ID</SCRTEXT_M>
+     <SCRTEXT_L>Otsusetabeli rea ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>معرف صف جدول القرارات</DDTEXT>
+     <REPTEXT>معرف صف جدول القرارات</REPTEXT>
+     <SCRTEXT_S>معرف الصف</SCRTEXT_S>
+     <SCRTEXT_M>معرف الصف</SCRTEXT_M>
+     <SCRTEXT_L>معرف صف جدول القرارات</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>זיהוי שורה בטבלת החלטות</DDTEXT>
+     <REPTEXT>זיהוי שורה בטבלת החלטות</REPTEXT>
+     <SCRTEXT_S>זיהוי שורה</SCRTEXT_S>
+     <SCRTEXT_M>זיהוי שורה</SCRTEXT_M>
+     <SCRTEXT_L>זיהוי שורה בטבלת החלטות</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>ID řádky rozhodovací tabulky</DDTEXT>
+     <REPTEXT>ID řádky rozhodovací tabulky</REPTEXT>
+     <SCRTEXT_S>ID řádky</SCRTEXT_S>
+     <SCRTEXT_M>ID řádky</SCRTEXT_M>
+     <SCRTEXT_L>ID řádky rozhodovací tabulky</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zeilen-ID der Entscheidungstabelle</DDTEXT>
+     <REPTEXT>Zeilen-ID Entscheidungstabelle</REPTEXT>
+     <SCRTEXT_S>Zeilen-ID</SCRTEXT_S>
+     <SCRTEXT_M>Zeilen-ID</SCRTEXT_M>
+     <SCRTEXT_L>Zeilen-ID Entscheidungstabelle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID ligne de la table de décisions</DDTEXT>
+     <REPTEXT>ID ligne table de décision</REPTEXT>
+     <SCRTEXT_S>ID ligne</SCRTEXT_S>
+     <SCRTEXT_M>ID ligne</SCRTEXT_M>
+     <SCRTEXT_L>ID ligne table de décision</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>ID σειράς πίνακα απόφασης</DDTEXT>
+     <REPTEXT>ID σειράς πίνακα απόφασης</REPTEXT>
+     <SCRTEXT_S>ID σειράς</SCRTEXT_S>
+     <SCRTEXT_M>ID σειράς</SCRTEXT_M>
+     <SCRTEXT_L>ID σειράς πίνακα απόφασης</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Döntéstábla sorazonosítója</DDTEXT>
+     <REPTEXT>Döntéstábla sorazonosítója</REPTEXT>
+     <SCRTEXT_S>Sor-ID</SCRTEXT_S>
+     <SCRTEXT_M>Sorazonosító</SCRTEXT_M>
+     <SCRTEXT_L>Döntéstábla sorazonosítója</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>ID riga della tabella decisioni</DDTEXT>
+     <REPTEXT>ID riga tabella decisioni</REPTEXT>
+     <SCRTEXT_S>ID riga</SCRTEXT_S>
+     <SCRTEXT_M>ID riga</SCRTEXT_M>
+     <SCRTEXT_L>ID riga tabella decisioni</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>デシジョンテーブルの行 ID</DDTEXT>
+     <REPTEXT>デシジョンテーブルの行 ID</REPTEXT>
+     <SCRTEXT_S>行 ID</SCRTEXT_S>
+     <SCRTEXT_M>行 ID</SCRTEXT_M>
+     <SCRTEXT_L>デシジョンテーブルの行 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Række-ID for beslutningstabel</DDTEXT>
+     <REPTEXT>Række-ID beslutningstabel</REPTEXT>
+     <SCRTEXT_S>Linie-ID</SCRTEXT_S>
+     <SCRTEXT_M>Linie-ID</SCRTEXT_M>
+     <SCRTEXT_L>Række-ID beslutningstabel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>ID linii tabeli decyzji</DDTEXT>
+     <REPTEXT>ID linii tabeli decyzji</REPTEXT>
+     <SCRTEXT_S>ID linii</SCRTEXT_S>
+     <SCRTEXT_M>ID linii</SCRTEXT_M>
+     <SCRTEXT_L>ID linii tabeli decyzji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>決定表格列 ID</DDTEXT>
+     <REPTEXT>決定表格列 ID</REPTEXT>
+     <SCRTEXT_S>列 ID</SCRTEXT_S>
+     <SCRTEXT_M>列 ID</SCRTEXT_M>
+     <SCRTEXT_L>決定表格列 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Regel-ID van beslissingstabel</DDTEXT>
+     <REPTEXT>Regel-ID beslissingstabel</REPTEXT>
+     <SCRTEXT_S>Regel-ID</SCRTEXT_S>
+     <SCRTEXT_M>Regel-ID</SCRTEXT_M>
+     <SCRTEXT_L>Regel-ID beslissingstabel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Rad-ID for beslutningstabell</DDTEXT>
+     <REPTEXT>Rad-ID beslutningstabell</REPTEXT>
+     <SCRTEXT_S>Rad-ID</SCRTEXT_S>
+     <SCRTEXT_M>Rad-ID</SCRTEXT_M>
+     <SCRTEXT_L>Rad-ID beslutningstabell</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID de linha da tabela de decisões</DDTEXT>
+     <REPTEXT>ID de linha tabela de decisões</REPTEXT>
+     <SCRTEXT_S>ID linha</SCRTEXT_S>
+     <SCRTEXT_M>ID linha</SCRTEXT_M>
+     <SCRTEXT_L>ID de linha tabela de decisões</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>ID riadka rozhodovacej tabuľky</DDTEXT>
+     <REPTEXT>ID riadka rozhodovacej tabuľky</REPTEXT>
+     <SCRTEXT_S>ID riadka</SCRTEXT_S>
+     <SCRTEXT_M>ID riadka</SCRTEXT_M>
+     <SCRTEXT_L>ID riadka rozhodovacej tabuľky</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Ид. строки таблицы решений</DDTEXT>
+     <REPTEXT>Ид. строки таблицы решений</REPTEXT>
+     <SCRTEXT_S>Ид. строки</SCRTEXT_S>
+     <SCRTEXT_M>Ид. строки</SCRTEXT_M>
+     <SCRTEXT_L>Ид. строки таблицы решений</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID de línea de la tabla de decisiones</DDTEXT>
+     <REPTEXT>ID línea tabla de decisiones</REPTEXT>
+     <SCRTEXT_S>ID línea</SCRTEXT_S>
+     <SCRTEXT_M>ID de línea</SCRTEXT_M>
+     <SCRTEXT_L>ID línea tabla de decisiones</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Karar tablosu satır tanıtıcısı</DDTEXT>
+     <REPTEXT>Karar tablosu satır tanıtıcısı</REPTEXT>
+     <SCRTEXT_S>Satır tn.</SCRTEXT_S>
+     <SCRTEXT_M>Satır tn.</SCRTEXT_M>
+     <SCRTEXT_L>Karar tablosu satır tanıtıcısı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Päätöstaulun rivitunnus</DDTEXT>
+     <REPTEXT>Päätöstaulun rivitunnus</REPTEXT>
+     <SCRTEXT_S>Rivitunnus</SCRTEXT_S>
+     <SCRTEXT_M>Rivitunnus</SCRTEXT_M>
+     <SCRTEXT_L>Päätöstaulun rivitunnus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Rad-ID för beslutstabell</DDTEXT>
+     <REPTEXT>Rad-ID för beslutstabell</REPTEXT>
+     <SCRTEXT_S>Rad-ID</SCRTEXT_S>
+     <SCRTEXT_M>Rad-ID</SCRTEXT_M>
+     <SCRTEXT_L>Rad-ID för beslutstabell</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>ИД на ред от таблица на решения</DDTEXT>
+     <REPTEXT>ИД ред от таблица решения</REPTEXT>
+     <SCRTEXT_S>ИД ред</SCRTEXT_S>
+     <SCRTEXT_M>ИД ред</SCRTEXT_M>
+     <SCRTEXT_L>ИД ред от таблица решения</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Sprendimo lentelės eilutės ID</DDTEXT>
+     <REPTEXT>Sprendimo lentelės eilutės ID</REPTEXT>
+     <SCRTEXT_S>Eilutės ID</SCRTEXT_S>
+     <SCRTEXT_M>Eilutės ID</SCRTEXT_M>
+     <SCRTEXT_L>Sprendimo lentelės eilutės ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Lēmumu tabulas rindas ID</DDTEXT>
+     <REPTEXT>Lēmumu tabulas rindas ID</REPTEXT>
+     <SCRTEXT_S>Rindas ID</SCRTEXT_S>
+     <SCRTEXT_M>Rindas ID</SCRTEXT_M>
+     <SCRTEXT_L>Lēmumu tabulas rindas ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>ID de línia de la taula de decisions</DDTEXT>
+     <REPTEXT>ID línia de taula decisions</REPTEXT>
+     <SCRTEXT_S>ID línia</SCRTEXT_S>
+     <SCRTEXT_M>ID de línia</SCRTEXT_M>
+     <SCRTEXT_L>ID línia de taula decisions</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>ID reda tabele odluka</DDTEXT>
+     <REPTEXT>ID reda tabele odluka</REPTEXT>
+     <SCRTEXT_S>ID reda</SCRTEXT_S>
+     <SCRTEXT_M>ID reda</SCRTEXT_M>
+     <SCRTEXT_L>ID reda tabele odluka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>निर्णय तालिका पंक्ति ID</DDTEXT>
+     <REPTEXT>निर्णय तालिका पंक्ति ID</REPTEXT>
+     <SCRTEXT_S>पंक्ति ID</SCRTEXT_S>
+     <SCRTEXT_M>पंक्ति ID</SCRTEXT_M>
+     <SCRTEXT_L>निर्णय तालिका पंक्ति ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Шешімдер кестесіндегі қатар ид.</DDTEXT>
+     <REPTEXT>Шешім-р кестесіндегі қатар ид.</REPTEXT>
+     <SCRTEXT_S>Қатар ид.</SCRTEXT_S>
+     <SCRTEXT_M>Қатар идентификаторы</SCRTEXT_M>
+     <SCRTEXT_L>Шешім-р кестесіндегі қатар ид.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>ID hàng bảng quyết định</DDTEXT>
+     <REPTEXT>ID hàng bảng quyết định</REPTEXT>
+     <SCRTEXT_S>Mã hàng</SCRTEXT_S>
+     <SCRTEXT_M>Mã hàng</SCRTEXT_M>
+     <SCRTEXT_L>ID hàng bảng quyết định</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

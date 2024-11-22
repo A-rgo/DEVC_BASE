@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_VIZFRAME_UIBB" ConfId="YZ_CHART_S_YZP_DDLS_RULE_VAL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="VIZFRAME" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_FPM_SADL_CHART</FEEDER>
+     <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+     <Node Name="ELEMENT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A62457D7BF</ELEMENT_ID>
+       <NAME>MODEL</NAME>
+       <DATA_TYPE>01</DATA_TYPE>
+       <TEXT Transl="true"/>
+       <INDEX>1</INDEX>
+       <AXIS_INDEX>1</AXIS_INDEX>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A62457F7BF</ELEMENT_ID>
+       <NAME>RULE_TYPE</NAME>
+       <DATA_TYPE>01</DATA_TYPE>
+       <TEXT Transl="true"/>
+       <INDEX>1</INDEX>
+       <AXIS_INDEX>2</AXIS_INDEX>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A6245817BF</ELEMENT_ID>
+       <NAME>FPM_SADL_CHART_COUNT</NAME>
+       <DATA_TYPE/>
+       <TEXT Transl="true"/>
+       <INDEX>1</INDEX>
+       <AXIS_INDEX>1</AXIS_INDEX>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_TYPE</NAME>
+       <VALUE>CDS</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_ID</NAME>
+       <VALUE>YZP_DDLS_RULE_VAL</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">SADL_JOIN_TREE</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_DEFINITION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_DEFINITION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_DEF&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_D&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_EXECUTION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_EXECUTION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_EXE&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_E&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+     </Node>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TYPE>003</TYPE>
+       <WIDTH/>
+       <HEIGHT>400px</HEIGHT>
+       <PERSONALIZATION_ENABLED>Y</PERSONALIZATION_ENABLED>
+       <HAS_MAX_MIN_BUTTON/>
+       <EXPORT_ENABLED>Y</EXPORT_ENABLED>
+       <Node Name="NO_DATA" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true"/>
+       </Node>
+       <Node Name="PROPERTIES" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A6245837BF</ELEMENT_ID>
+         <PATH>interaction.selectability.mode</PATH>
+         <VALUE>none</VALUE>
+         <TEXT Transl="true"/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E6A6245857BF</ELEMENT_ID>
+         <PATH>title.visible</PATH>
+         <VALUE/>
+         <TEXT Transl="true"/>
+        </Item>
+       </Node>
+       <Node Name="FEEDS" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_FA163E8D39F61EE885C1D2FB5AAA4187</ELEMENT_ID>
+         <NAME>color</NAME>
+         <Node Name="FEEDPROPERTIES" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">_GENP_FA163E8D39F61EE885C1DC5AAB4A418F</ELEMENT_ID>
+           <NAME>palette</NAME>
+           <VALUE>[]</VALUE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

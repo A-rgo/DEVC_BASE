@@ -1,0 +1,1356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="YZ_WDCC_STEPUP_APP_CC" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <TITLE Transl="true"/>
+     <PERSONALIZATION_ENABLED>X</PERSONALIZATION_ENABLED>
+     <HELP_ENABLED>X</HELP_ENABLED>
+     <PRINT_ENABLED/>
+     <PAGE_SELECTOR_ENABLED>X</PAGE_SELECTOR_ENABLED>
+     <COLLAPSED_UIBB_PROC_MODE/>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FPM_EDIT_2</ID>
+       <EVENT_ID>FPM_EDIT</EVENT_ID>
+       <ACTION_TYPE>1</ACTION_TYPE>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">FPM_SAVE_2</ID>
+       <EVENT_ID>FPM_SAVE</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 "/>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">FPM_CANCEL_2</ID>
+       <EVENT_ID>FPM_CANCEL</EVENT_ID>
+       <ACTION_TYPE>1</ACTION_TYPE>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_4</ID>
+       <EVENT_ID>NEW_DM</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">IV_FRM_INITIAL_PAGE</NAME>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_5</ID>
+       <EVENT_ID>DEL_DM</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_6</ID>
+       <EVENT_ID>FPM_OPEN_DIALOG</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">DIALOG_BOX_ID</NAME>
+         <VALUE>COPY_DATA_MODEL</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_7</ID>
+       <EVENT_ID>CHECK</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_8</ID>
+       <EVENT_ID>ACTIVATE</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 "/>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_9</ID>
+       <EVENT_ID>FPM_OPEN_DIALOG</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">DIALOG_BOX_ID</NAME>
+         <VALUE>REUSE_AREA</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_1</ID>
+       <EVENT_ID>SAVE_AND_BACK</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 "/>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_2</ID>
+       <EVENT_ID>VIEW_LOG</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 "/>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ID Final="5 ">ELEMENT_ID_3</ID>
+       <EVENT_ID>DM_CANCEL</EVENT_ID>
+       <ACTION_TYPE>1</ACTION_TYPE>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 "/>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_1</ID>
+       <EVENT_ID>FPM_OPEN_DIALOG</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 ">DIALOG_BOX_ID</NAME>
+         <VALUE>ADJUST_STAGING</VALUE>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_2</ID>
+       <EVENT_ID>TESTBF</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME Final="5 "/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+       <MAXIMUM_MESSAGES_SIZE>5</MAXIMUM_MESSAGES_SIZE>
+       <SHOW_MESSAGE_LOG>X</SHOW_MESSAGE_LOG>
+       <FPM_MESSAGE_AREA_DESIGN>0</FPM_MESSAGE_AREA_DESIGN>
+       <FPM_MESSAGE_AREA_DISPLAY>0</FPM_MESSAGE_AREA_DISPLAY>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <COMPONENT>WDC_MDG_DT_SHARE</COMPONENT>
+       <CONFIG_ID/>
+       <CONFIG_TYPE>00</CONFIG_TYPE>
+       <CONFIG_VAR/>
+       <INSTANCE_ID/>
+      </Item>
+     </Node>
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID>BCSET_REQ</ID>
+       <TYPE>DIAL</TYPE>
+       <TITLE Transl="true">13</TITLE>
+       <DEFAULT>X</DEFAULT>
+       <EXPLANATION_TEXT Transl="true">14</EXPLANATION_TEXT>
+       <EXPLANATION_DOCUMENT/>
+       <DLG_NAME>BC set  Request Manager</DLG_NAME>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <ACTION_TYPE_PERS_DIALOG>0</ACTION_TYPE_PERS_DIALOG>
+       <ACTION_TYPE_DRAG_DROP_AB>0</ACTION_TYPE_DRAG_DROP_AB>
+       <ACTION_TYPE_CLOSE>1</ACTION_TYPE_CLOSE>
+       <PERSONALIZATION_ENABLED>X</PERSONALIZATION_ENABLED>
+       <DLG_TEXT_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CANCEL_BUTTON Transl="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID>SECTION_1</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID>COLUMN_ID_1</COLUMN_ID>
+           <STACKED/>
+           <ROWS>0</ROWS>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6EFCD94C327F933DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_FPM_FRM_BC_SET_DET</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_IN_STACK/>
+           <DEFAULT_EDIT_PAGE/>
+           <PADDING/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">SAVE_CONF</ID>
+       <TYPE>DIAL</TYPE>
+       <TITLE Transl="true">19</TITLE>
+       <DEFAULT/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <DLG_NAME>SAVE_CONF</DLG_NAME>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true">60</DLG_TOOLTIP_FOR_OK_BUTTON>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <ACTION_TYPE_PERS_DIALOG/>
+       <ACTION_TYPE_DRAG_DROP_AB/>
+       <ACTION_TYPE_CLOSE>1</ACTION_TYPE_CLOSE>
+       <PERSONALIZATION_ENABLED>X</PERSONALIZATION_ENABLED>
+       <DLG_TEXT_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CANCEL_BUTTON Transl="true"/>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED/>
+           <ROWS/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_FPM_FORM_SAVE_CONF_DT</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_5D87AE4CE0FE0B26E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_IN_STACK/>
+           <DEFAULT_EDIT_PAGE/>
+           <INSTANCE_ID/>
+           <PADDING/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">REUSE_AREA</ID>
+       <TYPE>DIAL</TYPE>
+       <TITLE Transl="true">26</TITLE>
+       <DEFAULT/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <DLG_NAME>REUSE_AREA</DLG_NAME>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <DLG_TEXT_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_WIDTH/>
+       <DLG_HEIGHT/>
+       <ACTION_TYPE_PERS_DIALOG/>
+       <ACTION_TYPE_DRAG_DROP_AB/>
+       <ACTION_TYPE_CLOSE>1</ACTION_TYPE_CLOSE>
+       <PERSONALIZATION_ENABLED>X</PERSONALIZATION_ENABLED>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+           <STACKED/>
+           <ROWS/>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_A232D64CEF54051FE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_FPM_LST_REUSE_AREA</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_IN_STACK/>
+           <DEFAULT_EDIT_PAGE/>
+           <PADDING/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID Final="5 ">COPY_DATA_MODEL</ID>
+       <TITLE Transl="true">29</TITLE>
+       <TYPE>DIAL</TYPE>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_A1B1E94C6079D150E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_FRM_DT_DM_COPY</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID Final="5 ">FOREIGN_KEY_OUT</ID>
+       <TITLE Transl="true">35</TITLE>
+       <TYPE>DIAL</TYPE>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <DLG_NAME>Fields of Foreign Key Relationships</DLG_NAME>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_3ECB164D07E1082DE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_FRM_DT_FOR_KEY_OUT</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4607164D5EE1C04BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_LST_DT_FOR_KEY_OUT</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ID Final="5 ">FOREIGN_KEY_IN</ID>
+       <TITLE Transl="true">36</TITLE>
+       <TYPE>DIAL</TYPE>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <DLG_NAME>Foreign Key Relationships</DLG_NAME>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9D3D164D5C9F8C5DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_FRM_DT_FOR_KEY_IN</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_AEA9184DBCA1885DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_LST_DT_FOR_KEY_IN</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ID Final="5 ">HIER_ATTR</ID>
+       <TITLE Transl="true">37</TITLE>
+       <TYPE>DIAL</TYPE>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9176224D11334611E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_LIST_DT_HIER_ATTR</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ID Final="5 ">HIER_ATTR_REF</ID>
+       <TITLE Transl="true">38</TITLE>
+       <TYPE>DIAL</TYPE>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_5836224DE0313711E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <CONFIG_ID>YZ_FPM_LIST_DT_HIER_ATTR_REF</CONFIG_ID>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ID Final="5 ">CONF_WORKBENCH</ID>
+       <TITLE Transl="true">40</TITLE>
+       <TYPE>INIT</TYPE>
+       <PERSONALIZATION_ENABLED/>
+       <DEFAULT>X</DEFAULT>
+       <EXPLANATION_DOCUMENT/>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9F09E84A44401EEE8BD7B9DCBF88143E</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_TABBED_UIBB</COMPONENT>
+           <INTERFACE_VIEW>TABBED_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_WDCC_STEPUP_TAB</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <INDEX>1</INDEX>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE>T</TYPE>
+           <TITLE Transl="true">62</TITLE>
+           <TOOLTIP Transl="true"/>
+           <IMAGE/>
+           <PADDING/>
+           <INSTANCE_STYLE/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_DETAILS_PAGE/>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <LOCATION>1</LOCATION>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <INSTANCE_STYLE/>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ID Final="5 ">DATAMODEL</ID>
+       <TITLE Transl="true">41</TITLE>
+       <PERSONALIZATION_ENABLED/>
+       <DEFAULT>X</DEFAULT>
+       <EXPLANATION_DOCUMENT>MDG_DATA_MODEL</EXPLANATION_DOCUMENT>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_719A304D8F06E710E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE>T</TYPE>
+           <CONFIG_ID>YZ_FPM_FORM_DATA_MOD_DET</CONFIG_ID>
+           <TITLE Transl="true">52</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_2F6C304D638D9C5DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>TABBED_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_TABBED_UIBB</COMPONENT>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE>T</TYPE>
+           <TITLE Transl="true">53</TITLE>
+           <CONFIG_ID>YZ_FPM_TAB_DATA_MODEL</CONFIG_ID>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_SAVE_AND_BACK</ELEMENT_ID>
+           <TEXT Transl="true">42</TEXT>
+           <INDEX>1</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/SaveAndBack</IMAGE>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_1</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_SAVE_2</ELEMENT_ID>
+           <TEXT Transl="true">54</TEXT>
+           <IMAGE>~Icon/Save</IMAGE>
+           <INDEX>2</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_SAVE_2</ACTION_ID>
+             <HOTKEY>29</HOTKEY>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_CANCEL_2</ELEMENT_ID>
+           <TEXT Transl="true">45</TEXT>
+           <IMAGE/>
+           <INDEX>3</INDEX>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_CANCEL_2</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000004" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_CANCEL</ELEMENT_ID>
+           <TEXT Transl="true">56</TEXT>
+           <INDEX>4</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/Cancel</IMAGE>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_3</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000005" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_EDIT_2</ELEMENT_ID>
+           <TEXT Transl="true">44</TEXT>
+           <IMAGE>~Icon/Edit</IMAGE>
+           <INDEX>5</INDEX>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_EDIT_2</ACTION_ID>
+             <HOTKEY>15</HOTKEY>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000006" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_NEW</ELEMENT_ID>
+           <TEXT Transl="true">46</TEXT>
+           <INDEX>6</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/NewItem</IMAGE>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_4</ACTION_ID>
+             <HOTKEY>24</HOTKEY>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000007" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_DELETE</ELEMENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>7</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/Delete</IMAGE>
+           <TOOLTIP Transl="true">47</TOOLTIP>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_5</ACTION_ID>
+             <HOTKEY>14</HOTKEY>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000008" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_COPY</ELEMENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>8</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/Copy</IMAGE>
+           <TOOLTIP Transl="true">48</TOOLTIP>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_6</ACTION_ID>
+             <HOTKEY>13</HOTKEY>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000009" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_CHECK</ELEMENT_ID>
+           <TEXT Transl="true">49</TEXT>
+           <INDEX>9</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_7</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000010" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_ACTIVATE</ELEMENT_ID>
+           <TEXT Transl="true">50</TEXT>
+           <INDEX>10</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_8</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000011" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_VIEW_ACT_LOG</ELEMENT_ID>
+           <TEXT Transl="true">51</TEXT>
+           <INDEX>11</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_2</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000012" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_REUSE_AR</ELEMENT_ID>
+           <TEXT Transl="true">55</TEXT>
+           <INDEX>12</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ELEMENT_ID_9</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000013" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">MDG_TB_DT_DM_ADJ_STAG</ELEMENT_ID>
+           <TEXT Transl="true">58</TEXT>
+           <INDEX>13</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ACTION_ID_1</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ID Final="5 ">VIEW_LOG</ID>
+       <TITLE Transl="true">57</TITLE>
+       <TYPE>DIAL</TYPE>
+       <DLG_BUTTON_SET>2</DLG_BUTTON_SET>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_8F253E4D5FEFD948E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>W_LOG_SCREEN</INTERFACE_VIEW>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <COMPONENT>DRF_LOG_TABLE_TREE</COMPONENT>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ID Final="5 ">ADJUST_STAGING</ID>
+       <TYPE>DIAL</TYPE>
+       <TITLE Transl="true">59</TITLE>
+       <DEFAULT/>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <DLG_NAME>ADJUST_STAGING</DLG_NAME>
+       <DLG_BUTTON_SET>3</DLG_BUTTON_SET>
+       <DLG_TEXT_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_YES_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_NO_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TEXT_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true">61</DLG_TOOLTIP_FOR_OK_BUTTON>
+       <DLG_TOOLTIP_FOR_YES_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_NO_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <DLG_WIDTH/>
+       <DLG_HEIGHT/>
+       <ACTION_TYPE_PERS_DIALOG/>
+       <ACTION_TYPE_DRAG_DROP_AB/>
+       <ACTION_TYPE_CLOSE>1</ACTION_TYPE_CLOSE>
+       <ON_ENTER_ACTION_ID>ACTION_ID_2</ON_ENTER_ACTION_ID>
+       <PERSONALIZATION_ENABLED>X</PERSONALIZATION_ENABLED>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_E2911F4E299E903BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <CONFIG_ID>YZ_FPM_FORM_AJUST_STAGING_DT</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <LOCATION>1</LOCATION>
+           <ROW/>
+           <INDEX>1</INDEX>
+           <NEEDS_STRETCHING/>
+           <HIDDEN/>
+           <TYPE/>
+           <COLLAPSED/>
+           <TITLE Transl="true"/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <EXPLANATION_DOCUMENT/>
+           <DEFAULT_IN_STACK/>
+           <DEFAULT_EDIT_PAGE/>
+           <PADDING/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ID Final="5 ">MAIN_RULE</ID>
+       <TITLE Transl="true">63</TITLE>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="WIRE_MODEL" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSACTION/>
+       <Node Name="WIRE" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE>_GENP_8853454CE72CA62AE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_FORM_DATA_MOD_DET</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LIST_DOM_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE>_GENP_4F6C7B4CF15BF805E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LIST_DOM_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6A578D4D3545D443E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+         <CONFIG_ID>YZ_FPM_FORM_ENTITY_DET_GL2</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE>_GENP_AA6E7D4CE9BF105EE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_REL_OUT_TAB_ATS</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000005" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE>_GENP_17827F4C6C59105EE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_REL_IN_TAB_ATS</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000006" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9037D54C5932071FE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_BO_TYPE_TAB_ATS</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000007" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FFA8D74C9B390E1FE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_REUSE_AREA</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LIST_DOM_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000008" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4083D94C327F933DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_FRM_BC_SET_DET</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LIST_DOM_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000009" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_62B3E94C6079D150E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_FRM_DT_DM_COPY</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LIST_DOM_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000010" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_A1FA164D5EE1C04BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_FRM_DT_FOR_KEY_OUT</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_REL_OUT_TAB_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000011" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0308164D5EE1C04BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_DT_FOR_KEY_OUT</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_REL_OUT_TAB_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000012" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_423D164D5C9F8C5DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_FRM_DT_FOR_KEY_IN</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_REL_IN_TAB_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000013" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0DAC184DBCA1885DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_DT_FOR_KEY_IN</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_REL_IN_TAB_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000014" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_F38F194D228CA25DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_HIERARCHY_TAB_ATS</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_FORM_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_FORM_DATA_MOD_DET</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000015" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_7D59224DC7311D11E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LIST_DT_HIER_ATTR</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_HIERARCHY_TAB_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000016" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FD9A234D4F5A5E11E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LIST_DT_HIER_ATTR_REF</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_HIERARCHY_TAB_ATS</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000017" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_303CE24DF935D241E10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_ATTR_TAB_ATS</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE>00</SRC_CONFIG_TYPE>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000018" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1ED4B0FBA496C7BC56BF</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>FPM_LST_STRUCT_TAB_ATS</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_LIST_UIBB</SRC_COMPONENT>
+         <SRC_CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>CC</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_DT_WIRE_CONF_WB</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="PAGE_SELECTOR" SimpleFormat="true"/>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

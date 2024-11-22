@@ -1,0 +1,1157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>YZ_INTF_USMD_PP_HANA_SEARCH</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Hana Search Interface for Reuse Area</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADAPT_RESULT_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adaptation of search result list (active and inactive data)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADAPT_SEL_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adaptation of selection fields for HANA view generation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADAPT_WHERE_CLAUSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adaptation of where clause for reuse view</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MAPPING_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get mapping information for model and reuse area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get reuse view content for selected attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_REUSE_AUTHORIZATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Merge reuse authorization into search attributes</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_RESULT_LIST</CMPNAME>
+     <SCONAME>ET_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reuse data with MDG Attribute names</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_RESULT_LIST</CMPNAME>
+     <SCONAME>IR_STAGING_STRUCT_TYPE_REF</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_RESULT_LIST</CMPNAME>
+     <SCONAME>IS_SEARCH_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_RESULT_LIST</CMPNAME>
+     <SCONAME>IT_REUSE_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reuse data with reuse attribute names</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_RESULT_LIST</CMPNAME>
+     <SCONAME>IT_REUSE_DATA_MDG_NAMES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reuse data with MDG Attribute names</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_SEL_FIELDS</CMPNAME>
+     <SCONAME>CT_SEL_ATTRIBUTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for selection attributes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_SEL_FIELDS</CMPNAME>
+     <SCONAME>IV_MAIN_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Entity Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_SEL_FIELDS</CMPNAME>
+     <SCONAME>IV_MODEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Model</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_SEL_FIELDS</CMPNAME>
+     <SCONAME>IV_OTC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>OTC</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_WHERE_CLAUSE</CMPNAME>
+     <SCONAME>CV_WHERE_CLAUSE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>With Reuse attribute names</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_WHERE_CLAUSE</CMPNAME>
+     <SCONAME>CV_WHERE_CLAUSE_MDG_NAMES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>With MDG Attribute names</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_WHERE_CLAUSE</CMPNAME>
+     <SCONAME>IS_SEARCH_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADAPT_WHERE_CLAUSE</CMPNAME>
+     <SCONAME>IT_SEARCH_ATTRIBUTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sorted Table: Selection Condition (Range per Field)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAPPING_INFO</CMPNAME>
+     <SCONAME>CT_MAPPING_INFO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for reuse mapping</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAPPING_INFO</CMPNAME>
+     <SCONAME>ET_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAPPING_INFO</CMPNAME>
+     <SCONAME>IS_SEARCH_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAPPING_INFO</CMPNAME>
+     <SCONAME>IV_MODEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Model</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAPPING_INFO</CMPNAME>
+     <SCONAME>IV_OTC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>ET_JOIN_CONDITIONS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>attributes of attribute view for join</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>ET_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>ET_REUSE_ATTRIBUTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Attribute table type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>EV_MAIN_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Dictionary Structure/Table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>IT_ENTITIES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Entity Types</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>IT_MODEL_ATTRIBUTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Names of Entity Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>IV_MAIN_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Entity Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>IV_MAIN_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Dictionary Structure/Table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>IV_MODEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Model</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REUSE_VIEW_CONTENT</CMPNAME>
+     <SCONAME>IV_OTC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>OTC</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MERGE_REUSE_AUTHORIZATION</CMPNAME>
+     <SCONAME>CT_SEARCH_ATTRIBUTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sorted Table: Selection Condition (Range per Field)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MERGE_REUSE_AUTHORIZATION</CMPNAME>
+     <SCONAME>ET_AUTH_ATTRIBUTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sorted Table: Selection Condition (Range per Field)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MERGE_REUSE_AUTHORIZATION</CMPNAME>
+     <SCONAME>EV_NO_AUTHORIZATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, -=False, Space=Unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MERGE_REUSE_AUTHORIZATION</CMPNAME>
+     <SCONAME>IS_SEARCH_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search Context</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;MEANING&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;USE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>This interface must be implemented by the access class for a Reuse Area</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Data Model that needs to use MDG Search powered by HANA. This interface</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>is used for the following activities:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>Adaptation of allowed selection attributes for HANA search view</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>generation. It is possible to adapt whether certain fields are shown as</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&apos;selected&apos; or &apos;read-only&apos; on the MDG HANA Search View Generation UI.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>Reading of reuse area attribute names and join conditions for the HANA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>search view</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>Determination of reuse area authorizations while performing search</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>Getting the mapping information between data model and reuse area data</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>Adaptation of the SELECT query (WHERE clause) while performing search in</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the reuse area</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>Adaptation of the reuse area search results to MDG data model structure</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The interface has the following methods:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>&lt;DS:IO.IF_USMD_PP_HANA_SEARCH        ADAPT_SEL_FIELDS&gt;ADAPT_SEL_FIELDS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>&lt;DS:IO.IF_USMD_PP_HANA_SEARCH        GET_REUSE_VIEW_CONTENT&gt;GET_REUSE_VI</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>EW_CONTENT&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>&lt;DS:IO.IF_USMD_PP_HANA_SEARCH        MERGE_REUSE_AUTHORIZATION&gt;MERGE_REU</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>SE_AUTHORIZATION&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>&lt;DS:IO.IF_USMD_PP_HANA_SEARCH        GET_MAPPING_INFO&gt;GET_MAPPING_INFO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>&lt;DS:IO.IF_USMD_PP_HANA_SEARCH        ADAPT_WHERE_CLAUSE&gt;ADAPT_WHERE_CLAU</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>SE&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>B1</TDFORMAT>
+     <TDLINE>&lt;DS:IO.IF_USMD_PP_HANA_SEARCH        ADAPT_RESULT_LIST&gt;ADAPT_RESULT_LIST</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;HINTS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <LONGTEXTS_IO>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_RESULT_LIST</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00017</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_RESULT_LIST</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_RESULT_LIST</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_RESULT_LIST</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this method, the reuse area search results are adapted to the MDG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data model attribute structure for display. Any other modifications to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the reuse area search results can also be done here before they are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>displayed by the search application.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IS_SEARCH_CONTEXT: Search context, which contains information about the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type of data being searched, the search mode, the name of the search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>method, the maximum number of records to be searched, and the threshold</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the duplicate check.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IR_STAGING_STRUCT_TYPE_REF: Reference type of the staging structure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IT_REUSE_DATA: Reuse area search results with reuse area attribute names</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IT_REUSE_DATA_MDG_NAMES: Reuse area search results with MDG data model</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute names. This is provided when the search is performed using the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ruleset created for the search view.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ET_DATA: Adapted search results</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_SEL_FIELDS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_SEL_FIELDS</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_SEL_FIELDS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_SEL_FIELDS</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In this method you can determine if certain fields are shown as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&apos;selected&apos; by default, or whether certain fields are always shown as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&apos;read-only&apos; (and therefore the selection option is not changeable), on</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the MDG HANA Search View Generation UI.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IV_MODEL: Name of the data model for which the HANA search view is being</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>generated</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IV_MAIN_ENTITY: Name of the main entity type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CT_SEL_ATTRIBUTES: Table of selection attributes, where the SELECTED and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>READ_ONLY properties can be maintained for each attribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_WHERE_CLAUSE</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00016</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_WHERE_CLAUSE</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_WHERE_CLAUSE</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   ADAPT_WHERE_CLAUSE</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this method, the WHERE clause of the SELECT query for the reuse area</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can be adapted, for example, by adding or modifying search attributes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IS_SEARCH_CONTEXT: Search context, which contains information about the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type of data being searched, the search mode, the name of the search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>method, the maximum number of records to be searched, and the threshold</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the duplicate check.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IT_SEARCH_ATTRIBUTES: Attributes selected for search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CV_WHERE_CLAUSE: The WHERE clause with reuse area attribute names. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is used if a ruleset was not created for the HANA search view during</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>view generation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CV_WHERE_CLAUSE_MDG_NAMES: The WHERE clause with MDG data model</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute names. This is used if a ruleset was created for the HANA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>search view during view generation. In this case, an SQL view with MDG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data model names is created, and the same is queried during search.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   GET_MAPPING_INFO</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   GET_MAPPING_INFO</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   GET_MAPPING_INFO</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00011</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   GET_MAPPING_INFO</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this method, the reuse area field names and their data types are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determined for a set of given data model field names, and returned to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the MDG HANA search application.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IS_SEARCH_CONTEXT: Search context, which contains information about the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type of data being searched, the search mode, the name of the search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>method, the maximum number of records to be searched, and the threshold</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the duplicate check.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CT_MAPPING_INFO: Table of mapping information between data model and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>reuse area data. This maps the entity type and data model field name to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the corresponding reuse field name and its data type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ET_MESSAGES: List of error messages</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   GET_REUSE_VIEW_CONTENT</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00023</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   GET_REUSE_VIEW_CONTENT</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   GET_REUSE_VIEW_CONTENT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00021</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   GET_REUSE_VIEW_CONTENT</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In this method, the information about the reuse attributes corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to the provided model attributes is collected and returned to the MDG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>HANA search view generation application. This information includes the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>reuse table and field names corresponding to a model attribute, its data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type, whether it is a key field or not, and if applicable, an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>alternative name and text description that should be used for this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>attribute in the generated HANA search view. This table also returns the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relevant join information for this reuse data, which is then used while</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>generating the HANA search view.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IV_MODEL: Name of the data model for which the HANA search view is being</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>generated</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IV_MAIN_ENTITY: Name of the main entity type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IT_ENTITIES: Table of entity types selected for view generation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IT_MODEL_ATTRIBUTES: Model field names selected by the user for HANA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>search view generation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>EV_MAIN_TABLE: The main table in the join created for the HANA search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>view</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ET_JOIN_CONDITIONS: Join conditions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ET_REUSE_ATTRIBUTES: Information about the reuse attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding to the provided model attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ET_MESSAGES: List of error messages</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   MERGE_REUSE_AUTHORIZATION</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   MERGE_REUSE_AUTHORIZATION</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>YZ_INTF_USMD_PP_HANA_SEARCH   MERGE_REUSE_AUTHORIZATION</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00011</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>YZ_INTF_USMD_PP_HANA_SEARCH   MERGE_REUSE_AUTHORIZATION</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In this method, the reuse data model&apos;s authorization-relevant attributes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and their values are determined and returned to the MDG HANA search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>application.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>IS_SEARCH_CONTEXT: Search context, which contains information about the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type of data being searched, the search mode,  the name of the search</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>method, the maximum number of records to be searched, and the threshold</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the duplicate check.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>EV_NO_AUTHORIZATION: Flag for no authorization, in which case the user</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>shall not be shown any results from the search on reuse active area.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ET_AUTH_ATTRIBUTES: Table containing the reuse data models</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>authorization-relevant attributes and their values.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS_IO>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group For Python Library</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYZFUGR_PYTHON_LIBRARYTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYZFUGR_PYTHON_LIBRARY</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YZFUNC_EXECUTE_PYTHON_SCRIPT</FUNCNAME>
+     <SHORT_TEXT>Function To Execute Python Scripts</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_INCLNAME</PARAMETER>
+       <DEFAULT>&apos;YZINC_EXE_PY_SCRPT&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SOBJ_NAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SCRIPTNAME</PARAMETER>
+       <DEFAULT>&apos;TEXT2IMAGE.PY&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FILENAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEXT1024</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_EXECPROT</PARAMETER>
+       <TYP>BTCXPGLOG</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_INCLNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Python Script Include Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SCRIPTNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Python Script Will be created at Runtime</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FILENAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>/hana/log/Python_MDG_Files/we will win.png</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_EXECPROT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Log message of an external program (RFC-SAPXPG)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

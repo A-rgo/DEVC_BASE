@@ -1,0 +1,7 @@
+@EndUserText.label: 'Reference Master Service Definition'
+define service ZSD_REF_MASTER_HEAD {
+  expose ZP_REF_MASTER_HEAD as Header;
+  expose ZP_REF_MASTER_ITM as Item;
+  expose ZP_REF_MASTER_REQ_APPR as Approver;
+  expose ZP_REF_MASTER_WF_LOG as Wf_Log;
+}

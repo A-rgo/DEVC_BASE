@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_MDG_MM_BOMHDR_FEEDER_LIST</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Feeder Class for BOM Header</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_LOCAL_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Local Fields Defination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_EVENT_BOM_ADD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FPM Event for assigning BOM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_EVENT_BOM_DISCARD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FPM Event for discarding BOM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ACTIONS_TXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set description displayed</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DEFINE_LOCAL_FIELDS</CMPNAME>
+     <SCONAME>CO_CATALOGUE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEFINE_LOCAL_FIELDS</CMPNAME>
+     <SCONAME>CT_DEFINITION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Descriptions</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

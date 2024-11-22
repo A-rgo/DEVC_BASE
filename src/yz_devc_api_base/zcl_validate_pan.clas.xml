@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_VALIDATE_PAN</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class to validate Pan Card</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>{&quot;data&quot;: {&quot;customer_pan_number&quot;: &quot;&apos;</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_AADHAAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate aadhaar card details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_PAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate pan card</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_AADHAAR</CMPNAME>
+     <SCONAME>EV_AADHAR_HOLDER_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field, length 70</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_AADHAAR</CMPNAME>
+     <SCONAME>EV_AADHAR_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Char 20</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_AADHAAR</CMPNAME>
+     <SCONAME>EV_AADHAR_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Comment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_AADHAAR</CMPNAME>
+     <SCONAME>EV_REASON_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_AADHAAR</CMPNAME>
+     <SCONAME>EV_REQUEST_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Char 20</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_PAN</CMPNAME>
+     <SCONAME>EV_PAN_HOLDER_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field, length 70</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_PAN</CMPNAME>
+     <SCONAME>EV_PAN_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Char 20</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_PAN</CMPNAME>
+     <SCONAME>EV_PAN_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Comment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_PAN</CMPNAME>
+     <SCONAME>EV_REASON_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_PAN</CMPNAME>
+     <SCONAME>EV_REQUEST_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Char 20</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

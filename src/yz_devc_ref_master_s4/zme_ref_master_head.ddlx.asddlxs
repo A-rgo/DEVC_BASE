@@ -1,0 +1,67 @@
+@Metadata.layer: #CORE
+@UI:{ headerInfo: {
+    typeName: 'Change Request',
+    typeNamePlural: 'Change Requests',
+    title:{ type: #STANDARD, value: 'Req_Id'}
+} }
+annotate view ZP_REF_MASTER_HEAD with
+{
+  @UI.facet: [{ id: 'Request', purpose: #STANDARD, type:#IDENTIFICATION_REFERENCE, label:'Request Details', position: 10 },
+              { id:'Item', type:#LINEITEM_REFERENCE, purpose: #STANDARD, position: 20, targetElement: '_item', hidden: #(UICT_REQITEM_IS) },
+              { id:'Approver', type:#LINEITEM_REFERENCE, purpose: #STANDARD, position: 20, targetElement: '_approver', hidden: #(UICT_APPROVER_IS)},
+              { id:'Wf_Log', type:#LINEITEM_REFERENCE, purpose: #STANDARD, position: 20, targetElement: '_wfLog', hidden: #(UICT_WFLOG_IS)}]
+
+  //        @UI:{ lineItem: [{ position: 10 }], identification: [{position: 10, label: 'Request' }],selectionField: [{ position: 10 }]}
+  //        @Search.defaultSearchElement: true
+  @UI.hidden: true
+  Req_Guid;
+
+  @UI:{ lineItem: [{ position: 10 }],
+  identification: [{position: 10},
+                    {type:#FOR_ACTION,dataAction:'show_fields',label:'Show Change Request Data',position: 100},
+                         {type:#FOR_ACTION,dataAction:'show_approvers',label:'Show Approver',position: 100},
+                         {type:#FOR_ACTION,dataAction:'show_wf_log',label:'Show Workflow Log',position: 100}
+                    ],selectionField: [{ position: 10 }]}
+  @Search.defaultSearchElement: true
+  Req_Id;
+
+  @UI:{ lineItem: [{ position: 20 }], identification: [{position: 20}],selectionField: [{ position: 20 }]}
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: {
+      name: 'ZC_OBJCLASS_TEXT',
+      element: 'Object_Class'
+  }}]
+  Object_Class;
+
+  @UI:{ lineItem: [{ position: 30,cssDefault.width: '10rem' }], identification: [{position: 30}],selectionField: [{ position: 30 }]}
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: {
+      name: 'ZC_CHANGE_REQ_TYPE_TEXT',
+      element: 'Change_Req_Type'
+  }}]
+  Change_Req_Type;
+
+  @UI:{ lineItem: [{ position: 40,cssDefault.width: '10rem' }], identification: [{position: 40}],selectionField: [{ position: 40 }]}
+  @Search.defaultSearchElement: true
+  Object_Id;
+  @UI:{ lineItem:[{ position: 60, importance: #HIGH }], identification: [{ position: 50 }], selectionField: [{ position: 50 }] }
+  @Search.defaultSearchElement: true
+  Object_Descr;
+  @UI:{ lineItem:[{ position: 70 }], identification: [{ position: 50 }], selectionField: [{ position: 50 }] }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: {
+      name: 'ZC_RM_PARENT_OBJECT_HELP',
+      element: 'Parent_Object_Id'
+  }}]
+  Parent_Object_Id;
+
+  @Search.defaultSearchElement: true
+  _item;
+  @Search.defaultSearchElement: true
+  _approver;
+  @Search.defaultSearchElement: true
+  _wfLog;
+
+
+
+}

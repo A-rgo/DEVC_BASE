@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB_GL2" ConfId="YB_BNKACF02D51AB6EAF147A47D72F43" ConfType="10" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FGL2_A168D14D106E1EDEB6DDBAD42FE4459F</ID>
+       <TYPE/>
+       <EVENT_ID>NEWBANK</EVENT_ID>
+       <EVENT_PARAMETERS/>
+      </Item>
+     </Node>
+     <Node Name="BUTTON" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FGL2_A168D14D106E1EDEB6DDBAD42FE4459F</ID>
+       <TYPE>BU</TYPE>
+       <EXPLANATION_TEXT Transl="true"/>
+       <IMAGE>~Icon/Action</IMAGE>
+       <IMAGE_IS_DECORATIVE/>
+       <TEXT Transl="true"/>
+       <TOOLTIP Transl="true"/>
+       <INSTANCE_STYLE/>
+       <SPECIAL_PROPERTIES/>
+       <CTXT_MENU_ID/>
+       <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ACTION_ID Final="5 ">FGL2_A168D14D106E1EDEB6DDBAD42FE4459F</ACTION_ID>
+         <INDEX/>
+         <HOTKEY/>
+         <IMAGE/>
+         <TEXT Transl="true">1</TEXT>
+         <HAS_SEPARATOR/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="FORM_GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true" Changed="true">
+       <ID Final="5 ">FPM_BOL_FORM_GROUP</ID>
+       <Node Name="FORM_GROUP_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">_GENP_A168D14D106E1EDEB6DDBAD42FE4659F</ID>
+         <FORM_ELEMENT_TYPE>BU</FORM_ELEMENT_TYPE>
+         <FORM_ELEMENT_ID>FGL2_A168D14D106E1EDEB6DDBAD42FE4459F</FORM_ELEMENT_ID>
+        </Item>
+        <Item Index="000002" Deleted="true" SimpleFormat="true">
+         <ID>ELEMENT_YB_LOEVM</ID>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="POSITION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">_GENP_A168D14D106E1EDEB6DDBAD42FE4859F</ID>
+       <START_ROW>3</START_ROW>
+       <START_COLUMN>A</START_COLUMN>
+       <END_ROW>3</END_ROW>
+       <END_COLUMN>P</END_COLUMN>
+       <LABEL_START_ROW/>
+       <LABEL_START_COLUMN/>
+       <LABEL_END_ROW/>
+       <LABEL_END_COLUMN/>
+       <FORM_ELEMENT_TYPE>BU</FORM_ELEMENT_TYPE>
+       <FORM_ELEMENT_ID>FGL2_A168D14D106E1EDEB6DDBAD42FE4459F</FORM_ELEMENT_ID>
+      </Item>
+      <Item Index="000002" Deleted="true" SimpleFormat="true">
+       <ID>SEELEMENT_YB_LOEVM</ID>
+      </Item>
+     </Node>
+     <Node Name="STANDARD_ELEMENT" SimpleFormat="true">
+      <Item Index="000001" Deleted="true" SimpleFormat="true">
+       <ID>ELEMENT_YB_LOEVM</ID>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_SEARCH_UIBB" ConfId="YB_USMD_SEARCH_DQUERY" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="SEARCH" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_USMD_SEARCH_GUIBB_DQUERY</FEEDER>
+     <SEARCH_AS_SELECT_OPTION>X</SEARCH_AS_SELECT_OPTION>
+     <GROUP_SAME_CRITERIA>X</GROUP_SAME_CRITERIA>
+     <NUMBER_OF_QUERY_LINES>6</NUMBER_OF_QUERY_LINES>
+     <RESULT_NUMBER_OF_VISIBLE_ROWS>10</RESULT_NUMBER_OF_VISIBLE_ROWS>
+     <ALLOW_PERSONALIZATION>01</ALLOW_PERSONALIZATION>
+     <Node Name="ATTRIBUTES" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0F40137C18591EEE9F93A9B2B4081E2C</ELEMENT_ID>
+       <NAME>Y_BANKL</NAME>
+       <INDEX>1</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0F40137C18591EEE9F93A9B2B4083E2C</ELEMENT_ID>
+       <NAME>Y_BANKS</NAME>
+       <INDEX>2</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_0F40137C18591EEEA3D70F339E7F5FE4</ELEMENT_ID>
+       <NAME>YB_ORT01</NAME>
+       <INDEX>3</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+     </Node>
+     <Node Name="EXCLUDED_OPERATORS" SimpleFormat="true"/>
+     <Node Name="GLOBAL_SETTINGS" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">USMD_COMPONENT_NAME</NAME>
+       <VALUE>ZSP_YB</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">USMD_OBJECT_NAME</NAME>
+       <VALUE>DynamicQueryY_BANKL</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">EXECUTION_MODE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME Final="5 ">SELECTION_MODE</NAME>
+       <VALUE>0</VALUE>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME Final="5 ">SEARCH_PROVIDER</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <NAME Final="5 ">SEARCH_HELP</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <NAME Final="5 ">USMD_SEARCH_ALLOW_PERS</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_DEFAULT_VISIBILITY</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_ENTRIES</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <NAME Final="5 ">READ_MODE_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <NAME Final="5 ">EVENT_EXCLUSION_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <NAME Final="5 ">USMD_OTC</NAME>
+       <VALUE/>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="RESULT_GUIBB_LIST" SimpleFormat="true"/>
+     <Node Name="RESULT_TABLE" SimpleFormat="true"/>
+     <Node Name="SEARCH_GROUP" SimpleFormat="true"/>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <LOCATION_SAVED_SEARCHES>P</LOCATION_SAVED_SEARCHES>
+       <EXECUTE_SEARCH_ON_ENTER>X</EXECUTE_SEARCH_ON_ENTER>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

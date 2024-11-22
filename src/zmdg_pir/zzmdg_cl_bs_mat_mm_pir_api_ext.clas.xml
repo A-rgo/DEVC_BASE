@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZZMDG_CL_BS_MAT_MM_PIR_API_EXT</CLSNAME>
+    <LANGU>E</LANGU>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONDITION_RECORDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Condition records from tables A017,A018,KONH,KONP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CR_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get CR Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INTERMEDIATE_DATES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Intermediate periods for the given date</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONDITION_RECORDS</CMPNAME>
+     <SCONAME>GT_PCOND_LIST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Active Area Structure for KONH</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CR_TYPE</CMPNAME>
+     <SCONAME>IV_CREQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CR_TYPE</CMPNAME>
+     <SCONAME>RV_USMD_CREQUEST_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INTERMEDIATE_DATES</CMPNAME>
+     <SCONAME>EX_NEXT_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INTERMEDIATE_DATES</CMPNAME>
+     <SCONAME>EX_PREV_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INTERMEDIATE_DATES</CMPNAME>
+     <SCONAME>IM_PERIODS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Periods</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

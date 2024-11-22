@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group for Bank Master</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYZ_FUNC_YB_BANKTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYZ_FUNC_YB_BANK</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YZ_FUNC_YB_ADDR</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Function Module for Address for Bnak MAster</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BANK_CTRY</PARAMETER>
+       <TYP>BANKS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BANK_KEY</PARAMETER>
+       <TYP>BANKK</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BANK_ADDRESS1</PARAMETER>
+       <TYP>BAPIADDR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_ADDR_NUM</PARAMETER>
+       <TYP>AD_ADDRNUM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BANK_CTRY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Country/Region Key of Bank</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BANK_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bank Keys</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BANK_ADDRESS1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPI Reference Structure for Addresses (Org./Company)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ADDR_NUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Address Number</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>YZ_FUNC_YB_BANK</FUNCNAME>
+     <SHORT_TEXT>Function Module for Bank Master Create/Update/Delete</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LT_BANK</PARAMETER>
+       <TYP>YBNK_TT_TXI_BNKA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LT_ADDR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YBNK_TT_BAPIADDR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CREATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CHANGE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DELETE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ADDRESSX</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPI1011_ADDRESSX</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DETAILX</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPI1011_DETAILX</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ADDRESS1X</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIADDR1X</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BANK_CTRY</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BANKS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BANK_KEY</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BANKK</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LT_BANK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bank master record</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_ADDR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for address</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CREATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CHANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DELETE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ADDRESSX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transfer structure object 1011: Bank</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DETAILX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transfer structure object 1011: Bank detail</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ADDRESS1X</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPI change reference structure for addresses (Org./Company)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BANK_CTRY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Country/Region Key of Bank</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BANK_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bank Keys</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

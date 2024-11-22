@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_SEARCH_UIBB" ConfId="YZ_SRCH_YZP_DDLS_RULE_VAL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="SEARCH" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_FPM_SADL_SEARCH</FEEDER>
+     <NUMBER_OF_QUERY_LINES>5</NUMBER_OF_QUERY_LINES>
+     <RESULT_NUMBER_OF_VISIBLE_ROWS/>
+     <SAVE_SEARCHES/>
+     <SHOW_BUTTON_SEARCH/>
+     <SHOW_BUTTON_CLEAR/>
+     <EXCLUDE_CRITERIAS/>
+     <SHOW_BUTTON_RESET/>
+     <MAX_NUMBER_OF_RESULTS/>
+     <SHOW_MAX_NUM_RESULT_FIELD>01</SHOW_MAX_NUM_RESULT_FIELD>
+     <GROUP_SAME_CRITERIA>X</GROUP_SAME_CRITERIA>
+     <ALLOW_PERSONALIZATION>01</ALLOW_PERSONALIZATION>
+     <ARIA_LANDMARK/>
+     <SEARCH_AS_SELECT_OPTION/>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_TYPE</NAME>
+       <VALUE>CDS</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">SADL_ENTITY_ID</NAME>
+       <VALUE>YZP_DDLS_RULE_VAL</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">SADL_JOIN_TREE</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_DEFINITION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_DEFINITION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_DEF&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_D&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;FPM_SADL_S_JOIN&gt;&lt;ID&gt;_EXECUTION&lt;/ID&gt;&lt;PARENT_ID/&gt;&lt;ASSOCIATION&gt;_EXECUTION&lt;/ASSOCIATION&gt;&lt;ENTITY_ID&gt;YZP_DDLS_RULE_EXE&lt;/ENTITY_ID&gt;&lt;SUFFIX&gt;_E&lt;/SUFFIX&gt;&lt;EXCL_METADATA/&gt;&lt;EXCL_TEXTSEARCH/&gt;&lt;/FPM_SADL_S_JOIN&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+     </Node>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <LOCATION_SAVED_SEARCHES>P</LOCATION_SAVED_SEARCHES>
+       <CHECK_MANDATORY/>
+       <ALLOW_EASY_SEARCH>X</ALLOW_EASY_SEARCH>
+       <EXECUTE_SEARCH_ON_ENTER>X</EXECUTE_SEARCH_ON_ENTER>
+      </Item>
+     </Node>
+     <Node Name="ATTRIBUTES" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76597BF</ELEMENT_ID>
+       <NAME>FPM_SADL_FREE_TEXT_SEARCH_TERM</NAME>
+       <INDEX>1</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA765B7BF</ELEMENT_ID>
+       <NAME>MODEL</NAME>
+       <INDEX>2</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA765D7BF</ELEMENT_ID>
+       <NAME>OTC</NAME>
+       <INDEX>3</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA765F7BF</ELEMENT_ID>
+       <NAME>RULE_TYPE</NAME>
+       <INDEX>4</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76617BF</ELEMENT_ID>
+       <NAME>DEF_ID</NAME>
+       <INDEX>5</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA768F7BF</ELEMENT_ID>
+       <NAME>RULE_DEF_D</NAME>
+       <INDEX>6</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76917BF</ELEMENT_ID>
+       <NAME>TEMP_ID_D</NAME>
+       <INDEX>7</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76937BF</ELEMENT_ID>
+       <NAME>REUSE_SCP_D</NAME>
+       <INDEX>8</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76957BF</ELEMENT_ID>
+       <NAME>REFRULEID_D</NAME>
+       <INDEX>9</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76AD7BF</ELEMENT_ID>
+       <NAME>ACTIVE_D</NAME>
+       <INDEX>10</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA769D7BF</ELEMENT_ID>
+       <NAME>DEF_REF1_D</NAME>
+       <INDEX>11</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76637BF</ELEMENT_ID>
+       <NAME>EXE_ID</NAME>
+       <INDEX>12</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000013" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC3A4DE34DDD7C2</ELEMENT_ID>
+       <NAME>RULE_SEC</NAME>
+       <INDEX>13</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000014" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC3A47F4CB3B7C2</ELEMENT_ID>
+       <NAME>SEQ_NO_E</NAME>
+       <INDEX>14</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000015" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39B34413897C2</ELEMENT_ID>
+       <NAME>TASK_E</NAME>
+       <INDEX>15</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000016" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39C51BA4B97C2</ELEMENT_ID>
+       <NAME>OPERATION_E</NAME>
+       <INDEX>16</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000017" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39E01A04957C2</ELEMENT_ID>
+       <NAME>ENTITY_E</NAME>
+       <INDEX>17</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000018" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39E3F0936F7C2</ELEMENT_ID>
+       <NAME>ATTRIBUTE_E</NAME>
+       <INDEX>18</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000019" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39CA5BFC5D7C2</ELEMENT_ID>
+       <NAME>OPERATOR_E</NAME>
+       <INDEX>19</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000020" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39F0F497857C2</ELEMENT_ID>
+       <NAME>CLASS_E</NAME>
+       <INDEX>20</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000021" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39F68DC85D7C2</ELEMENT_ID>
+       <NAME>METHOD_E</NAME>
+       <INDEX>21</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000022" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76BB7BF</ELEMENT_ID>
+       <NAME>RULE_SEC_E</NAME>
+       <INDEX>22</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000023" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC39FE87FF097C2</ELEMENT_ID>
+       <NAME>ACTIVE_E</NAME>
+       <INDEX>23</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000024" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76697BF</ELEMENT_ID>
+       <NAME>SIGN</NAME>
+       <INDEX>24</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000025" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA766B7BF</ELEMENT_ID>
+       <NAME>OPT</NAME>
+       <INDEX>25</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000026" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA766D7BF</ELEMENT_ID>
+       <NAME>VAL_TYPE</NAME>
+       <INDEX>26</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000027" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA766F7BF</ELEMENT_ID>
+       <NAME>LOW</NAME>
+       <INDEX>27</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000028" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC2E61AA76717BF</ELEMENT_ID>
+       <NAME>HIGH</NAME>
+       <INDEX>28</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000029" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_4963DAE0C22E1EEE8DC397A386C617C2</ELEMENT_ID>
+       <NAME>ACTIVE</NAME>
+       <INDEX>29</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR/>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+     </Node>
+     <Node Name="EXCLUDED_OPERATORS" SimpleFormat="true"/>
+     <Node Name="GLOBAL_SETTINGS" SimpleFormat="true"/>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="RESULT_GUIBB_LIST" SimpleFormat="true"/>
+     <Node Name="RESULT_TABLE" SimpleFormat="true"/>
+     <Node Name="SEARCH_GROUP" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

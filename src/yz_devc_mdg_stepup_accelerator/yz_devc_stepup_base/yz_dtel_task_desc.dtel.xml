@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YZ_DTEL_TASK_DESC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>UPARM_RULE_DESC</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Task Description</DDTEXT>
+    <REPTEXT>Task Description</REPTEXT>
+    <SCRTEXT_S>Task Descr</SCRTEXT_S>
+    <SCRTEXT_M>Task Description</SCRTEXT_M>
+    <SCRTEXT_L>Task Description</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>c</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>规则描述</DDTEXT>
+     <REPTEXT>规则描述</REPTEXT>
+     <SCRTEXT_S>规则描述</SCRTEXT_S>
+     <SCRTEXT_M>规则描述</SCRTEXT_M>
+     <SCRTEXT_L>规则描述</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>규칙 내역</DDTEXT>
+     <REPTEXT>규칙 내역</REPTEXT>
+     <SCRTEXT_S>규칙 내역</SCRTEXT_S>
+     <SCRTEXT_M>규칙 내역</SCRTEXT_M>
+     <SCRTEXT_L>규칙 내역</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Descriere regulă</DDTEXT>
+     <REPTEXT>Descriere regulă</REPTEXT>
+     <SCRTEXT_S>Descr.reg.</SCRTEXT_S>
+     <SCRTEXT_M>Descriere regulă</SCRTEXT_M>
+     <SCRTEXT_L>Descriere regulă</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Opis pravila</DDTEXT>
+     <REPTEXT>Opis pravila</REPTEXT>
+     <SCRTEXT_S>Opis prav.</SCRTEXT_S>
+     <SCRTEXT_M>Opis pravila</SCRTEXT_M>
+     <SCRTEXT_L>Opis pravila</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Opis pravila</DDTEXT>
+     <REPTEXT>Opis pravila</REPTEXT>
+     <SCRTEXT_S>Opis prav.</SCRTEXT_S>
+     <SCRTEXT_M>Opis pravila</SCRTEXT_M>
+     <SCRTEXT_L>Opis pravila</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>وصف القاعدة</DDTEXT>
+     <REPTEXT>وصف القاعدة</REPTEXT>
+     <SCRTEXT_S>وصف قاعدة</SCRTEXT_S>
+     <SCRTEXT_M>وصف القاعدة</SCRTEXT_M>
+     <SCRTEXT_L>وصف القاعدة</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>תיאור כלל</DDTEXT>
+     <REPTEXT>תיאור כלל</REPTEXT>
+     <SCRTEXT_S>תיאור כלל</SCRTEXT_S>
+     <SCRTEXT_M>תיאור כלל</SCRTEXT_M>
+     <SCRTEXT_L>תיאור כלל</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Popis pravidla</DDTEXT>
+     <REPTEXT>Popis pravidla</REPTEXT>
+     <SCRTEXT_S>Popis prav</SCRTEXT_S>
+     <SCRTEXT_M>Popis pravidla</SCRTEXT_M>
+     <SCRTEXT_L>Popis pravidla</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Beschreibung einer Regel</DDTEXT>
+     <REPTEXT>Regelbeschreibung</REPTEXT>
+     <SCRTEXT_S>RglBschr.</SCRTEXT_S>
+     <SCRTEXT_M>RegelBeschreibg</SCRTEXT_M>
+     <SCRTEXT_L>Regelbeschreibung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Description d&apos;une règle</DDTEXT>
+     <REPTEXT>Description de règle</REPTEXT>
+     <SCRTEXT_S>DscrptRgl.</SCRTEXT_S>
+     <SCRTEXT_M>Descript. règle</SCRTEXT_M>
+     <SCRTEXT_L>Description de règle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Περιγραφή Κανόνα</DDTEXT>
+     <REPTEXT>Περιγραφή Κανόνα</REPTEXT>
+     <SCRTEXT_S>ΠεριγρΚαν.</SCRTEXT_S>
+     <SCRTEXT_M>Περιγραφή Κανόνα</SCRTEXT_M>
+     <SCRTEXT_L>Περιγραφή Κανόνα</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Szabály leírása</DDTEXT>
+     <REPTEXT>Szabály leírása</REPTEXT>
+     <SCRTEXT_S>Szab.leír.</SCRTEXT_S>
+     <SCRTEXT_M>Szabály leírása</SCRTEXT_M>
+     <SCRTEXT_L>Szabály leírása</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Descrizione di una regola</DDTEXT>
+     <REPTEXT>Descrizione regola</REPTEXT>
+     <SCRTEXT_S>Descr.reg.</SCRTEXT_S>
+     <SCRTEXT_M>Descr. regola</SCRTEXT_M>
+     <SCRTEXT_L>Descrizione regola</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>ルールのテキスト</DDTEXT>
+     <REPTEXT>ルール内容説明</REPTEXT>
+     <SCRTEXT_S>ルールText</SCRTEXT_S>
+     <SCRTEXT_M>ルール内容説明</SCRTEXT_M>
+     <SCRTEXT_L>ルール内容説明</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Beskrivelse af regel</DDTEXT>
+     <REPTEXT>Regelbeskrivelse</REPTEXT>
+     <SCRTEXT_S>Reg.beskr.</SCRTEXT_S>
+     <SCRTEXT_M>Regelbeskrivelse</SCRTEXT_M>
+     <SCRTEXT_L>Regelbeskrivelse</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Opis reguły</DDTEXT>
+     <REPTEXT>Opis reguły</REPTEXT>
+     <SCRTEXT_S>Opis reg.</SCRTEXT_S>
+     <SCRTEXT_M>Opis reguły</SCRTEXT_M>
+     <SCRTEXT_L>Opis reguły</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>規則說明</DDTEXT>
+     <REPTEXT>規則說明</REPTEXT>
+     <SCRTEXT_S>規則說明</SCRTEXT_S>
+     <SCRTEXT_M>規則說明</SCRTEXT_M>
+     <SCRTEXT_L>規則說明</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Omschrijving van een regel</DDTEXT>
+     <REPTEXT>Regelomschrijving</REPTEXT>
+     <SCRTEXT_S>RglOmschr</SCRTEXT_S>
+     <SCRTEXT_M>Regelomschrijv.</SCRTEXT_M>
+     <SCRTEXT_L>Regelomschrijving</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Beskrivelse av regel</DDTEXT>
+     <REPTEXT>Regelbeskrivelse</REPTEXT>
+     <SCRTEXT_S>Rgl.beskr.</SCRTEXT_S>
+     <SCRTEXT_M>Regelbeskrivelse</SCRTEXT_M>
+     <SCRTEXT_L>Regelbeskrivelse</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Descrição de uma regra</DDTEXT>
+     <REPTEXT>Descrição de regra</REPTEXT>
+     <SCRTEXT_S>Descr.rgr.</SCRTEXT_S>
+     <SCRTEXT_M>Descrição regra</SCRTEXT_M>
+     <SCRTEXT_L>Descrição de regra</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Popis pravidla</DDTEXT>
+     <REPTEXT>Popis pravidla</REPTEXT>
+     <SCRTEXT_S>Pop.prav.</SCRTEXT_S>
+     <SCRTEXT_M>Popis pravidla</SCRTEXT_M>
+     <SCRTEXT_L>Popis pravidla</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Описание правила</DDTEXT>
+     <REPTEXT>Описание правила</REPTEXT>
+     <SCRTEXT_S>ОписПравил</SCRTEXT_S>
+     <SCRTEXT_M>Описание правила</SCRTEXT_M>
+     <SCRTEXT_L>Описание правила</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Descripción de una regla</DDTEXT>
+     <REPTEXT>Descripción regla</REPTEXT>
+     <SCRTEXT_S>DescrRegla</SCRTEXT_S>
+     <SCRTEXT_M>Descrip.regla</SCRTEXT_M>
+     <SCRTEXT_L>Descripción regla</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kural tanımı</DDTEXT>
+     <REPTEXT>Kural tanımı</REPTEXT>
+     <SCRTEXT_S>Krl.tanımı</SCRTEXT_S>
+     <SCRTEXT_M>Kural tanımı</SCRTEXT_M>
+     <SCRTEXT_L>Kural tanımı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Säännön kuvaus</DDTEXT>
+     <REPTEXT>Säännön kuvaus</REPTEXT>
+     <SCRTEXT_S>Säänn.kuv.</SCRTEXT_S>
+     <SCRTEXT_M>Säännön kuvaus</SCRTEXT_M>
+     <SCRTEXT_L>Säännön kuvaus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Beskrivning av regel</DDTEXT>
+     <REPTEXT>Regelbeskrivning</REPTEXT>
+     <SCRTEXT_S>Regelbesk.</SCRTEXT_S>
+     <SCRTEXT_M>Regelbeskrivning</SCRTEXT_M>
+     <SCRTEXT_L>Regelbeskrivning</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Описание на правило</DDTEXT>
+     <REPTEXT>Описание на правило</REPTEXT>
+     <SCRTEXT_S>ОписПрав</SCRTEXT_S>
+     <SCRTEXT_M>Описание правило</SCRTEXT_M>
+     <SCRTEXT_L>Описание на правило</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Descripció d&apos;una regla</DDTEXT>
+     <REPTEXT>Descripció de regla</REPTEXT>
+     <SCRTEXT_S>DescrRegla</SCRTEXT_S>
+     <SCRTEXT_M>Descr.regla</SCRTEXT_M>
+     <SCRTEXT_L>Descripció de regla</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

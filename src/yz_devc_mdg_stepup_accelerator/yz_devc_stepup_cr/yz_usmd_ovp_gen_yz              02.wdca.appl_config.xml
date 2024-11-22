@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="USMD_OVP_GEN" ConfId="YZ_USMD_OVP_GEN_YZ" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="FPM_EDIT_MODE">R</Parameter>
+  <Parameter Name="USMD_OTC">YZ_BO</Parameter>
+  <Parameter Name="WDDISPLAYLOADINGPAGE">2</Parameter>
+  <Parameter Name="WDHELPCENTERDISPLAY"/>
+  <Parameter Name="WDSIDEPANELOPEN"/>
+ </Parameters>
+ <Component Name="FPM_ADAPTABLE_OVP" Usage="USMD_OVP_GEN" ConfType="00" ConfId="YZ_USMD_OVP_CBA_YZ" ConfVar="" Interface="False">
+  <Component Name="FPM_OVP_COMPONENT" Usage="OVP" ConfType="00" ConfId="YZ_USMD_GEN_OVP_YZ" ConfVar="" Interface="False"/>
+ </Component>
+</Application>

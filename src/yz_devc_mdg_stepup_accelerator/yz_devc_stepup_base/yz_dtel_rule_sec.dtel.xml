@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>YZ_DTEL_RULE_SEC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>YZ_DOMA_RULE_SEC</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>Rule Section</DDTEXT>
+    <REPTEXT>Rule Section</REPTEXT>
+    <SCRTEXT_S>Rule Sect.</SCRTEXT_S>
+    <SCRTEXT_M>Rule Section</SCRTEXT_M>
+    <SCRTEXT_L>Rule Section</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>YZ_SHLP_RULE_SEC</SHLPNAME>
+    <SHLPFIELD>RULE_SEC</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

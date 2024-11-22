@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>PIR Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Processing started successfully for Material &amp;1 in update task &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Time limit exceeded for Background Task</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Material &amp;1: Min. order qty. is greater than the standard order qty.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Material &amp;1: Enter Standard PO Qty.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Material &amp;1: Enter Net Price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Purchasing Organization &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Material &amp;1: Enter Purchasing Group</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Material &amp;1: Enter Planned Delivery Time</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Material &amp;1: Order Price Unit is mandatory for Purchase Org Data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Mat. &amp;1/&amp;2/&amp;3: Chargeable processing via chargeable info records not actv</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Material &amp;2: Extend Plant &amp;1 to Material for Purchase Org Data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Material &amp;1:&apos;Blocked for Procurement&apos; does not allow for ext. procurement</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Material &amp;1: Enter Plant Purchasing data for PIR creation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Mat &amp;1-Plant &amp;2:Maintain PO Allowed checkbox in Plant Purch. for PIR Data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Material &amp;1: Enter Incoterm Location 1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Material &amp;1: Enter Incoterm Location 2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Material &amp;3: Do not enter Location 2 for Incoterm &amp;1 and Version &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Material &amp;1: Terms of delivery &amp;2 are not defined for version &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Material &amp;1: Do Not Enter Incoterm Location 2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Material &amp;2, Tax Code &amp;1 : Please enter an input tax code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Material &amp;3, Tax Code &amp;1 in procedure &amp;2 is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Material &amp;3: Vendor &amp;1 is not extended to Purchase Org &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Material &amp;3: Vendor &amp;1 is Blocked for Purchase Org &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Material &amp;3: Vendor &amp;1 is Flagged for deletion for Purchase Org &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Material &amp;2: Enter PIR Data for Vendor &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZZMDG_PIR_MSG</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Material &amp;2: Please maintain conversion bet. Order unit &amp;1 and Base UOM</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group for Rule Maintenance</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYZ_FUGR_RULE_UPDATETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYZ_FUGR_RULE_UPDATE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YZ_FUNC_RULE_UPDATE</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>FM for Rule Maintenance</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_RULE_DEF_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_DEF</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_RULE_EXE_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_EXE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_RULE_VAL_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_VAL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_RULE_EXE_DEL_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_EXE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_RULE_VAL_DEL_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_VAL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_RULE_DEF_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for YZTABL_RULE_DEF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RULE_EXE_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for YZTABL_RULE_EXE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RULE_VAL_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table type for YZTABL_RULE_VAL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RULE_EXE_DEL_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for YZTABL_RULE_EXE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RULE_VAL_DEL_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table type for YZTABL_RULE_VAL</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>YZ_FUNC_TEMP_UPDATE</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>FM for Rule Maintenance</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_RULE_TMP_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_TMP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_RULE_IMP_DATA</PARAMETER>
+       <TYP>YZR_TT_RULE_IMP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_RULE_TMP_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for YZTABL_RULE_DEF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RULE_IMP_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for YZTABL_RULE_EXE</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

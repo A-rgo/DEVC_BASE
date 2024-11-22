@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition for YZP_DDLS_RULE_DEF'
+define service YZSD_RULE_DEF_1 {
+  expose YZP_DDLS_RULE_DEF;
+  expose YZP_DDLS_RULE_EXE;
+  expose YZP_DDLS_RULE_VAL;
+}

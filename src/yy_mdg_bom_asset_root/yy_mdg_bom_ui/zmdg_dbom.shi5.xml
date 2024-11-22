@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SHI5" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHI5>
+    <HEADER>
+     <EXTENSION>ZMDG_DBOM</EXTENSION>
+    </HEADER>
+    <TEXTS>
+     <TTREE_EXTT>
+      <SPRAS>E</SPRAS>
+      <EXTENSION>ZMDG_DBOM</EXTENSION>
+      <TEXT>Launch MDG for Bill of materials </TEXT>
+     </TTREE_EXTT>
+    </TEXTS>
+    <SEQUENCES>
+     <TTREES>
+      <ID>368DDFAB3AB96CCFE10000009B38F976</ID>
+      <EXTENSION>ZMDG_DBOM</EXTENSION>
+      <SEQUENCE>1</SEQUENCE>
+     </TTREES>
+     <TTREES>
+      <ID>3F06353961F01EEF9D82F01DAB2683DE</ID>
+      <EXTENSION>ZMDG_DBOM</EXTENSION>
+      <SEQUENCE>1</SEQUENCE>
+     </TTREES>
+    </SEQUENCES>
+   </SHI5>
+  </asx:values>
+ </asx:abap>
+</abapGit>

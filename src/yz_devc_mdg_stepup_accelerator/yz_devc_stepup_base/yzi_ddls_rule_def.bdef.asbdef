@@ -1,0 +1,40 @@
+managed implementation in class zbp_zi_ddls_rule_def unique;
+strict;
+
+define behavior for YZI_DDLS_rule_def //alias <alias_name>
+persistent table YZTABL_RULE_DEF
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  association _execution { create; }
+}
+
+define behavior for yzi_ddls_rule_exe //alias <alias_name>
+persistent table YZTABL_RULE_EXE
+lock dependent by _definition
+authorization dependent by _definition
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) model, otc, rule_type, def_id;
+  association _definition;
+  association _value { create; }
+}
+
+define behavior for yzi_ddls_rule_val //alias <alias_name>
+persistent table YZTABL_RULE_VAL
+lock dependent by _definition
+authorization dependent by _definition
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) model, otc, rule_type, def_id, exe_id, rule_sec;
+  association _definition;
+  association _execution;
+}

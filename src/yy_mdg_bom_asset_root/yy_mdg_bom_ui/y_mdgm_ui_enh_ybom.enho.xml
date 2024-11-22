@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYCONF</TOOL>
+   <ORIGINAL_OBJECT>
+    <CONFIG_ID>BS_MAT_OVP_LAYOUT_09H</CONFIG_ID>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENT_DATA>
+    <Component Name="" ConfId="" ConfType="00" ConfVar="">
+     <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="OVP_APPLICATION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <EDIT_MODE>R</EDIT_MODE>
+         <UIBB_PROC_MODE_IN_MAX_MODE></UIBB_PROC_MODE_IN_MAX_MODE>
+         <Node Name="ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ID Final="5 ">FPM_DONE_AND_BACK_TO_MAIN_3_005056A64C541EDC84AD1D23854457E6</ID>
+           <EVENT_ID>FPM_DONE_AND_BACK_TO_MAIN</EVENT_ID>
+           <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ID Final="5 ">FPM_DONE_AND_BACK_TO_MAIN_3_005056A64C541EEC85950F927F7502FC</ID>
+           <EVENT_ID>FPM_DONE_AND_BACK_TO_MAIN</EVENT_ID>
+           <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+          </Item>
+         </Node>
+         <Node Name="CONTENT_AREA" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <ID Final="5 ">PLANT_DETAILS</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID Final="5 ">SECTION_PLANT_DETAILS</ID>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_9FC89E22E96C1EDDB3DE0FC118541AB7</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>15 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <TYPE>T</TYPE>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR</CONFIG_ID>
+               <TITLE Transl="true">9</TITLE>
+               <DEFAULT_EDIT_PAGE>BOM_HEADER_EDIT</DEFAULT_EDIT_PAGE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true" Changed="true">
+           <ID Final="5 ">BASIC_DATA</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID Final="5 ">MAT_SECTION</ID>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true" Changed="true">
+               <DEFAULT_DETAILS_PAGE>PLANT_DETAILS</DEFAULT_DETAILS_PAGE>
+               <DEFAULT_EDIT_PAGE></DEFAULT_EDIT_PAGE>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1ED4948C17739B39147A</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <ID Final="5 ">BOM_HEADER_EDIT</ID>
+           <TITLE Transl="true">3</TITLE>
+           <TYPE>FULL</TYPE>
+           <DEFAULT>X</DEFAULT>
+           <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+           <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ID Final="5 ">SECTION_BOM_HEADER</ID>
+             <INDEX>1 </INDEX>
+             <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <COLUMN_ID Final="5 ">COLUMN_ID_1_005056A64C541EDC84AB7B882E9FD5F9</COLUMN_ID>
+              </Item>
+             </Node>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EDC84ABA0BFEFC6961A</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+               <INDEX>1 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR_DET</CONFIG_ID>
+               <TITLE Transl="true">4</TITLE>
+               <TYPE>T</TYPE>
+               <HIDDEN></HIDDEN>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EDC84ADCA34D1A398CA</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>2 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM</CONFIG_ID>
+               <TITLE Transl="true">5</TITLE>
+               <DEFAULT_EDIT_PAGE>BOM_ITEM_EDIT</DEFAULT_EDIT_PAGE>
+               <COLLAPSED>X</COLLAPSED>
+               <TYPE>T</TYPE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">FPM_DONE_AND_BACK_TO_MAIN_3_005056A64C541EDC84AD1D23854457E6</ELEMENT_ID>
+               <TEXT Transl="true">10</TEXT>
+               <IMAGE>~Icon/Done</IMAGE>
+               <INDEX>1 </INDEX>
+               <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+               <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_DONE_AND_BACK_TO_MAIN_3_005056A64C541EDC84AD1D23854457E6</ACTION_ID>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+           <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+          </Item>
+          <Item Index="000004" SimpleFormat="true">
+           <ID Final="5 ">BOM_ITEM_EDIT</ID>
+           <TITLE Transl="true">7</TITLE>
+           <TYPE>FULL</TYPE>
+           <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+           <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ID Final="5 ">SECTION_BOM_ITEM</ID>
+             <INDEX>1 </INDEX>
+             <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <COLUMN_ID Final="5 ">COLUMN_ID_1_005056A64C541EEC8593DFDFB778816B</COLUMN_ID>
+              </Item>
+             </Node>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EEC8593E8E397E5817F</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+               <INDEX>1 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM_DET</CONFIG_ID>
+               <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+               <TITLE Transl="true">8</TITLE>
+               <TYPE>T</TYPE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <ELEMENT_ID Final="5 ">FPM_DONE_AND_BACK_TO_MAIN_3_005056A64C541EEC85950F927F7502FC</ELEMENT_ID>
+               <TEXT Transl="true">11</TEXT>
+               <IMAGE>~Icon/Done</IMAGE>
+               <INDEX>1 </INDEX>
+               <IMAGE_IS_DECORATIVE>X</IMAGE_IS_DECORATIVE>
+               <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <ACTION_ID Final="5 ">FPM_DONE_AND_BACK_TO_MAIN_3_005056A64C541EEC85950F927F7502FC</ACTION_ID>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+           <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+          </Item>
+         </Node>
+         <Node Name="WIRE_MODEL" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <Node Name="WIRE" Sequence="_GENP_9B605E4F53A29C66E10000000A428CDC
+_GENP_02D85E4FDDE86769E10000000A428CDC
+_GENP_7A10404D5181D15EE10000000A4285B9
+_GENP_4310404D5181D15EE10000000A4285B9
+_GENP_199A644F6AE7351DE10000000A428CDA
+_GENP_D7F7404D5181D75EE10000000A4285B9
+_GENP_45DD464D0BB0625EE10000000A4285B9
+_GENP_8FDC464D0BB0625EE10000000A4285B9
+_GENP_959B404D5E80F05EE10000000A4285B9
+_GENP_7F415B4D4DB00D27E10000000A4285B8
+_GENP_B0FA264F08A3A54FE10000000A428CDA
+_GENP_9D64274FB6EE7338E10000000A428CDC
+_GENP_00E0EC2878B01ED7ABB8ECBB282646D4
+_GENP_9EDA284F2813A569E10000000A428CDC
+_GENP_A0922A4F3CCAB503E10000000A428CDB
+_GENP_C4713B4FB339B503E10000000A428CDB
+_GENP_37052E4F361D951CE10000000A428CDB
+_GENP_E3DC3B4F97992548E10000000A428CDC
+_GENP_D0012F4FED8D2D33E10000000A428CDC
+_GENP_6195324FD954B073E10000000A428CDC
+_GENP_1295324FD954B073E10000000A428CDC
+_GENP_59F7344F23623C3CE10000000A428CDC
+_GENP_822F2E4F411D1215E10000000A428CDA
+_GENP_652F2E4F411D1215E10000000A428CDA
+_GENP_E2113A4FFF50DC5DE10000000A428CDA
+_GENP_80123A4F53699910E10000000A428CDB
+_GENP_C68D3C4FD4BCA237E10000000A428CDC
+_GENP_B44A374F72E1AD6BE10000000A428CDC
+_GENP_FA163E82C8101ED996EF298B5C481D17
+_GENP_CDD03A4FC36F7003E10000000A428CDC
+_GENP_A3D53A4FC36F7003E10000000A428CDC
+_GENP_85A33C4FD4BCA237E10000000A428CDC
+_GENP_4BD5414F26B8462DE10000000A428CDB
+_GENP_BFD7414F26B8462DE10000000A428CDB
+_GENP_005056A64C541EEC83DBDAA25FC92D56
+_GENP_C4DB414F26B8442DE10000000A428CDB
+_GENP_D333534F34008F71E10000000A428CDA
+_GENP_D74A5A4F34F40955E10000000A428CDC
+_GENP_9FF2574FA80D624AE10000000A428CDB
+_GENP_DB27654F1CDA8649E10000000A428CDA
+_GENP_D5CD664F337B7A37E10000000A428CDA
+_GENP_40D1634FE1B24665E10000000A428CDB
+_GENP_1FCC634FE1B24665E10000000A428CDB
+_GENP_A97C884FB6B4E469E10000000A428CDB
+_GENP_005056AC02D81EE290EFEAF913E61078
+_GENP_C0FF8C4F2E0DED66E10000000A428CDB
+_GENP_31788C4F2E0DED66E10000000A428CDB
+_GENP_15DF8E4F487BBC55E10000000A428CDB
+_GENP_3EFF8C4F2E0DED66E10000000A428CDB
+_GENP_BD34974F39B92560E10000000A428CDC
+_GENP_67628F4FD8D23F2DE10000000A428CDB
+_GENP_68508D4F89219A53E10000000A428CDA
+_GENP_AE518D4F89219A53E10000000A428CDA
+_GENP_83769E4F82FDA932E10000000A428CDB
+_GENP_6978A64F6C949F66E10000000A428CDA
+_GENP_005056AC02D81EE28FC375F3AF6BD4D4
+_GENP_005056AC02D81ED28BC7B2AA10D519DA
+_GENP_005056AC02D81ED28CCB3E44354094DE
+_GENP_005056AC02D81ED28CCB97B600085506
+_GENP_005056AC02D81ED29188297B9D2F4785
+_GENP_005056AC02D81ED296E759A6A561134F
+_GENP_005056AC02D81ED2988FB926D0274F00
+_GENP_005056AC02D81ED2988FB67A4FB64EFC
+_GENP_005056AC02D81ED2988FB20C4A884EF9
+_GENP_005056AC02D81ED299C32F2C5B085399
+_GENP_005056AC02D81ED299C4A3731C2294A6
+_GENP_005056AC02D81ED299C52E132094D505
+_GENP_005056AC02D81ED299C529588D049503
+_GENP_005056AC02D81ED2A0B29273DE69D8D3
+_GENP_005056AC02D81ED2A0B28C3E2BA658D0
+_GENP_005056B254B01EE3A6E5997D14AC40EB
+_GENP_005056AC02D81ED2B3EFE13FD7D4C9C1
+_GENP_005056B254B61ED391F75CCE50219532
+_GENP_005056B254B01EE397CD95D51521C029
+_GENP_005056B254B01ED3989DD6827A2649F7
+_GENP_005056B254B01ED3989E09E1AA468A16
+_GENP_005056B254B01EE398CFA361755C455A
+_GENP_005056B254B01EE3A6A9AE5F13AB143D
+_GENP_0050569183E11ED3BCC5A91064B40065
+_GENP_0050569183E11EE3BCC3DAF97BCA1C27
+_GENP_0050569183E11EE481879F06FD721043
+_GENP_0050569183E11ED485EA2982E9BD9755
+_GENP_0050569183E11ED485EAA7B1F29ED880
+_GENP_FA163E12F7AC1ED4868469AEE69D4055
+_GENP_FA163E12F7AC1ED499B354E0158B8611
+_GENP_FA163E12F7AC1ED499B3498EAB2D4600
+_GENP_0050569183E11ED49EAF4CC46E968340
+_GENP_0050569183E11ED49EB14C6880FDC780
+_GENP_0050569183E11EE4A0917D12C6530E3D
+_GENP_0050569183E11EE4A09171507FCFCE09
+_GENP_FA163E1482341ED6B6FD1526DF4B4358
+_GENP_FA163E1482341ED6B6FD076B8BD64345
+_GENP_00E0EC2878B01ED7AD98FAD623CB4CDE
+_GENP_FA163ECC21C01ED6BFA1A45FFCD49358
+_GENP_FA163E82C8101EE99BA1CD41843F88BB
+_GENP_005056A64C541EEC848EFB959A68D121
+_GENP_005056A64C541EDC84B19D51ED911D9B
+_GENP_005056A64C541EDC8591DA27DAECBECF
+_GENP_0894EF4579691EEB9EE81C927ADC8B2E
+_GENP_0894EF4579691EEB9EE831889DDE4B9A" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EEC83DBDAA25FC92D56</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+             <SRC_CONFIG_ID>MDG_BS_MAT_PLANT_LIST_ATS_H_06</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>MARC</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE&gt;X&lt;/FRW_WIRE_FILTER_MODE&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+            <Item Index="000002" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EEC848EFB959A68D121</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+             <CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR_DET</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+             <SRC_CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>YMDGM_YBOMHDR</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+            <Item Index="000003" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EDC84B19D51ED911D9B</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+             <SRC_CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>YMDGM_YBOMHDR</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+            <Item Index="000004" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056A64C541EDC8591DA27DAECBECF</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+             <CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM_DET</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_LIST_UIBB_ATS</SRC_COMPONENT>
+             <SRC_CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>YMDGM_YBOMITM</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Component>
+   </ENHANCEMENT_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056A64C541EDC83918393F86AA824</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056A64C541EDC83918393F86AA824</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>027</LENGTH>
+       <TEXT>UI Bom Extentsion</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>Y_MDGM_UI_ENH_YBOM</OBJ_NAME>
+     <CONCEPT>005056A64C541EDC83918393F86AA824</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

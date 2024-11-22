@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>ZDECISION</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <WI_TEXT>Decide between the alternatives available</WI_TEXT>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>90100347</OBJID>
+     <SWOTP>DECISION</SWOTP>
+     <SWMTD>PROCESS</SWMTD>
+     <METHTYPE>BO</METHTYPE>
+     <SYNCHRON>X</SYNCHRON>
+     <TSKRELSTAT>R</TSKRELSTAT>
+     <WEB_ABLE>X</WEB_ABLE>
+    </METHOD>
+    <DESCRIPTIONS>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0121</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>User &amp;_Workitem.ExecutedByUser.Name&amp; made the user decision.</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0122</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>The latest end set in the workflow definition for the decision has</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0122</SUBTY>
+      <TABSEQNR>000002</TABSEQNR>
+      <TLINE>passed.</TLINE>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0123</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>The deadline set in the workflow definition for the requested end for</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0123</SUBTY>
+      <TABSEQNR>000002</TABSEQNR>
+      <TLINE>the decision has been missed.</TLINE>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0124</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>The deadline set in the workflow definition for the latest start for the</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0124</SUBTY>
+      <TABSEQNR>000002</TABSEQNR>
+      <TLINE>decision has been missed.</TLINE>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>Select one of the available decision options. This completes the</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000002</TABSEQNR>
+      <TLINE>processing of this step.</TLINE>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000003</TABSEQNR>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100347</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000004</TABSEQNR>
+      <TLINE>&amp;OUTPUT_TABLE[]&amp;</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+    </DESCRIPTIONS>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS90100347</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <N NAME="EXTENDED:Extended:" TYPE="::SYST-INPUT:C:1:0" PROPS="0C003201"/>
+      <O NAME="NOTE_REFERENCE:Note_Reference:" TYPE="SOFM:BO::u:0:0" PROPS="0C921201"/>
+      <P NAME="DECISION_NOTE::" TYPE="SOFM:BO::u:0:0" PROPS="0C920A01"/>
+      <Q NAME="ZFIPP_C::" TYPE="FIPP:BO::u:0:0" PROPS="0C921201"/>
+      <R NAME="CUSTOMER::" TYPE="::KOMG-KUNNR:C:10:0" PROPS="0C003A01"/>
+      <S NAME="SALES_COND:Sales_cond:" TYPE="::RV130-KSCHL:C:4:0" PROPS="0C003A01"/>
+      <T NAME="SALES_ORG:Sales_org:" TYPE="::KOMG-VKORG:C:4:0" PROPS="0C003A01"/>
+      <U NAME="DIST_CHA:Dist_cha:" TYPE="::KOMG-VTWEG:C:2:0" PROPS="0C003A01"/>
+      <V NAME="HEADER::" TYPE="::ZREF_MASTER_HEAD:u:0:0" PROPS="0C001A81"/>
+      <W NAME="ITEMS::" TYPE="::ZTT_REF_MASTER_ITM:h:0:0" PROPS="0C001A41"/>
+      <X NAME="OUTPUT_TABLE::" TYPE="::HTML_TABLE:h:0:0" PROPS="0C001A41"/>
+      <Y NAME="AGENT::" TYPE="::XUBNAME:C:12:0" PROPS="0C001A01"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

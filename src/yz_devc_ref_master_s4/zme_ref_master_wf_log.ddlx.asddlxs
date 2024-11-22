@@ -1,0 +1,48 @@
+@Metadata.layer: #CORE
+@UI.headerInfo: {
+    typeName: 'Workflow Log',
+    typeNamePlural: 'Workflow Log',
+    title: {
+        type: #STANDARD,
+        label: 'Workflow Log',
+        value: 'Step'
+    }
+}
+annotate view ZP_REF_MASTER_WF_LOG
+    with 
+{
+@UI.facet: [ { id:          'Wf_Log',
+                 purpose:       #STANDARD,
+                 type:          #IDENTIFICATION_REFERENCE,
+                 label:         'Workflow Log',
+                 position:      10 }]
+    @UI:{lineItem: [{  position: 10,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 10 }] }
+    @EndUserText.label: 'Request Id'
+    Req_Id;
+    @UI:{lineItem: [{  position: 20,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 20 }] }
+    @EndUserText.label: 'Log Date'
+    Log_Date;
+    @UI:{lineItem: [{  position: 30,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 30 }] }
+    @EndUserText.label: 'Log Time'
+    Log_Time;
+    @UI:{lineItem: [{  position: 40,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 40 }] }
+    @EndUserText.label: 'Step'
+    Step;
+    @UI:{lineItem: [{  position: 50,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 50 }] }
+    @EndUserText.label: 'Status'
+    Status;
+    @UI:{lineItem: [{  position: 60,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 60 }] }
+    @EndUserText.label: 'Responsible Person'
+    Responsible_Person_Id;
+    @UI:{lineItem: [{  position: 70,importance: #HIGH, cssDefault.width: '10rem' }],
+                identification: [{position: 70 }] }
+    @EndUserText.label: 'Action Taken'
+    Action_Taken;
+    
+}

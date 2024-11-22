@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYCONF</TOOL>
+   <ORIGINAL_OBJECT>
+    <CONFIG_ID>BS_MAT_OVP_LAYOUT_07</CONFIG_ID>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENT_DATA>
+    <Component Name="" ConfId="" ConfType="00" ConfVar="">
+     <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="OVP_APPLICATION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="CONTENT_AREA" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <ID Final="5 ">PLANT_DETAILS_MRP</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID Final="5 ">SECTION_1</ID>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_73B6EE610BAE1EDFA9CB56E719ADDDDF</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>12 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <TYPE>T</TYPE>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR</CONFIG_ID>
+               <TITLE Transl="true">2</TITLE>
+               <DEFAULT_EDIT_PAGE>BOM_HEADER_EDIT</DEFAULT_EDIT_PAGE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ID Final="5 ">BOM_HEADER_EDIT</ID>
+           <TITLE Transl="true">1</TITLE>
+           <TYPE>FULL</TYPE>
+           <DEFAULT>X</DEFAULT>
+           <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+           <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+           <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ID Final="5 ">SECTION_BOM_HEADER</ID>
+             <INDEX>1 </INDEX>
+             <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <COLUMN_ID Final="5 ">COLUMN_ID_1_73B6EE610BAE1EDFA9CB16A8845F1B59</COLUMN_ID>
+              </Item>
+             </Node>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_73B6EE610BAE1EDFA9CB22B8E558DBDB</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+               <INDEX>1 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_HDR_DET</CONFIG_ID>
+               <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+               <TYPE>T</TYPE>
+               <TITLE Transl="true">9</TITLE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_73B6EE610BAE1EDFA9CB36CB9E73DC9A</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>2 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM</CONFIG_ID>
+               <TYPE>T</TYPE>
+               <COLLAPSED>X</COLLAPSED>
+               <TITLE Transl="true">6</TITLE>
+               <DEFAULT_EDIT_PAGE>BOM_ITEM_EDIT</DEFAULT_EDIT_PAGE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <ID Final="5 ">BOM_ITEM_EDIT</ID>
+           <TITLE Transl="true">7</TITLE>
+           <TYPE>FULL</TYPE>
+           <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+           <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+           <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ID Final="5 ">SECTION_BOM_ITEM</ID>
+             <INDEX>1 </INDEX>
+             <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <COLUMN_ID Final="5 ">COLUMN_ID_1_73B6EE610BAE1EDFA9CB4296A75F7D27</COLUMN_ID>
+              </Item>
+             </Node>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_73B6EE610BAE1EDFA9CB4AF87DE55D89</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+               <INDEX>1 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <CONFIG_ID>Y_MDG_BS_MAT_BOM_ITM_DET</CONFIG_ID>
+               <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+               <TYPE>T</TYPE>
+               <TITLE Transl="true">8</TITLE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+           <Node Name="TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Component>
+   </ENHANCEMENT_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>73B6EE610BAE1EDFA9CB09C3E5CFFAC4</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>73B6EE610BAE1EDFA9CB09C3E5CFFAC4</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>UI BOM Extension</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>Y_MDG_UI_ENHO_YBOM</OBJ_NAME>
+     <CONCEPT>73B6EE610BAE1EDFA9CB09C3E5CFFAC4</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

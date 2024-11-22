@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB" ConfId="YZ_FPM_FRM_DT_FOR_KEY_OUT" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_MDG_DT_UI_FORKEY_OUT_FRM_FD</FEEDER>
+     <Node Name="GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_49F9164D5EE1C04BE10000000A428752</ELEMENT_ID>
+       <TITLE Transl="true">1</TITLE>
+       <INDEX>1</INDEX>
+       <GROUP_TYPE>F1</GROUP_TYPE>
+       <LOCATION>0</LOCATION>
+       <Node Name="BUTTON_ROW" SimpleFormat="true"/>
+       <Node Name="DROP" SimpleFormat="true"/>
+       <Node Name="ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4AF9164D5EE1C04BE10000000A428752</ELEMENT_ID>
+         <NAME>RELATION</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">2</TEXT>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_4BF9164D5EE1C04BE10000000A428752</ELEMENT_ID>
+         <NAME>FR_ENTITY</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>2</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">3</TEXT>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <ELEMENT_ID Final="5 ">_GENP_0CFA164D5EE1C04BE10000000A428752</ELEMENT_ID>
+         <NAME>TO_ENTITY</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>3</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true">4</TEXT>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <EXPLANATION Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="MELTING_GROUP" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

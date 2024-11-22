@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_TABBED_UIBB" ConfId="YZ_FPM_TAB_DT_TABULAR" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="WIRE_PLUG" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <COMPONENT/>
+     <CONFIG_ID/>
+     <CONFIG_TYPE>00</CONFIG_TYPE>
+     <CONFIG_VAR/>
+     <INSTANCE_ID/>
+    </Item>
+   </Node>
+   <Node Name="VARIANT" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <ID>VARIANT_1</ID>
+     <NAME Transl="true">1</NAME>
+     <FPM_PRIMARY_ATTRIBUTE>_GENP_CDB87A4C4251FD05E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+     <ACTION_TYPE>0</ACTION_TYPE>
+     <Node Name="TAB" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID>TAB_1</ID>
+       <NAME Transl="true">2</NAME>
+       <INDEX>1</INDEX>
+       <FPM_PRIMARY_ATTRIBUTE>_GENP_CEB87A4C4251FD05E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+         <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+         <CONFIG_ID>YZ_FPM_FORM_ENTITY_DET_GL2</CONFIG_ID>
+         <CONFIG_TYPE>00</CONFIG_TYPE>
+         <CONFIG_VAR/>
+         <INDEX>1</INDEX>
+         <FPM_PRIMARY_ATTRIBUTE>_GENP_1F95764CDA7F0706E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+         <NEEDS_STRETCHING>X</NEEDS_STRETCHING>
+         <HIDDEN/>
+         <INSTANCE_ID/>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID>TAB2</ID>
+       <NAME Transl="true">3</NAME>
+       <INDEX>2</INDEX>
+       <FPM_PRIMARY_ATTRIBUTE>_GENP_07DC764CD17F0306E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6809E74DC322253CE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_ATTR_TAB_ATS</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID>TAB4</ID>
+       <NAME Transl="true">5</NAME>
+       <INDEX>3</INDEX>
+       <FPM_PRIMARY_ATTRIBUTE>_GENP_C41E7D4C31C14C5EE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_025BE44DA600895BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_REL_IN_TAB_ATS</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ID>TAB3</ID>
+       <NAME Transl="true">4</NAME>
+       <INDEX>4</INDEX>
+       <FPM_PRIMARY_ATTRIBUTE>_GENP_FE157D4C31C14C5EE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_3571F44D7A9E230CE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_REL_OUT_TAB_ATS</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <ID>TAB5</ID>
+       <NAME Transl="true">6</NAME>
+       <INDEX>5</INDEX>
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_09E6CF4CBE34081FE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_CFA9DA4D3331875BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_BO_TYPE_TAB_ATS</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_1C8F194D228CA25DE10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+       <NAME Transl="true">7</NAME>
+       <ID>TAB6</ID>
+       <INDEX>6</INDEX>
+       <Node Name="UIBB" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_601BF74D20CC895BE10000000A428752</FPM_PRIMARY_ATTRIBUTE>
+         <INDEX>1</INDEX>
+         <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>YZ_FPM_LST_HIERARCHY_TAB_ATS</CONFIG_ID>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="WIRE" SimpleFormat="true"/>
+    </Item>
+   </Node>
+   <Node Name="PROPERTIES" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <LEFT_RIGHT_LAYOUT>X</LEFT_RIGHT_LAYOUT>
+     <USE_DDLB/>
+     <ONE_TAB_VISIBILITY/>
+    </Item>
+   </Node>
+   <Node Name="MASTER_UIBB" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+     <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+     <CONFIG_ID>YZ_FPM_LST_ENTITY_TAB</CONFIG_ID>
+     <CONFIG_TYPE>00</CONFIG_TYPE>
+     <CONFIG_VAR/>
+     <INDEX>1</INDEX>
+     <FPM_PRIMARY_ATTRIBUTE>_GENP_1BB97A4C4251FD05E10000000A428751</FPM_PRIMARY_ATTRIBUTE>
+     <NEEDS_STRETCHING>-</NEEDS_STRETCHING>
+     <HIDDEN/>
+     <INSTANCE_ID/>
+    </Item>
+   </Node>
+   <Node Name="APP_SPECIFIC_CC" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <COMPONENT>WDC_MDG_DT_SHARE</COMPONENT>
+     <CONFIG_ID/>
+     <CONFIG_TYPE/>
+     <CONFIG_VAR/>
+    </Item>
+   </Node>
+   <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+  </Item>
+ </Node>
+</Component>

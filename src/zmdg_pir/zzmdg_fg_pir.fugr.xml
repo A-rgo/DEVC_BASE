@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group for PIR</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZZMDG_FG_PIRTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZZMDG_FG_PIR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZZMDG_FM_APPL_LOG_CREATE</FUNCNAME>
+     <SHORT_TEXT>PIR Application Log</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BALHDRI</PARAMETER>
+       <DBFIELD>BALHDRI</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LOG_HANDLE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BALLOGHNDL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BAL_MSG</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAL_S_MSG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FREE_TEXT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_LOG_HANDLE</PARAMETER>
+       <TYP>BALLOGHNDL</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MESSAGES</PARAMETER>
+       <DBSTRUCT>BALMI</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BALHDRI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: APPL_LOG_WRITE_HEADER interface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOG_HANDLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Log Handle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BAL_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Message Data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FREE_TEXT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_LOG_HANDLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Log Handle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: APPL_LOG_WRITE_MESSAGES interface</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZZMDG_PURCHASE_INFO_REC_SAVE</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>FM to save PIR data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_MATNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_COUNT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_EINA</PARAMETER>
+       <DBSTRUCT>ZZMDG_BS_MAT_S_EINA</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_EINE</PARAMETER>
+       <DBSTRUCT>ZZMDG_BS_MAT_S_EINE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_KONP</PARAMETER>
+       <DBSTRUCT>ZZMDG_BS_MAT_S_COND</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_COUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sequence Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_EINA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure for EINA (ZPURCHGEN) Table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_EINE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Active Area Structure for EINE(ZPURCHINF)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_KONP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Active Area Structure for KONH</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

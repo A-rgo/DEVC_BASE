@@ -1,0 +1,91 @@
+unmanaged implementation in class zbp_i_ref_master_head unique;
+
+define behavior for ZI_REF_MASTER_HEAD alias Request
+//draft table zrm_draft_head
+lock master //total etag last_changed_at
+//etag master local_last_changed_at
+//late numbering
+//lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+//  field ( numbering : managed ) Req_Guid;
+  field ( readonly ) Req_Id, Req_Guid;
+  create;
+  update;
+  delete;
+
+  //draft action Edit;
+  //draft action Activate;
+  //draft action Discard;
+  //draft action Resume;
+  //draft determine action Prepare;
+
+
+//  association _item{ with draft; }
+  association _item{  }
+
+  mapping for zref_master_head
+  {
+    Req_Guid = req_guid;
+    Req_Id = req_id;
+    Object_Class = object_class;
+    Change_Req_Type = change_req_type;
+    Object_Descr = object_descr;
+    Object_Id = object_id;
+  }
+
+  action show_approvers result [1] $self;
+  action show_wf_log result [1] $self;
+  action show_fields result [1] $self;
+
+  action load_fields result [1] $self;
+
+}
+
+define behavior for ZI_REF_MASTER_ITM alias Fields
+//late numbering
+implementation in class zbp_i_ref_master_itm unique
+//draft table zrm_draft_itm
+lock dependent by _header
+authorization dependent by _header
+//etag master <field_name>
+{
+  field ( readonly ) Req_Guid, Record_Id, Field_Name, Field_Descr;
+  update;
+  delete;
+  mapping for zref_master_itm
+  {
+    Req_Guid = req_guid;
+    Record_Id = record_id;
+    Field_Name = field_name;
+    Field_Value = field_value;
+  }
+
+//  association _header{ with draft;}
+  association _header{ }
+}
+
+define behavior for ZI_REF_MASTER_REQ_APPR alias Approver
+//draft table zrm_draft_appr
+lock dependent by _header
+authorization dependent by _header
+{
+    field(readonly) Approver,Change_Req_Type,
+    Change_Req_Type_Descr,Name,Object_Class,Req_Id,Req_Guid;
+
+    //association _header{ with draft;}
+        association _header{ }
+}
+
+define behavior for ZI_REF_MASTER_WF_LOG alias Wf_Log
+//draft table zrm_draft_wflog
+lock dependent by _header
+authorization dependent by _header
+{
+    field(readonly) Action_Taken,Log_Date,Log_Time,Req_Id,Responsible_Person_Id,
+    Responsible_Person_Name,Status,Step,Workitem_Id,Req_Guid;
+
+//    association _header{ with draft;}
+    association _header{ }
+}

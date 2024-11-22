@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDTEL_ZR_SUBHIERARCHY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZDOM_TEXT40</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Structure Node</DDTEXT>
+    <REPTEXT>Structure Node</REPTEXT>
+    <SCRTEXT_S>Strct.Node</SCRTEXT_S>
+    <SCRTEXT_M>Structure Node</SCRTEXT_M>
+    <SCRTEXT_L>Structure Node</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>c</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>结构节点</DDTEXT>
+     <REPTEXT>结构节点</REPTEXT>
+     <SCRTEXT_S>结构节点</SCRTEXT_S>
+     <SCRTEXT_M>结构节点</SCRTEXT_M>
+     <SCRTEXT_L>结构节点</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>โหนดโครงสร้าง</DDTEXT>
+     <REPTEXT>โหนดโครงสร้าง</REPTEXT>
+     <SCRTEXT_S>Strct.Node</SCRTEXT_S>
+     <SCRTEXT_M>โหนดโครงสร้าง</SCRTEXT_M>
+     <SCRTEXT_L>โหนดโครงสร้าง</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>구조 노드</DDTEXT>
+     <REPTEXT>구조 노드</REPTEXT>
+     <SCRTEXT_S>구조 노드</SCRTEXT_S>
+     <SCRTEXT_M>구조 노드</SCRTEXT_M>
+     <SCRTEXT_L>구조 노드</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Nod structură</DDTEXT>
+     <REPTEXT>Nod structură</REPTEXT>
+     <SCRTEXT_S>NodStruct</SCRTEXT_S>
+     <SCRTEXT_M>Nod structură</SCRTEXT_M>
+     <SCRTEXT_L>Nod structură</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Strukturno vozlišče</DDTEXT>
+     <REPTEXT>Strukturno vozlišče</REPTEXT>
+     <SCRTEXT_S>StrukVozl</SCRTEXT_S>
+     <SCRTEXT_M>Strukturno vozlišče</SCRTEXT_M>
+     <SCRTEXT_L>Strukturno vozlišče</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Čvor strukture</DDTEXT>
+     <REPTEXT>Čvor strukture</REPTEXT>
+     <SCRTEXT_S>ČvorStruk</SCRTEXT_S>
+     <SCRTEXT_M>Čvor strukture</SCRTEXT_M>
+     <SCRTEXT_L>Čvor strukture</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Вузол структури</DDTEXT>
+     <REPTEXT>Вузол структури</REPTEXT>
+     <SCRTEXT_S>Вуз.стр.</SCRTEXT_S>
+     <SCRTEXT_M>Вузол структури</SCRTEXT_M>
+     <SCRTEXT_L>Вузол структури</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Struktuurisõlm</DDTEXT>
+     <REPTEXT>Struktuurisõlm</REPTEXT>
+     <SCRTEXT_S>Str-sõlm</SCRTEXT_S>
+     <SCRTEXT_M>Struktuurisõlm</SCRTEXT_M>
+     <SCRTEXT_L>Struktuurisõlm</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>عقدة البنية</DDTEXT>
+     <REPTEXT>عقدة البنية</REPTEXT>
+     <SCRTEXT_S>عقدة بنية</SCRTEXT_S>
+     <SCRTEXT_M>عقدة البنية</SCRTEXT_M>
+     <SCRTEXT_L>عقدة البنية</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>צומת מבנה</DDTEXT>
+     <REPTEXT>צומת מבנה</REPTEXT>
+     <SCRTEXT_S>צומת מבנה</SCRTEXT_S>
+     <SCRTEXT_M>צומת מבנה</SCRTEXT_M>
+     <SCRTEXT_L>צומת מבנה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Uzel struktury</DDTEXT>
+     <REPTEXT>Uzel struktury</REPTEXT>
+     <SCRTEXT_S>Uzel str.</SCRTEXT_S>
+     <SCRTEXT_M>Uzel struktury</SCRTEXT_M>
+     <SCRTEXT_L>Uzel struktury</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Strukturknoten</DDTEXT>
+     <REPTEXT>Strukturknoten</REPTEXT>
+     <SCRTEXT_S>StruktKnot</SCRTEXT_S>
+     <SCRTEXT_M>Strukturknoten</SCRTEXT_M>
+     <SCRTEXT_L>Strukturknoten</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Noeud de structure</DDTEXT>
+     <REPTEXT>Noeud de structure</REPTEXT>
+     <SCRTEXT_S>NoeudStruc</SCRTEXT_S>
+     <SCRTEXT_M>Noeud de structure</SCRTEXT_M>
+     <SCRTEXT_L>Noeud de structure</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Κόμβος Δομής</DDTEXT>
+     <REPTEXT>Κόμβος Δομής</REPTEXT>
+     <SCRTEXT_S>Κόμβ.Δομής</SCRTEXT_S>
+     <SCRTEXT_M>Κόμβος Δομής</SCRTEXT_M>
+     <SCRTEXT_L>Κόμβος Δομής</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Struktúracsomópont</DDTEXT>
+     <REPTEXT>Struktúracsomópont</REPTEXT>
+     <SCRTEXT_S>Strukt.CsP</SCRTEXT_S>
+     <SCRTEXT_M>Struktúracsomópont</SCRTEXT_M>
+     <SCRTEXT_L>Struktúracsomópont</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Nodo struttura</DDTEXT>
+     <REPTEXT>Nodo struttura</REPTEXT>
+     <SCRTEXT_S>Nodo str.</SCRTEXT_S>
+     <SCRTEXT_M>Nodo struttura</SCRTEXT_M>
+     <SCRTEXT_L>Nodo struttura</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>構造ノード</DDTEXT>
+     <REPTEXT>構造ノード</REPTEXT>
+     <SCRTEXT_S>構造ノード</SCRTEXT_S>
+     <SCRTEXT_M>構造ノード</SCRTEXT_M>
+     <SCRTEXT_L>構造ノード</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Strukturknude</DDTEXT>
+     <REPTEXT>Strukturknude</REPTEXT>
+     <SCRTEXT_S>Strukt.kn.</SCRTEXT_S>
+     <SCRTEXT_M>Strukturknude</SCRTEXT_M>
+     <SCRTEXT_L>Strukturknude</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Węzeł struktury</DDTEXT>
+     <REPTEXT>Węzeł struktury</REPTEXT>
+     <SCRTEXT_S>Węzeł str.</SCRTEXT_S>
+     <SCRTEXT_M>Węzeł struktury</SCRTEXT_M>
+     <SCRTEXT_L>Węzeł struktury</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>結構節點</DDTEXT>
+     <REPTEXT>結構節點</REPTEXT>
+     <SCRTEXT_S>結構節點</SCRTEXT_S>
+     <SCRTEXT_M>結構節點</SCRTEXT_M>
+     <SCRTEXT_L>結構節點</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Structuurknooppunt</DDTEXT>
+     <REPTEXT>Structuurknooppunt</REPTEXT>
+     <SCRTEXT_S>StructKnpp</SCRTEXT_S>
+     <SCRTEXT_M>Structuurknooppunt</SCRTEXT_M>
+     <SCRTEXT_L>Structuurknooppunt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Strukturknutepunkt</DDTEXT>
+     <REPTEXT>Strukturknutepunkt</REPTEXT>
+     <SCRTEXT_S>StruktKnp.</SCRTEXT_S>
+     <SCRTEXT_M>Strukturknutepunkt</SCRTEXT_M>
+     <SCRTEXT_L>Strukturknutepunkt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nó de estrutura</DDTEXT>
+     <REPTEXT>Nó de estrutura</REPTEXT>
+     <SCRTEXT_S>Nó estrut.</SCRTEXT_S>
+     <SCRTEXT_M>Nó de estrutura</SCRTEXT_M>
+     <SCRTEXT_L>Nó de estrutura</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Uzol štruktúry</DDTEXT>
+     <REPTEXT>Uzol štruktúry</REPTEXT>
+     <SCRTEXT_S>Uzol štr.</SCRTEXT_S>
+     <SCRTEXT_M>Uzol štruktúry</SCRTEXT_M>
+     <SCRTEXT_L>Uzol štruktúry</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Узел структуры</DDTEXT>
+     <REPTEXT>Узел структуры</REPTEXT>
+     <SCRTEXT_S>УзелСтрукт</SCRTEXT_S>
+     <SCRTEXT_M>Узел структуры</SCRTEXT_M>
+     <SCRTEXT_L>Узел структуры</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Nodos de estructura</DDTEXT>
+     <REPTEXT>Nodos de estructura</REPTEXT>
+     <SCRTEXT_S>Nodo estr.</SCRTEXT_S>
+     <SCRTEXT_M>Nodos de estructura</SCRTEXT_M>
+     <SCRTEXT_L>Nodos de estructura</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Yapı düğümü</DDTEXT>
+     <REPTEXT>Yapı düğümü</REPTEXT>
+     <SCRTEXT_S>Yapı dğm.</SCRTEXT_S>
+     <SCRTEXT_M>Yapı düğümü</SCRTEXT_M>
+     <SCRTEXT_L>Yapı düğümü</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Rakennesolmu</DDTEXT>
+     <REPTEXT>Rakennesolmu</REPTEXT>
+     <SCRTEXT_S>RakenSolmu</SCRTEXT_S>
+     <SCRTEXT_M>Rakennesolmu</SCRTEXT_M>
+     <SCRTEXT_L>Rakennesolmu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Strukturnod</DDTEXT>
+     <REPTEXT>Strukturnod</REPTEXT>
+     <SCRTEXT_S>StruktNod</SCRTEXT_S>
+     <SCRTEXT_M>Strukturnod</SCRTEXT_M>
+     <SCRTEXT_L>Strukturnod</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Възел на структура</DDTEXT>
+     <REPTEXT>Възел на структура</REPTEXT>
+     <SCRTEXT_S>ВъзелСтрук</SCRTEXT_S>
+     <SCRTEXT_M>Възел на структура</SCRTEXT_M>
+     <SCRTEXT_L>Възел на структура</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Struktūros mazgas</DDTEXT>
+     <REPTEXT>Struktūros mazgas</REPTEXT>
+     <SCRTEXT_S>Strukt.mzg</SCRTEXT_S>
+     <SCRTEXT_M>Struktūros mazgas</SCRTEXT_M>
+     <SCRTEXT_L>Struktūros mazgas</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Struktūras mezgls</DDTEXT>
+     <REPTEXT>Struktūras mezgls</REPTEXT>
+     <SCRTEXT_S>Strukt. m.</SCRTEXT_S>
+     <SCRTEXT_M>Struktūras mezgls</SCRTEXT_M>
+     <SCRTEXT_L>Struktūras mezgls</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>c</DDLANGUAGE>
+     <DDTEXT>Node d&apos;estructura</DDTEXT>
+     <REPTEXT>Node d&apos;estructura</REPTEXT>
+     <SCRTEXT_S>NodeEstruc</SCRTEXT_S>
+     <SCRTEXT_M>Node d&apos;estructura</SCRTEXT_M>
+     <SCRTEXT_L>Node d&apos;estructura</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Čvor strukture</DDTEXT>
+     <REPTEXT>Čvor strukture</REPTEXT>
+     <SCRTEXT_S>ČvorStrukt</SCRTEXT_S>
+     <SCRTEXT_M>Čvor strukture</SCRTEXT_M>
+     <SCRTEXT_L>Čvor strukture</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>संरचना नोड</DDTEXT>
+     <REPTEXT>संरचना नोड</REPTEXT>
+     <SCRTEXT_S>संरचना नोड</SCRTEXT_S>
+     <SCRTEXT_M>संरचना नोड</SCRTEXT_M>
+     <SCRTEXT_L>संरचना नोड</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Құрылым түйіні</DDTEXT>
+     <REPTEXT>Құрылым түйіні</REPTEXT>
+     <SCRTEXT_S>Құрыл.түй.</SCRTEXT_S>
+     <SCRTEXT_M>Құрылым түйіні</SCRTEXT_M>
+     <SCRTEXT_L>Құрылым түйіні</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Nút cấu trúc</DDTEXT>
+     <REPTEXT>Nút cấu trúc</REPTEXT>
+     <SCRTEXT_S>Nút c.tr</SCRTEXT_S>
+     <SCRTEXT_M>Nút cấu trúc</SCRTEXT_M>
+     <SCRTEXT_L>Nút cấu trúc</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

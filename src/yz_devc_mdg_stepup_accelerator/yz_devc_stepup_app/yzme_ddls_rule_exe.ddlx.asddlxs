@@ -1,0 +1,32 @@
+@Metadata.layer: #CORE
+@Search.searchable: true
+annotate entity YZP_DDLS_RULE_EXE
+    with 
+{
+    
+    @UI.facet: [{ id: 'Header', purpose: #STANDARD, type: #IDENTIFICATION_REFERENCE, label:'Rule Definition',
+    position: 10 }]
+    @UI:{ lineItem: [{ position: 10}], identification: [{ position: 10}] }
+    @Search.defaultSearchElement: true
+    model;
+    @UI:{ lineItem: [{ position: 20}], identification: [{ position: 20, label: 'Business Object Type'}] }
+    otc;
+    @UI:{ lineItem: [{ position: 30}], identification: [{ position: 30, label: 'Business Rule Type'}] }
+    rule_type;
+    @UI:{ lineItem: [{ position: 40}], identification: [{ position: 40, label: 'Business Rule ID'}] }
+    def_id;
+    @UI:{ lineItem: [{ position: 50}], identification: [{ position: 50, label: 'Rule Definition'}] }
+    seq_no;
+    @UI:{ lineItem: [{ position: 60}], identification: [{ position: 60, label: 'Rule Template ID'}] }
+    temp_id;
+    @UI:{ lineItem: [{ position: 70}], identification: [{ position: 70, label: 'Reuse Scope'}] }
+    task;
+    @UI:{ lineItem: [{ position: 80}], identification: [{ position: 80, label: 'Referenced Business Rule ID'}] }
+    operation;
+    //rule_sta;
+    
+    
+    /* Associations */
+    @Search.defaultSearchElement: true
+    _value;
+}

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZZMDG_CL_CS_PIR_IDOC_DRF_NEW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Outbound Implementation class for DRF (PIR)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_RCVPRT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Component of the Version Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GR_DRF_PIR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Outbound Implementation class for DRF (PIR)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_REPL_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Replication Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_PIR_KEY_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Key Strucure for DRF for PIR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_RUNTIME_PARAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DRF external runtime parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_BUS_SYS_TECH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Technical Information of a Business System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SEGMENT_IND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_REPLICATION_DATA</CMPNAME>
+     <SCONAME>CT_OBJ_REP_STA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Replication Status</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_REPLICATION_DATA</CMPNAME>
+     <SCONAME>IV_MESSAGETYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>IDoc Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_REPLICATION_DATA</CMPNAME>
+     <SCONAME>IV_OBJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object ID</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

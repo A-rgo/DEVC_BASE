@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZZMDG_CL_PIR_IDOC_DRF_FLT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>MBOM filter class for DRF</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_RANGE_WITH_PATTERN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add range selection criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_SELECT_OPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add select option</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PIR_DRF_OUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Outbound Implementation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SELECTED_PIR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the selected PIRs depending on where condition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WHERE_CONDITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare the where condition</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PREPARE_SELECTION_CRITERIA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare the selection criteria</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_RANGE_WITH_PATTERN</CMPNAME>
+     <SCONAME>IV_FIELDNAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_RANGE_WITH_PATTERN</CMPNAME>
+     <SCONAME>IV_PATTERN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>&apos;Generic&apos; SELECT-OPTION for Dynamic Selections</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_RANGE_WITH_PATTERN</CMPNAME>
+     <SCONAME>IV_TABLENAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SELECT_OPTION</CMPNAME>
+     <SCONAME>ES_SELECT_OPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure of generic SELECT-OPTION for (dynamic selections)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SELECT_OPTION</CMPNAME>
+     <SCONAME>IV_HIGH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>&apos;Generic&apos; SELECT-OPTION for Dynamic Selections</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SELECT_OPTION</CMPNAME>
+     <SCONAME>IV_LOW</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>&apos;Generic&apos; SELECT-OPTION for Dynamic Selections</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SELECT_OPTION</CMPNAME>
+     <SCONAME>IV_OPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP: Selection option (EQ/BT/CP/...)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SELECT_OPTION</CMPNAME>
+     <SCONAME>IV_SIGN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP: ID: I/E (include/exclude values)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SELECTED_PIR</CMPNAME>
+     <SCONAME>ET_PIR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Key Table Type for DRF for PIR</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

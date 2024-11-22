@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YZ_CLAS_MDG_YB_ACCESS_CLASS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Bank Master Access Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_BUSINESS_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MODEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Bank Master Access Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_JOIN_CONDITIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>attributes of attribute view for join</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_REUSE_FMAP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MDG reuse fieldmapping</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns Data of an Entity Type; Free Selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <SCONAME>EF_NOT_SUPPORTED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MDGAF: General Indicator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <SCONAME>ET_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <SCONAME>IF_NO_AUTH_CHECK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MDGAF: General Indicator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <SCONAME>IT_SEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sorted Table: Selection Condition (Range per Field)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <SCONAME>I_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Entity Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_ENTITY_DATA</CMPNAME>
+     <SCONAME>I_SEARCH_HELP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search help included in a collective search help</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_DATA</CMPNAME>
+     <SCONAME>ES_BNKS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Source Structure for PP Mapping</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_DATA</CMPNAME>
+     <SCONAME>IV_BANKS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Country/Region Key of Bank</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_DATA</CMPNAME>
+     <SCONAME>IV_BNKS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Bank Number</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
